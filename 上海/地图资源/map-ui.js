@@ -94,12 +94,12 @@
   }
 
   function routeMarker(point, index, optional, color, placed, lodging = false) {
-    const html = lodging ? '<div class="lodging-pin">住</div>' : current > 0 && current < 9
+    const html = lodging ? '<div class="lodging-pin">住 · 海友</div>' : current > 0 && current < 9
       ? '<div class="route-pin' + (optional ? ' optional' : '') + '" style="' + (optional ? '' : 'background:' + color) + '">D' + current + '<b>' + index + '</b></div>'
       : '<div class="overview-pin' + (current === 0 && index === 2 ? ' city-base' : '') + (current === 10 && optional ? ' park-optional' : '') + '">' + (current === 10
         ? (optional || point.id === 'disney' || point.id === 'castle' ? '' : index - 1) + parkLabels[point.id]
         : ['D1','D2–5','D6','D7'][index-1]) + '</div>';
-    const dims = lodging ? [28,28] : current > 0 && current < 9 ? [42,38]
+    const dims = lodging ? [72,30] : current > 0 && current < 9 ? [42,38]
       : current === 0 && index === 2 ? [50,28] : [36,28];
     return L.marker(placed.position, {zIndexOffset:1000,icon:L.divIcon({className:'',html,iconSize:dims,iconAnchor:[dims[0]/2,dims[1]/2]})})
       .bindTooltip(point.name,{direction:'top',className:'map-caption'})
@@ -143,15 +143,16 @@
       L.marker(placed.position,{zIndexOffset:1000,icon:L.divIcon({className:'',
         html:'<div class="day-label">D'+(i+2)+'</div>',iconSize:[36,26],iconAnchor:[18,13]})}).addTo(routes);
     });
-    const keys = view.id === 0 ? ['sha','hotel','b','disney'] : view.id === 8 ? ['b'] : view.id === 9 ? [] : view.keys;
+    const keys = view.id === 0 ? ['sha','hotel','b','disney'] : view.id === 8 ? ['b'] : view.id === 9 ? ['hotel'] : view.keys;
     const main = new Set(view.routes.flatMap(r => r.route));
     keys.forEach((key,i) => {
-      const lodging = view.id >= 1 && view.id <= 5 && key === 'hotel';
-      const p = data.points[key], dims = lodging ? [28,28]
-        : view.id === 0 ? key === 'hotel' ? [50,28] : [36,28] : [42,38];
+      const lodging = key === 'hotel';
+      const p = data.points[key], dims = lodging ? [72,30]
+        : view.id === 0 ? [36,28] : [42,38];
       const placed = place(p.lat,p.lon,...dims), color = view.id >= 1 && view.id <= 8 ? data.colors[view.id-1] : '#0f766e';
-      leader(routes,[p.lat,p.lon],placed,color);
-      routeMarker(p,lodging ? 0 : i + (view.id === 1 ? 0 : 1),
+      leader(routes,[p.lat,p.lon],placed,lodging ? '#64748b' : color);
+      const ordinal = view.id >= 1 && view.id <= 5 ? keys.slice(0,i+1).filter(item => item !== 'hotel').length : i+1;
+      routeMarker(p,lodging ? 0 : ordinal,
         !main.has(key),color,placed,lodging).addTo(routes);
     });
     groupedPins().forEach(group => {
@@ -187,7 +188,7 @@
     el('pace').textContent = day ? day.pace : viewId === 9 ? 'D2–D5分街区走，每天只选一片。' : '选择日期，查看当天路线与顺路吃逛。';
     el('mode').textContent = day ? day.mode : viewId === 9
       ? '四种颜色各是一天的街区游览线；住宿到首站、末站回程另乘车。'
-      : '虚线只表示游玩顺序，跨区乘车；A/B为待选住宿区域。';
+      : '虚线只表示游玩顺序；「住·海友」为已定市区酒店位置，乐园附近住宿待定。';
     el('meal').textContent = day ? '吃逛建议：' + day.meal : '';
     el('optional').textContent = viewId !== 10 && day?.optional?.length ? '可选替换：' + day.optional.map(k => data.points[k].name).join('；') : '';
     el('park-plan').hidden = viewId !== 10;
