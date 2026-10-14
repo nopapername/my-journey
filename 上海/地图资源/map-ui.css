@@ -5,3 +5,4 @@ body.embedded header{display:none}body.embedded .layout{height:calc(100vh - 72px
 /* The lodging reference is separate from the numbered sightseeing route. */
 .lodging-pin{width:28px;height:28px;border-radius:50%;background:#64748b;border:2px solid #fff;color:#fff;text-align:center;line-height:24px;font-size:12px;font-weight:bold;box-shadow:0 1px 5px #52635f}
 .overview-pin.city-base{width:50px}
+.park-plan{border-top:1px solid var(--line);padding-top:11px;margin:14px 0}.park-plan p{font-size:12px;color:var(--muted)}.park-plan ol{padding-left:21px;margin:8px 0}.park-plan li{font-size:12px;line-height:1.5;padding:3px 0}.park-plan b{color:#a23c1c}
