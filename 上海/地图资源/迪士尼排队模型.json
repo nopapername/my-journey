@@ -21,7 +21,9 @@
         10,
         12
       ],
-      "threshold": 25
+      "threshold": 25,
+      "from": "disney",
+      "distance_m": 850
     },
     {
       "time": "08:05–08:55",
@@ -38,7 +40,9 @@
         8,
         10
       ],
-      "threshold": 40
+      "threshold": 40,
+      "from": "tron",
+      "distance_m": 650
     },
     {
       "time": "08:55–10:10",
@@ -55,7 +59,9 @@
         15,
         18
       ],
-      "threshold": 70
+      "threshold": 70,
+      "from": "mine",
+      "distance_m": 200
     },
     {
       "time": "10:10–11:05",
@@ -72,7 +78,9 @@
         14,
         18
       ],
-      "threshold": 45
+      "threshold": 45,
+      "from": "hot",
+      "distance_m": 400
     },
     {
       "time": "11:05–12:35",
@@ -89,7 +97,9 @@
         18,
         22
       ],
-      "threshold": 75
+      "threshold": 75,
+      "from": "pirate",
+      "distance_m": 550
     },
     {
       "time": "13:05–14:15",
@@ -106,7 +116,9 @@
         12,
         16
       ],
-      "threshold": 60
+      "threshold": 60,
+      "from": "soar",
+      "distance_m": 300
     },
     {
       "time": "14:15–15:20",
@@ -123,7 +135,9 @@
         10,
         12
       ],
-      "threshold": 50
+      "threshold": 50,
+      "from": "rapids",
+      "distance_m": 650
     },
     {
       "time": "15:20–16:55",
@@ -140,9 +154,169 @@
         10,
         12
       ],
-      "threshold": 90
+      "threshold": 90,
+      "from": "peter",
+      "distance_m": 200
     }
   ],
+  "mine_first": {
+    "switch_rule": "创极速暂未开放或实显>25分钟，且矿山车开放、实显≤25分钟；若两项都短，优先原主线。",
+    "completion_window": "16:40–19:45",
+    "rides": [
+      {
+        "time": "07:30–08:15",
+        "key": "mine",
+        "walk": [
+          10,
+          12
+        ],
+        "queue": [
+          15,
+          25
+        ],
+        "experience": [
+          8,
+          10
+        ],
+        "threshold": 25,
+        "from": "disney",
+        "distance_m": 850
+      },
+      {
+        "time": "08:15–09:25",
+        "key": "hot",
+        "walk": [
+          4,
+          6
+        ],
+        "queue": [
+          40,
+          60
+        ],
+        "experience": [
+          15,
+          18
+        ],
+        "threshold": 60,
+        "from": "mine",
+        "distance_m": 200
+      },
+      {
+        "time": "09:25–10:55",
+        "key": "tron",
+        "walk": [
+          10,
+          14
+        ],
+        "queue": [
+          60,
+          80
+        ],
+        "experience": [
+          10,
+          12
+        ],
+        "threshold": 80,
+        "from": "hot",
+        "distance_m": 800
+      },
+      {
+        "time": "10:55–12:00",
+        "key": "pirate",
+        "walk": [
+          13,
+          16
+        ],
+        "queue": [
+          30,
+          45
+        ],
+        "experience": [
+          14,
+          18
+        ],
+        "threshold": 45,
+        "from": "tron",
+        "distance_m": 1000
+      },
+      {
+        "time": "12:00–13:40",
+        "key": "soar",
+        "walk": [
+          8,
+          10
+        ],
+        "queue": [
+          70,
+          90
+        ],
+        "experience": [
+          18,
+          22
+        ],
+        "threshold": 90,
+        "from": "pirate",
+        "distance_m": 550
+      },
+      {
+        "time": "14:10–15:25",
+        "key": "rapids",
+        "walk": [
+          4,
+          6
+        ],
+        "queue": [
+          40,
+          60
+        ],
+        "experience": [
+          12,
+          16
+        ],
+        "threshold": 60,
+        "from": "soar",
+        "distance_m": 300
+      },
+      {
+        "time": "15:25–16:30",
+        "key": "peter",
+        "walk": [
+          10,
+          14
+        ],
+        "queue": [
+          35,
+          50
+        ],
+        "experience": [
+          10,
+          12
+        ],
+        "threshold": 50,
+        "from": "rapids",
+        "distance_m": 650
+      },
+      {
+        "time": "16:30–18:05",
+        "key": "rex",
+        "walk": [
+          4,
+          6
+        ],
+        "queue": [
+          70,
+          90
+        ],
+        "experience": [
+          10,
+          12
+        ],
+        "threshold": 90,
+        "from": "peter",
+        "distance_m": 200
+      }
+    ]
+  },
   "heatmap": [
     {
       "name": "矿山车",

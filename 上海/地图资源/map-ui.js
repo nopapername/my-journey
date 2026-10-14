@@ -6,7 +6,9 @@
   const parkLabels = {disney:'入口', tron:'极速', mine:'矿车', hot:'热力', pirate:'海盗', soar:'飞越', rapids:'漂流', peter:'小飞', rex:'抱龙', castle:'城堡', storm:'剧场', buzz:'巴斯'};
   const search = (name, location) => 'https://uri.amap.com/search?keyword=' + encodeURIComponent(name + ' ' + location) + '&city=' + encodeURIComponent('上海') + '&view=map';
   let current = Number(new URLSearchParams(location.search).get('day')) || window.JOURNEY_MAP.initial;
+  let parkVariant = new URLSearchParams(location.search).get('variant') === 'mine' ? 'mine' : 'tron';
   let map, routes, placeLayer, offline, online, currentPins = [];
+  const selectedView = id => views.find(v => v.id === (id === 10 && parkVariant === 'mine' ? 11 : id));
 
   if (typeof L !== 'undefined') {
     map = L.map('map', {zoomSnap:.25});
@@ -176,8 +178,8 @@
   function draw(viewId) {
     current = viewId;
     document.body.classList.toggle('park-view', viewId === 10);
-    const view = views.find(v => v.id === viewId), day = view.description;
-    el('day-select').value = viewId >= 1 && viewId <= 8 ? String(viewId) : '';
+    const view = selectedView(viewId), day = view.description;
+    el('day-select').value = viewId === 10 ? '7' : viewId >= 1 && viewId <= 8 ? String(viewId) : '';
     document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('active', Number(b.dataset.view) === viewId));
     const date = data.days.find(d => d.id === (viewId === 10 ? 7 : viewId))?.date;
     el('title').textContent = day ? 'D' + (viewId === 10 ? 7 : viewId) + ' · ' + (date ? date + ' · ' : '') + view.title : view.title;
@@ -188,6 +190,14 @@
     el('meal').textContent = day ? '吃逛建议：' + day.meal : '';
     el('optional').textContent = viewId !== 10 && day?.optional?.length ? '可选替换：' + day.optional.map(k => data.points[k].name).join('；') : '';
     el('park-plan').hidden = viewId !== 10;
+    document.querySelectorAll('[data-park-variant]').forEach(button => {
+      const active = button.dataset.parkVariant === parkVariant;
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+    document.querySelectorAll('[data-park-content]').forEach(panel => {
+      panel.hidden = panel.dataset.parkContent !== parkVariant;
+    });
     el('list').hidden = viewId === 10;
     el('source').innerHTML = day ? day.source.map(code => '<a target="_blank" rel="noopener" href="' + esc(data.sources[code]) + '">' + code + '</a>').join('') : '地图与地点取舍见首页研究依据。';
     el('static').href = prefix + view.static + '?v=' + version;
@@ -215,6 +225,16 @@
     if (button) draw(Number(button.dataset.view));
   });
   el('day-select').addEventListener('change',event => {if (event.target.value) draw(Number(event.target.value));});
+  el('park-plan').addEventListener('click',event => {
+    const button = event.target.closest('[data-park-variant]');
+    if (!button) return;
+    parkVariant = button.dataset.parkVariant;
+    const nextUrl = new URL(location.href);
+    if (parkVariant === 'mine') nextUrl.searchParams.set('variant','mine');
+    else nextUrl.searchParams.delete('variant');
+    history.replaceState(null,'',nextUrl);
+    draw(10);
+  });
   el('list').addEventListener('click',event => {
     const link = event.target.closest('[data-day]');
     if (link) {event.preventDefault();draw(Number(link.dataset.day));}
@@ -234,6 +254,6 @@
     updatePlaces(view);renderMarkers(view);
   }));
   el('online').addEventListener('change',event => {if (map) event.target.checked ? online.addTo(map) : map.removeLayer(online);});
-  if (map) map.on('zoomend resize',() => renderMarkers(views.find(v => v.id === current)));
+  if (map) map.on('zoomend resize',() => renderMarkers(selectedView(current)));
   draw(current);
 })();
