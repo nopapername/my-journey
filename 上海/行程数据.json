@@ -357,7 +357,7 @@
       "name": "七个小矮人矿山车",
       "lat": 31.1476,
       "lon": 121.655,
-      "tip": "早享第二站；到达时显示≤40分钟优先排，超过就记为傍晚候补。",
+      "tip": "主线早享第二站；备用线首站。主线显示≤40分钟、备用线显示≤25分钟时排，超出先去下一项。",
       "coordinate_status": "Queue Times 标注的 OSM 近似坐标；入口请用官方 App",
       "coordinate_source": "https://queue-times.com/parks/30/rides/2990"
     },
@@ -616,7 +616,44 @@
       "QREX",
       "OAPP",
       "OMAP"
-    ]
+    ],
+    "mine_first": {
+      "title": "迪士尼园内·矿山车先玩备用",
+      "route": [
+        "disney",
+        "mine",
+        "hot",
+        "tron",
+        "pirate",
+        "soar",
+        "rapids",
+        "peter",
+        "rex",
+        "castle",
+        "disney"
+      ],
+      "optional": [
+        "storm",
+        "buzz"
+      ],
+      "mode": "备用线：入口→矿山车→热力→创极速→加勒比→飞越→雷鸣山→小飞侠→抱抱龙→城堡→出口；虚线只表示顺序。",
+      "meal": "约13:40–14:10在探险岛附近快餐；项目慢于计划就优先删演出和低队列加项。",
+      "pace": "当创极速早享关闭或排队>25分钟、而矿山车开放且≤25分钟时启用；八项连午饭约16:40–19:45完成。",
+      "source": [
+        "D001",
+        "D002",
+        "D003",
+        "D004",
+        "Q2026",
+        "QHEAT",
+        "QCAL",
+        "QRAP",
+        "QPAN",
+        "QREX",
+        "OAPP",
+        "OMAP"
+      ]
+    }
   },
   "colors": [
     "#64748b",
