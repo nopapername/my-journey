@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-27",
+  "ticket_early_entry": "07:30",
+  "gate_arrival": "06:30–06:45",
+  "status": "截至2026-10-14，10/27普通开园、闭园、项目及演出时刻未公布；07:30来自用户已购票信息。",
+  "model": "2026年10月与周二排队均值、逐小时热力、10/13同周二及56篇小红书早享文字笔记综合后的规划区间；不是10/27实时报数或置信区间。",
+  "walk_model": "景点近似坐标的直线距离乘1.35估园路，再按约75米/分钟估步行；各段步行另留机动。",
+  "rides": [
+    {
+      "time": "07:30–08:05",
+      "key": "tron",
+      "walk": [
+        10,
+        12
+      ],
+      "queue": [
+        10,
+        20
+      ],
+      "experience": [
+        10,
+        12
+      ],
+      "threshold": 25
+    },
+    {
+      "time": "08:05–08:55",
+      "key": "mine",
+      "walk": [
+        8,
+        10
+      ],
+      "queue": [
+        25,
+        40
+      ],
+      "experience": [
+        8,
+        10
+      ],
+      "threshold": 40
+    },
+    {
+      "time": "08:55–10:10",
+      "key": "hot",
+      "walk": [
+        4,
+        6
+      ],
+      "queue": [
+        50,
+        70
+      ],
+      "experience": [
+        15,
+        18
+      ],
+      "threshold": 70
+    },
+    {
+      "time": "10:10–11:05",
+      "key": "pirate",
+      "walk": [
+        7,
+        9
+      ],
+      "queue": [
+        25,
+        40
+      ],
+      "experience": [
+        14,
+        18
+      ],
+      "threshold": 45
+    },
+    {
+      "time": "11:05–12:35",
+      "key": "soar",
+      "walk": [
+        8,
+        10
+      ],
+      "queue": [
+        55,
+        75
+      ],
+      "experience": [
+        18,
+        22
+      ],
+      "threshold": 75
+    }
+  ],
+  "heatmap": [
+    {
+      "name": "矿山车",
+      "key": "mine",
+      "h8": 62,
+      "h10": 98,
+      "h20": 60,
+      "source": "https://queue-times.com/en-US/parks/30/rides/2990/2026"
+    },
+    {
+      "name": "创极速",
+      "key": "tron",
+      "h8": 42,
+      "h10": 82,
+      "h20": 60,
+      "source": "https://queue-times.com/en-US/parks/30/rides/2985/2026"
+    },
+    {
+      "name": "热力追踪",
+      "key": "hot",
+      "h8": 59,
+      "h10": 82,
+      "h20": 37,
+      "source": "https://queue-times.com/en-US/parks/30/rides/12392/2026"
+    },
+    {
+      "name": "飞越地平线",
+      "key": "soar",
+      "h8": 39,
+      "h10": 73,
+      "h20": 39,
+      "source": "https://queue-times.com/en-US/parks/30/rides/3002/2026"
+    },
+    {
+      "name": "加勒比",
+      "key": "pirate",
+      "h8": 12,
+      "h10": 43,
+      "h20": 9,
+      "source": "https://queue-times.com/en-US/parks/30/rides/2996/2026"
+    }
+  ]
+}

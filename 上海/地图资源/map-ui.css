@@ -6,3 +6,25 @@ body.embedded header{display:none}body.embedded .layout{height:calc(100vh - 72px
 .lodging-pin{width:28px;height:28px;border-radius:50%;background:#64748b;border:2px solid #fff;color:#fff;text-align:center;line-height:24px;font-size:12px;font-weight:bold;box-shadow:0 1px 5px #52635f}
 .overview-pin.city-base{width:50px}
 .park-plan{border-top:1px solid var(--line);padding-top:11px;margin:14px 0}.park-plan p{font-size:12px;color:var(--muted)}.park-plan ol{padding-left:21px;margin:8px 0}.park-plan li{font-size:12px;line-height:1.5;padding:3px 0}.park-plan b{color:#a23c1c}
+
+body.park-view .layout{grid-template-columns:minmax(430px,485px) minmax(0,1fr)}
+body.park-view .eyebrow{display:none}
+body.park-view #pace,body.park-view #mode,body.park-view #meal,body.park-view .note{display:none}
+#list[hidden]{display:none}
+.overview-pin.park-optional{background:#fff;color:#0f766e;border:2px dashed #0f766e;line-height:24px}
+.park-plan h3{font-size:17px;margin:0 0 8px}
+.park-plan .park-lead{font-size:13px;line-height:1.55;margin:0 0 12px}
+.park-plan .park-small{font-size:11px;margin:7px 0 13px}
+.park-table-scroll{overflow-x:auto}
+.park-schedule,.park-heat{width:100%;border-collapse:collapse;font-size:12px;line-height:1.4}
+.park-schedule th,.park-schedule td,.park-heat th,.park-heat td{border-bottom:1px solid #e2e8e2;padding:8px 5px;text-align:left;vertical-align:top}
+.park-schedule th,.park-heat th{background:#eff3ec;color:#31534b}
+.park-schedule td:first-child{white-space:nowrap;color:#31534b;font-weight:600}
+.park-schedule td b{color:#173238}
+.park-schedule td small{display:block;color:#677a71;font-size:11px}
+.park-afternoon{border-left:3px solid #0f766e;padding-left:11px;margin:16px 0}
+.park-afternoon p{margin:7px 0!important;font-size:12px;color:#173238}
+.park-afternoon b{display:inline-block;min-width:104px;color:#0f766e}
+.park-evidence{border-top:1px solid var(--line);padding-top:11px}
+.park-evidence p{line-height:1.6}
+@media(max-width:800px){body.park-view .layout{display:flex}}

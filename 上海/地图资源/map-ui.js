@@ -3,7 +3,7 @@
   const el = id => document.getElementById(id);
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const categories = {food:'吃', tea:'茶', shop:'逛'};
-  const parkLabels = {disney:'入口', tron:'极速', mine:'矿车', hot:'热力', pirate:'海盗', soar:'飞越'};
+  const parkLabels = {disney:'入口', tron:'极速', mine:'矿车', hot:'热力', pirate:'海盗', soar:'飞越', storm:'剧场', castle:'城堡', rapids:'漂流', buzz:'巴斯'};
   const search = (name, location) => 'https://uri.amap.com/search?keyword=' + encodeURIComponent(name + ' ' + location) + '&city=' + encodeURIComponent('上海') + '&view=map';
   let current = Number(new URLSearchParams(location.search).get('day')) || window.JOURNEY_MAP.initial;
   let map, routes, placeLayer, offline, online, currentPins = [];
@@ -93,8 +93,8 @@
   function routeMarker(point, index, optional, color, placed, lodging = false) {
     const html = lodging ? '<div class="lodging-pin">住</div>' : current > 0 && current < 9
       ? '<div class="route-pin' + (optional ? ' optional' : '') + '" style="' + (optional ? '' : 'background:' + color) + '">D' + current + '<b>' + index + '</b></div>'
-      : '<div class="overview-pin' + (current === 0 && index === 2 ? ' city-base' : '') + '">' + (current === 10
-        ? parkLabels[point.id]
+      : '<div class="overview-pin' + (current === 0 && index === 2 ? ' city-base' : '') + (current === 10 && optional ? ' park-optional' : '') + '">' + (current === 10
+        ? (optional || point.id === 'disney' ? '' : index - 1) + parkLabels[point.id]
         : ['D1','D2–5','D6','D7'][index-1]) + '</div>';
     const dims = lodging ? [28,28] : current > 0 && current < 9 ? [42,38]
       : current === 0 && index === 2 ? [50,28] : [36,28];
@@ -175,6 +175,7 @@
 
   function draw(viewId) {
     current = viewId;
+    document.body.classList.toggle('park-view', viewId === 10);
     const view = views.find(v => v.id === viewId), day = view.description;
     el('day-select').value = viewId >= 1 && viewId <= 8 ? String(viewId) : '';
     document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('active', Number(b.dataset.view) === viewId));
@@ -185,9 +186,9 @@
       ? '四种颜色各是一天的街区游览线；住宿到首站、末站回程另乘车。'
       : '虚线只表示游玩顺序，跨区乘车；A/B为待选住宿区域。';
     el('meal').textContent = day ? '吃逛建议：' + day.meal : '';
-    el('optional').textContent = day?.optional?.length ? '可选替换：' + day.optional.map(k => data.points[k].name).join('；') : '';
+    el('optional').textContent = viewId !== 10 && day?.optional?.length ? '可选替换：' + day.optional.map(k => data.points[k].name).join('；') : '';
     el('park-plan').hidden = viewId !== 10;
-    el('park-plan').open = viewId === 10;
+    el('list').hidden = viewId === 10;
     el('source').innerHTML = day ? day.source.map(code => '<a target="_blank" rel="noopener" href="' + esc(data.sources[code]) + '">' + code + '</a>').join('') : '地图与地点取舍见首页研究依据。';
     el('static').href = prefix + view.static + '?v=' + version;
     el('fallback').src = prefix + view.static + '?v=' + version;
