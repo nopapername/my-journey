@@ -3,7 +3,7 @@
   const el = id => document.getElementById(id);
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const categories = {food:'吃', tea:'茶', shop:'逛'};
-  const parkLabels = {disney:'入口', tron:'极速', mine:'矿车', hot:'热力', pirate:'海盗', soar:'飞越', storm:'剧场', castle:'城堡', rapids:'漂流', buzz:'巴斯'};
+  const parkLabels = {disney:'入口', tron:'极速', mine:'矿车', hot:'热力', pirate:'海盗', soar:'飞越', rapids:'漂流', peter:'小飞', rex:'抱龙', castle:'城堡', storm:'剧场', buzz:'巴斯'};
   const search = (name, location) => 'https://uri.amap.com/search?keyword=' + encodeURIComponent(name + ' ' + location) + '&city=' + encodeURIComponent('上海') + '&view=map';
   let current = Number(new URLSearchParams(location.search).get('day')) || window.JOURNEY_MAP.initial;
   let map, routes, placeLayer, offline, online, currentPins = [];
@@ -94,7 +94,7 @@
     const html = lodging ? '<div class="lodging-pin">住</div>' : current > 0 && current < 9
       ? '<div class="route-pin' + (optional ? ' optional' : '') + '" style="' + (optional ? '' : 'background:' + color) + '">D' + current + '<b>' + index + '</b></div>'
       : '<div class="overview-pin' + (current === 0 && index === 2 ? ' city-base' : '') + (current === 10 && optional ? ' park-optional' : '') + '">' + (current === 10
-        ? (optional || point.id === 'disney' ? '' : index - 1) + parkLabels[point.id]
+        ? (optional || point.id === 'disney' || point.id === 'castle' ? '' : index - 1) + parkLabels[point.id]
         : ['D1','D2–5','D6','D7'][index-1]) + '</div>';
     const dims = lodging ? [28,28] : current > 0 && current < 9 ? [42,38]
       : current === 0 && index === 2 ? [50,28] : [36,28];
