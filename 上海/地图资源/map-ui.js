@@ -1,5 +1,5 @@
 (() => {
-  const {data, views, places, prefix} = window.JOURNEY_MAP;
+  const {data, views, places, prefix, version} = window.JOURNEY_MAP;
   const el = id => document.getElementById(id);
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const categories = {food:'吃', tea:'茶', shop:'逛'};
@@ -186,13 +186,13 @@
     el('meal').textContent = day ? '吃逛建议：' + day.meal : '';
     el('optional').textContent = day?.optional?.length ? '可选替换：' + day.optional.map(k => data.points[k].name).join('；') : '';
     el('source').innerHTML = day ? day.source.map(code => '<a target="_blank" rel="noopener" href="' + esc(data.sources[code]) + '">' + code + '</a>').join('') : '地图与地点取舍见首页研究依据。';
-    el('static').href = prefix + view.static;
-    el('fallback').src = prefix + view.static;
+    el('static').href = prefix + view.static + '?v=' + version;
+    el('fallback').src = prefix + view.static + '?v=' + version;
     routeList(view);
     updatePlaces(view);
     if (map) {
       if (offline) map.removeLayer(offline);
-      offline = L.imageOverlay(prefix + view.background, view.bounds, {attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
+      offline = L.imageOverlay(prefix + view.background + '?v=' + version, view.bounds, {attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
       if (el('online').checked) online.bringToFront();
       map.fitBounds(view.bounds,{padding:[12,12]});
       requestAnimationFrame(() => {map.invalidateSize();renderMarkers(view);});
