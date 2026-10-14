@@ -32,3 +32,6 @@ body.park-view #pace,body.park-view #mode,body.park-view #meal,body.park-view .n
 .park-evidence{border-top:1px solid var(--line);padding-top:11px}
 .park-evidence p{line-height:1.6}
 @media(max-width:800px){body.park-view .layout{display:flex}}
+.view-buttons{flex-wrap:wrap}
+.zoom-hint{font-size:11px;color:var(--muted);padding-bottom:5px;white-space:nowrap}
+@media(max-width:520px){.zoom-hint{order:2}}

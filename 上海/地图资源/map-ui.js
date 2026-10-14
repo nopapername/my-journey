@@ -1,5 +1,6 @@
 (() => {
   const {data, views, places, prefix, version} = window.JOURNEY_MAP;
+  const {viewForViewport, dayName} = window.JourneyMapContext;
   const el = id => document.getElementById(id);
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const categories = {food:'吃', tea:'茶', shop:'逛'};
@@ -8,14 +9,17 @@
   let current = Number(new URLSearchParams(location.search).get('day')) || window.JOURNEY_MAP.initial;
   const requestedParkVariant = new URLSearchParams(location.search).get('variant');
   let parkVariant = ['tron','mine','hot'].includes(requestedParkVariant) ? requestedParkVariant : 'tron';
-  let map, routes, placeLayer, offline, online, currentPins = [];
+  let map, routes, placeLayer, baseOffline, detailOffline, online, currentPins = [], suppressAuto = false;
   const selectedView = id => views.find(v => v.id === (id === 10 ? {tron:10,mine:11,hot:12}[parkVariant] : id));
 
   if (typeof L !== 'undefined') {
-    map = L.map('map', {zoomSnap:.25});
+    map = L.map('map', {zoomSnap:.25,inertia:false});
     routes = L.layerGroup().addTo(map);
     placeLayer = L.layerGroup().addTo(map);
     L.control.scale({imperial:false}).addTo(map);
+    const complete = views.find(v => v.id === 0);
+    baseOffline = L.imageOverlay(prefix + complete.background + '?v=' + version,
+      complete.bounds, {pane:'tilePane',attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
     online = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
       {maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'});
   }
@@ -34,7 +38,7 @@
   function routeList(view) {
     if (view.id === 0 || view.id === 9) {
       const days = data.days.filter(d => view.id === 0 || d.id >= 2 && d.id <= 5);
-      el('list').innerHTML = days.map(d => '<li><a href="#" data-day="' + d.id + '">D' + d.id + ' · ' + esc(d.date) + ' · ' + esc(d.title) + '</a></li>').join('');
+      el('list').innerHTML = days.map(d => '<li><a href="#" data-day="' + d.id + '">' + dayName(d.id) + ' · ' + esc(d.date) + ' · ' + esc(d.title) + '</a></li>').join('');
       return;
     }
     const route = [...new Set(view.description.route)];
@@ -177,15 +181,17 @@
     });
   }
 
-  function draw(viewId) {
+  function draw(viewId, {fit = true} = {}) {
     current = viewId;
     document.body.classList.toggle('park-view', viewId === 10);
     const view = selectedView(viewId), day = view.description;
     el('day-select').value = viewId === 10 ? '7' : viewId >= 1 && viewId <= 8 ? String(viewId) : '';
     document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('active', Number(b.dataset.view) === viewId));
     const date = data.days.find(d => d.id === (viewId === 10 ? 7 : viewId))?.date;
-    el('title').textContent = day ? 'D' + (viewId === 10 ? 7 : viewId) + ' · ' + (date ? date + ' · ' : '') + view.title : view.title;
-    el('pace').textContent = day ? day.pace : viewId === 9 ? 'D2–D5分街区走，每天只选一片。' : '选择日期，查看当天路线与顺路吃逛。';
+    el('title').textContent = viewId === 10 ? '迪士尼乐园内 · ' + (date ? date + ' · ' : '') + view.title.replace(/^迪士尼园内·/, '')
+      : day ? dayName(viewId) + ' · ' + (date ? date + ' · ' : '') + view.title
+      : viewId === 9 ? '市区 · 第二天到第五天' : '全程 · 10月21日至27日';
+    el('pace').textContent = day ? day.pace : viewId === 9 ? '第二天到第五天分街区走，每天只选一片。' : '缩放或拖动地图，自动查看市区与迪士尼乐园内路线。';
     el('mode').textContent = day ? day.mode : viewId === 9
       ? '四种颜色各是一天的街区游览线；住宿到首站、末站回程另乘车。'
       : '虚线只表示游玩顺序；「住·海友」为已定市区酒店位置，乐园附近住宿待定。';
@@ -207,26 +213,33 @@
     routeList(view);
     updatePlaces(view);
     if (map) {
-      if (offline) map.removeLayer(offline);
-      offline = L.imageOverlay(prefix + view.background + '?v=' + version, view.bounds, {pane:'tilePane',attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
+      if (detailOffline) map.removeLayer(detailOffline);
+      detailOffline = view.id === 0 ? null : L.imageOverlay(prefix + view.background + '?v=' + version,
+        view.bounds, {pane:'tilePane',attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
       if (el('online').checked) {
         if (!map.hasLayer(online)) online.addTo(map);
         online.bringToFront();
       }
-      map.fitBounds(view.bounds,{padding:[12,12]});
-      requestAnimationFrame(() => {map.invalidateSize();renderMarkers(view);});
+      if (fit) {
+        suppressAuto = true;
+        map.fitBounds(view.bounds,{padding:[12,12],animate:false});
+        suppressAuto = false;
+      }
+      requestAnimationFrame(() => {if (current === viewId) {map.invalidateSize();renderMarkers(view);}});
     } else {
       el('fallback').style.display = 'block';
     }
   }
 
-  el('buttons').innerHTML = [[0,'全程'],[9,'市区 D2–D5'],[10,'园内']].map(([id,title]) =>
+  el('buttons').innerHTML = [[0,'全程'],[9,'市区 · 第2–5天'],[10,'迪士尼乐园内']].map(([id,title]) =>
     '<button type="button" data-view="' + id + '">' + title + '</button>').join('');
   el('buttons').addEventListener('click',event => {
     const button = event.target.closest('[data-view]');
     if (button) draw(Number(button.dataset.view));
   });
-  el('day-select').addEventListener('change',event => {if (event.target.value) draw(Number(event.target.value));});
+  el('day-select').addEventListener('change',event => {
+    if (event.target.value) draw(event.target.value === '7' ? 10 : Number(event.target.value));
+  });
   el('park-plan').addEventListener('click',event => {
     const button = event.target.closest('[data-park-variant]');
     if (!button) return;
@@ -235,11 +248,15 @@
     if (parkVariant !== 'tron') nextUrl.searchParams.set('variant',parkVariant);
     else nextUrl.searchParams.delete('variant');
     history.replaceState(null,'',nextUrl);
-    draw(10);
+    draw(10,{fit:false});
   });
   el('list').addEventListener('click',event => {
     const link = event.target.closest('[data-day]');
-    if (link) {event.preventDefault();draw(Number(link.dataset.day));}
+    if (link) {
+      event.preventDefault();
+      const day = Number(link.dataset.day);
+      draw(day === 7 ? 10 : day);
+    }
   });
   el('places-list').addEventListener('click',event => {
     const button = event.target.closest('[data-poi]');
@@ -256,6 +273,15 @@
     updatePlaces(view);renderMarkers(view);
   }));
   el('online').addEventListener('change',event => {if (map) event.target.checked ? online.addTo(map) : map.removeLayer(online);});
-  if (map) map.on('zoomend resize',() => renderMarkers(selectedView(current)));
+  if (map) {
+    map.on('moveend',() => {
+      if (suppressAuto) return;
+      const center = map.getCenter();
+      const next = viewForViewport({zoom:map.getZoom(),lat:center.lat,lon:center.lng,current});
+      if (next !== current) draw(next,{fit:false});
+      else renderMarkers(selectedView(current));
+    });
+    map.on('resize',() => renderMarkers(selectedView(current)));
+  }
   draw(current);
 })();
