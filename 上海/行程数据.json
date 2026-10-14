@@ -223,7 +223,7 @@
       "name": "疯狂动物城·热力追踪",
       "lat": 31.148863050000003,
       "lon": 121.6552587,
-      "tip": "矿山车旁第二站候选；早享时≤30分钟即排，超过则晚间复查。",
+      "tip": "矿山车旁第三站；显示≤70分钟就排，较长则晚间复查。",
       "coordinate_status": "OSM地物中心；并非实时入口",
       "coordinate_source": "https://www.openstreetmap.org/way/1234934044"
     },
@@ -232,7 +232,7 @@
       "name": "加勒比海盗·沉落宝藏",
       "lat": 31.1482271,
       "lon": 121.6581822,
-      "tip": "宝藏湾顺路补；显示≤25分钟就排，较长先看剧场或吃饭。",
+      "tip": "宝藏湾顺路补；显示≤45分钟就排，较长可在傍晚补。",
       "coordinate_status": "OSM地物中心；并非实时入口",
       "coordinate_source": "https://www.openstreetmap.org/way/495387203"
     },
@@ -241,7 +241,7 @@
       "name": "翱翔·飞越地平线",
       "lat": 31.145583600000002,
       "lon": 121.6611809,
-      "tip": "探险岛顺路补；显示≤45分钟再排，较长留待晚间复查。",
+      "tip": "探险岛顺路补；显示≤75分钟就排，较长留待晚间复查。",
       "coordinate_status": "OSM地物中心；并非实时入口",
       "coordinate_source": "https://www.openstreetmap.org/way/494352071"
     },
@@ -250,7 +250,7 @@
       "name": "创极速光轮",
       "lat": 31.144241100000002,
       "lon": 121.65178800000001,
-      "tip": "逆向早享首站；若运行且显示≤20分钟先排。刺激项目，不适合者跳过。",
+      "tip": "7:30早享首站；运行且显示≤25分钟就排，过长或暂未开放则先去矿山车。刺激项目，不适合者跳过。",
       "coordinate_status": "OSM地物中心；并非实时入口",
       "coordinate_source": "https://www.openstreetmap.org/way/495378407"
     },
@@ -357,9 +357,45 @@
       "name": "七个小矮人矿山车",
       "lat": 31.1476,
       "lon": 121.655,
-      "tip": "早享首抢候选；入园时显示≤25分钟才优先排，较长就改走创极速。",
+      "tip": "早享第二站；到达时显示≤40分钟优先排，超过就记为傍晚候补。",
       "coordinate_status": "Queue Times 标注的 OSM 近似坐标；入口请用官方 App",
       "coordinate_source": "https://queue-times.com/parks/30/rides/2990"
+    },
+    "rapids": {
+      "id": "rapids",
+      "name": "雷鸣山漂流",
+      "lat": 31.1449,
+      "lon": 121.659,
+      "tip": "探险岛可选加项；午后显示≤35分钟、天气适合且愿意可能打湿衣物时再玩。",
+      "coordinate_status": "Queue Times 标注的 OSM 近似坐标；入口以官方 App 为准",
+      "coordinate_source": "https://queue-times.com/en-US/parks/30/rides/2986/2026"
+    },
+    "buzz": {
+      "id": "buzz",
+      "name": "巴斯光年星际营救",
+      "lat": 31.1431,
+      "lon": 121.653,
+      "tip": "傍晚明日世界可选加项；显示≤15分钟再玩，不为此专程折返。",
+      "coordinate_status": "Queue Times 标注的 OSM 近似坐标；入口以官方 App 为准",
+      "coordinate_source": "https://queue-times.com/en-US/parks/30/rides/2999/2026"
+    },
+    "storm": {
+      "id": "storm",
+      "name": "风暴来临·凡迭戈剧院",
+      "lat": 31.147743,
+      "lon": 121.65961,
+      "tip": "宝藏湾室内演出，约30分钟；场次和是否开放以当日官方 App 为准。",
+      "coordinate_status": "剧院位置约数；以官方 App 地图上的入口为准",
+      "coordinate_source": "https://www.shanghaidisneyresort.com/zh-cn/experience/entertainment/eye-of-storm-captain-jacks-spectacular"
+    },
+    "castle": {
+      "id": "castle",
+      "name": "奇幻童话城堡·夜间演出区域",
+      "lat": 31.14574,
+      "lon": 121.65533,
+      "tip": "晚间演出或拍照收尾；10月27日演出和闭园时刻尚待官方公布。",
+      "coordinate_status": "OSM 城堡主体近似坐标；具体观演区以现场为准",
+      "coordinate_source": "https://static.shanghaidisneyresort.com/web-img-gallery/park-map-260227.pdf"
     }
   },
   "days": [
@@ -493,17 +529,20 @@
         "disney",
         "b"
       ],
-      "mode": "早享票已购；10/26晚核对官方开园与早享时刻，10/27按开园 O−120 分到指定早享入口。",
+      "mode": "早享票 7:30 入园；建议6:30–6:45到指定入口。10/26晚核对官方项目开放、演出和闭园时刻。",
       "meal": "园内午饭与坐下休息；不为吃饭出园折返。",
-      "pace": "早享优先抢矿山车或创极速，园内按实时候选阈值走；点「园内」看完整顺路路线。",
+      "pace": "早享先抢创极速，再玩矿山车与热力；点「园内」看逐时安排与实时改线阈值。",
       "source": [
         "D001",
         "D002",
         "D003",
         "D004",
         "Q2026",
+        "QHEAT",
+        "QCAL",
         "OAPP",
-        "OMAP"
+        "OMAP",
+        "OSTORM"
       ]
     },
     {
@@ -523,7 +562,7 @@
   ],
   "park": {
     "id": 10,
-    "title": "迪士尼园内·早享少排队环线",
+    "title": "迪士尼园内·7:30早享一日环线",
     "route": [
       "disney",
       "tron",
@@ -531,20 +570,28 @@
       "hot",
       "pirate",
       "soar",
+      "storm",
+      "castle",
       "disney"
     ],
-    "optional": [],
-    "mode": "路线：入口→创极速→矿山车→热力追踪→加勒比→飞越；图示顺序需按官方App实时排队调整。",
-    "meal": "宝藏湾剧场与午餐相邻；建议11:00前或13:30后就餐，午后坐下休息45–60分钟。",
-    "pace": "10/27早享已购。开园时间未公布；入园先比矿山车≤25分与创极速≤20分，较短者先玩。",
+    "optional": [
+      "rapids",
+      "buzz"
+    ],
+    "mode": "主线：入口→创极速→矿山车→热力→加勒比→飞越→宝藏湾剧场→城堡→出口；虚线只表示顺序，不是园内道路导航。",
+    "meal": "12:35左右在探险岛附近午饭并坐下休息；晚饭与演出按当日官方 App 微调。",
+    "pace": "7:30票面早享；建议6:30–6:45到入口。五个核心项目预计排队合计165–245分钟，完成时间约12:00–13:45。",
     "source": [
       "D001",
       "D002",
       "D003",
       "D004",
       "Q2026",
+      "QHEAT",
+      "QCAL",
       "OAPP",
-      "OMAP"
+      "OMAP",
+      "OSTORM"
     ]
   },
   "colors": [
@@ -665,6 +712,9 @@
     "D004": "https://www.xiaohongshu.com/explore/6ac115d9000000001a029b60",
     "Q2026": "https://queue-times.com/parks/30/stats/2026",
     "OAPP": "https://www.shanghaidisneyresort.com/zh-cn/information/download-shanghai-disney-mobile-app",
-    "OMAP": "https://static.shanghaidisneyresort.com/web-img-gallery/park-map-260227.pdf"
+    "OMAP": "https://static.shanghaidisneyresort.com/web-img-gallery/park-map-260227.pdf",
+    "QHEAT": "https://queue-times.com/en-US/parks/30/rides/2990/2026",
+    "QCAL": "https://queue-times.com/en-US/parks/30/calendar",
+    "OSTORM": "https://www.shanghaidisneyresort.com/zh-cn/experience/entertainment/eye-of-storm-captain-jacks-spectacular"
   }
 }
