@@ -12,7 +12,7 @@
     routes = L.layerGroup().addTo(map);
     placeLayer = L.layerGroup().addTo(map);
     L.control.scale({imperial:false}).addTo(map);
-    online = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.jpg',
+    online = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
       {maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'});
   }
   const embedded = new URLSearchParams(location.search).get('embed') === '1';
@@ -43,7 +43,7 @@
 
   function updatePlaces(view) {
     const selected = new Set([...document.querySelectorAll('[data-kind]:checked')].map(input => input.dataset.kind));
-    currentPins = places.filter(p => (view.id === 9 ? p.days.some(d => d >= 2 && d <= 5) : p.days.includes(view.id)) && selected.has(p.kind));
+    currentPins = places.filter(p => (view.id === 9 ? p.days.some(d => d >= 2 && d <= 5 || d === 9) : p.days.includes(view.id)) && selected.has(p.kind));
     el('place-count').textContent = '· ' + currentPins.length + '处候选';
     el('places-panel').hidden = currentPins.length === 0;
     el('places-list').innerHTML = currentPins.map((p, i) =>
@@ -142,12 +142,12 @@
     const keys = view.id === 0 ? ['sha','hotel','b','disney'] : view.id === 8 ? ['b'] : view.id === 9 ? [] : view.keys;
     const main = new Set(view.routes.flatMap(r => r.route));
     keys.forEach((key,i) => {
-      const lodging = view.id >= 2 && view.id <= 5 && key === 'hotel';
+      const lodging = view.id >= 1 && view.id <= 5 && key === 'hotel';
       const p = data.points[key], dims = lodging ? [28,28]
         : view.id === 0 ? key === 'hotel' ? [50,28] : [36,28] : [42,38];
       const placed = place(p.lat,p.lon,...dims), color = view.id >= 1 && view.id <= 8 ? data.colors[view.id-1] : '#0f766e';
       leader(routes,[p.lat,p.lon],placed,color);
-      routeMarker(p,lodging ? 0 : i + (view.id >= 2 && view.id <= 5 ? 0 : 1),
+      routeMarker(p,lodging ? 0 : i + (view.id === 1 ? 0 : 1),
         !main.has(key),color,placed,lodging).addTo(routes);
     });
     groupedPins().forEach(group => {
@@ -192,8 +192,11 @@
     updatePlaces(view);
     if (map) {
       if (offline) map.removeLayer(offline);
-      offline = L.imageOverlay(prefix + view.background + '?v=' + version, view.bounds, {attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
-      if (el('online').checked) online.bringToFront();
+      offline = L.imageOverlay(prefix + view.background + '?v=' + version, view.bounds, {pane:'tilePane',attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(map);
+      if (el('online').checked) {
+        if (!map.hasLayer(online)) online.addTo(map);
+        online.bringToFront();
+      }
       map.fitBounds(view.bounds,{padding:[12,12]});
       requestAnimationFrame(() => {map.invalidateSize();renderMarkers(view);});
     } else {

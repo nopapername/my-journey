@@ -81,7 +81,7 @@
     "name": "GOODBAI",
     "kind": "shop",
     "days": [
-      3
+      2
     ],
     "location": "延庆路92号",
     "tip": "购物日主选之一",
@@ -94,7 +94,7 @@
     "name": "蕾虎",
     "kind": "shop",
     "days": [
-      3
+      9
     ],
     "location": "富民路184号",
     "tip": "图钉为富民路街段，门店入口请按门牌导航",
@@ -104,13 +104,13 @@
     "approximate": true
   },
   {
-    "name": "Badmarket／fRUITYSHOP",
+    "name": "Badmarket",
     "kind": "shop",
     "days": [
-      3
+      9
     ],
-    "location": "长乐路619号／617号",
-    "tip": "图钉为长乐路街段，两店入口请分别导航",
+    "location": "长乐路619号",
+    "tip": "D2逛店跨区备选；图钉为长乐路街段，入口按门牌导航",
     "source": "https://www.xiaohongshu.com/explore/69eae2fa000000002202470d",
     "lat": 31.22008065,
     "lon": 121.4487545,
@@ -120,7 +120,7 @@
     "name": "光明邨大酒家",
     "kind": "food",
     "days": [
-      3
+      9
     ],
     "location": "淮海中路588号",
     "tip": "新天地替换线，主线不折返",
@@ -136,7 +136,7 @@
       3
     ],
     "location": "雁荡路14号",
-    "tip": "麻酱面加选；和巨富长主线二选一",
+    "tip": "麻酱面顺路加选；当天看排队，别把餐饮当路线站",
     "source": "https://ditu.amap.com/place/B00154YR8Z",
     "lat": 31.22278246211722,
     "lon": 121.46534149559336,
@@ -146,10 +146,10 @@
     "name": "ALTER·新天地",
     "kind": "shop",
     "days": [
-      3
+      9
     ],
     "location": "马当路245号 L116",
-    "tip": "新天地替换线买手店",
+    "tip": "仅市区总览保留的位置参考；D3不安排进店",
     "source": "https://www.openstreetmap.org/node/4729256391",
     "lat": 31.2209788,
     "lon": 121.4704157,
@@ -218,6 +218,58 @@
     "source": "https://www.nckfhsm.com/zh-tw/brands/charlietown-hong-cha-gong-si",
     "lat": 31.238238950000003,
     "lon": 121.49792035,
+    "approximate": true
+  },
+  {
+    "name": "fRUITYSHOP",
+    "kind": "shop",
+    "days": [
+      9
+    ],
+    "location": "长乐路617号",
+    "tip": "D2跨区备选；与Badmarket同街段，入口按门牌导航",
+    "source": "https://www.xiaohongshu.com/explore/69eae2fa000000002202470d",
+    "lat": 31.22008065,
+    "lon": 121.4487545,
+    "approximate": true
+  },
+  {
+    "name": "大壶春·豫园店",
+    "kind": "food",
+    "days": [
+      4
+    ],
+    "location": "豫园老街／豫春路",
+    "tip": "6篇已审读笔记提及品牌；与南翔二选一，分店与排队当天核",
+    "source": "https://www.amap.com/place/B0LDAAL87Y",
+    "lat": 31.229088709006746,
+    "lon": 121.48697020366625,
+    "approximate": false
+  },
+  {
+    "name": "茂隆餐厅·进贤路店",
+    "kind": "food",
+    "days": [
+      9
+    ],
+    "location": "进贤路134号",
+    "tip": "2篇笔记提及；仅市区总览参考，坐标是进贤路附近估点，导航门牌",
+    "source": "https://www.dianping.com/shop/502076/photos/album",
+    "lat": 31.225113922021517,
+    "lon": 121.45683967054717,
+    "approximate": true
+  },
+  {
+    "name": "sunflour·安福路",
+    "kind": "food",
+    "days": [
+      2
+    ],
+    "location": "安福路322号附近；营业待核",
+    "tip": "R036提及的顺路面包候选；图钉为街区，具体门店与营业另查",
+    "source": "https://www.timeoutshanghai.com/venue/Restaurants__Cafes-Cafes/4284/Sunflour%2C-Anfu-Lu.html",
+    "lat": 31.2150838,
+    "lon": 121.4353991,
     "approximate": true
   }
 ]
