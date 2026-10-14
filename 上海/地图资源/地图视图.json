@@ -1,0 +1,613 @@
+[
+  {
+    "id": 0,
+    "title": "全程与住宿基地",
+    "keys": [
+      "sha",
+      "hotel",
+      "wukang",
+      "park",
+      "goodbai",
+      "yu",
+      "bund",
+      "ifc",
+      "b",
+      "disney",
+      "pvg"
+    ],
+    "routes": [
+      {
+        "route": [
+          "sha",
+          "hotel",
+          "b",
+          "disney",
+          "b",
+          "pvg"
+        ],
+        "color": "#0f766e"
+      }
+    ],
+    "description": null,
+    "bounds": [
+      [
+        30.96936682219672,
+        121.19155883789062
+      ],
+      [
+        31.40405176186005,
+        121.94686889648438
+      ]
+    ],
+    "background": "地图资源/view-00-底图.jpg",
+    "static": "00-全程地理路线.jpg"
+  },
+  {
+    "id": 1,
+    "title": "抵达与附近晚餐",
+    "keys": [
+      "sha",
+      "hotel",
+      "hotelA"
+    ],
+    "routes": [
+      {
+        "route": [
+          "sha",
+          "hotel"
+        ],
+        "color": "#64748b"
+      }
+    ],
+    "description": {
+      "id": 1,
+      "title": "抵达与附近晚餐",
+      "route": [
+        "sha",
+        "hotel"
+      ],
+      "optional": [
+        "hotelA"
+      ],
+      "mode": "机场→住宿：地铁或打车；机场为示例",
+      "meal": "酒店周边面馆或生煎，蔡先生/老盛昌等只选顺路分店",
+      "pace": "抵达后入住；不再赶外滩",
+      "source": [
+        "R006",
+        "R017"
+      ]
+    },
+    "bounds": [
+      [
+        31.149503833923553,
+        121.29644393920898
+      ],
+      [
+        31.258155831815277,
+        121.48527145385742
+      ]
+    ],
+    "background": "地图资源/view-01-底图.jpg",
+    "static": "每日地图/D01-地理路线.jpg"
+  },
+  {
+    "id": 2,
+    "title": "武康安福慢逛",
+    "keys": [
+      "hotel",
+      "wukang",
+      "court",
+      "park",
+      "uru"
+    ],
+    "routes": [
+      {
+        "route": [
+          "hotel",
+          "wukang",
+          "court",
+          "park",
+          "uru",
+          "hotel"
+        ],
+        "color": "#0f766e"
+      }
+    ],
+    "description": {
+      "id": 2,
+      "title": "武康安福慢逛",
+      "route": [
+        "hotel",
+        "wukang",
+        "court",
+        "park",
+        "uru",
+        "hotel"
+      ],
+      "mode": "到武康大楼乘车亦可；街区短段步行；回程乘车",
+      "meal": "瀚祥面馆或蒋掌柜二选一；Apoli面包/一杯茶饮加选",
+      "pace": "10:30出门；安福路只逛两三店；坐下45–60分钟",
+      "source": [
+        "R028",
+        "R036",
+        "R059",
+        "R063",
+        "R064",
+        "R068",
+        "R098"
+      ]
+    },
+    "bounds": [
+      [
+        31.20446944591095,
+        121.42557621002197
+      ],
+      [
+        31.21804988223591,
+        121.44917964935303
+      ]
+    ],
+    "background": "地图资源/view-02-底图.jpg",
+    "static": "每日地图/D02-地理路线.jpg"
+  },
+  {
+    "id": 3,
+    "title": "巨富长购物半日",
+    "keys": [
+      "hotel",
+      "goodbai",
+      "fumin",
+      "changle",
+      "iapm",
+      "guang",
+      "xin"
+    ],
+    "routes": [
+      {
+        "route": [
+          "hotel",
+          "goodbai",
+          "fumin",
+          "changle",
+          "iapm",
+          "hotel"
+        ],
+        "color": "#b45309"
+      }
+    ],
+    "description": {
+      "id": 3,
+      "title": "巨富长购物半日",
+      "route": [
+        "hotel",
+        "goodbai",
+        "fumin",
+        "changle",
+        "iapm",
+        "hotel"
+      ],
+      "optional": [
+        "guang",
+        "xin"
+      ],
+      "mode": "酒店→延庆路乘车；店间短段步行；回程乘车",
+      "meal": "iapm坐下吃饭；味香斋仅顺路时替换；不专程折返光明邨",
+      "pace": "午后出门也可；GOODBAI/蕾虎/Badmarket选两三家",
+      "source": [
+        "R021",
+        "R038",
+        "R047",
+        "R052",
+        "R098",
+        "R102"
+      ]
+    },
+    "bounds": [
+      [
+        31.202634102237017,
+        121.43141269683838
+      ],
+      [
+        31.229793551518984,
+        121.47861957550049
+      ]
+    ],
+    "background": "地图资源/view-03-底图.jpg",
+    "static": "每日地图/D03-地理路线.jpg"
+  },
+  {
+    "id": 4,
+    "title": "老城与外滩黄昏",
+    "keys": [
+      "hotel",
+      "yu",
+      "nanxiang",
+      "nanjing",
+      "bund"
+    ],
+    "routes": [
+      {
+        "route": [
+          "hotel",
+          "yu",
+          "nanxiang",
+          "nanjing",
+          "bund",
+          "hotel"
+        ],
+        "color": "#be123c"
+      }
+    ],
+    "description": {
+      "id": 4,
+      "title": "老城与外滩黄昏",
+      "route": [
+        "hotel",
+        "yu",
+        "nanxiang",
+        "nanjing",
+        "bund",
+        "hotel"
+      ],
+      "mode": "酒店→老城、老城→南京路、外滩→酒店乘车；南京路尾段步行",
+      "meal": "南翔或大壶春选一个；沈大成糕团少量；鲜得来可替换",
+      "pace": "11点左右到老城；下午商场休息；黄昏到外滩",
+      "source": [
+        "R010",
+        "R013",
+        "R017",
+        "R052",
+        "R057"
+      ]
+    },
+    "bounds": [
+      [
+        31.19848609435719,
+        121.41617774963379
+      ],
+      [
+        31.252799572364033,
+        121.51059150695801
+      ]
+    ],
+    "background": "地图资源/view-04-底图.jpg",
+    "static": "每日地图/D04-地理路线.jpg"
+  },
+  {
+    "id": 5,
+    "title": "陆家嘴与滨江",
+    "keys": [
+      "hotel",
+      "ifc",
+      "tower",
+      "river"
+    ],
+    "routes": [
+      {
+        "route": [
+          "hotel",
+          "ifc",
+          "tower",
+          "river",
+          "hotel"
+        ],
+        "color": "#1d4ed8"
+      }
+    ],
+    "description": {
+      "id": 5,
+      "title": "陆家嘴与滨江",
+      "route": [
+        "hotel",
+        "ifc",
+        "tower",
+        "river",
+        "hotel"
+      ],
+      "mode": "地铁或打车过江；浦东短段步行；不能步行过黄浦江",
+      "meal": "国金中心午餐；晚上回住宿街区选择本帮菜",
+      "pace": "11点出门；默认不登高；江边只走短段，累了即回",
+      "source": [
+        "R002",
+        "R017",
+        "R043"
+      ]
+    },
+    "bounds": [
+      [
+        31.197091148189312,
+        121.42321586608887
+      ],
+      [
+        31.251405427595227,
+        121.51762962341309
+      ]
+    ],
+    "background": "地图资源/view-05-底图.jpg",
+    "static": "每日地图/D05-地理路线.jpg"
+  },
+  {
+    "id": 6,
+    "title": "退房转场与休息",
+    "keys": [
+      "hotel",
+      "b",
+      "town"
+    ],
+    "routes": [
+      {
+        "route": [
+          "hotel",
+          "b"
+        ],
+        "color": "#7c3aed"
+      }
+    ],
+    "description": {
+      "id": 6,
+      "title": "退房转场与休息",
+      "route": [
+        "hotel",
+        "b"
+      ],
+      "optional": [
+        "town"
+      ],
+      "mode": "带行李打车优先；小镇为可选加程",
+      "meal": "新酒店附近吃饭；不为省餐费另赶远路",
+      "pace": "午前退房，下午入住B；准备入园用品早睡",
+      "source": [
+        "R125",
+        "R127",
+        "R152"
+      ]
+    },
+    "bounds": [
+      [
+        31.06263950180554,
+        121.35944366455078
+      ],
+      [
+        31.280017957083825,
+        121.73709869384766
+      ]
+    ],
+    "background": "地图资源/view-06-底图.jpg",
+    "static": "每日地图/D06-地理路线.jpg"
+  },
+  {
+    "id": 7,
+    "title": "迪士尼轻松一日",
+    "keys": [
+      "b",
+      "disney"
+    ],
+    "routes": [
+      {
+        "route": [
+          "b",
+          "disney",
+          "b"
+        ],
+        "color": "#c2410c"
+      }
+    ],
+    "description": {
+      "id": 7,
+      "title": "迪士尼轻松一日",
+      "route": [
+        "b",
+        "disney",
+        "b"
+      ],
+      "mode": "可靠酒店接驳、11号线或打车；回程先落实",
+      "meal": "园内午餐坐下休息；不强行出园吃饭",
+      "pace": "3个主目标＋看秀＋午休；当日App调顺序；点「园内」看主线",
+      "source": [
+        "R122",
+        "R137",
+        "R139",
+        "R140",
+        "R142",
+        "R147",
+        "R153"
+      ]
+    },
+    "bounds": [
+      [
+        31.110564341177874,
+        121.58852577209473
+      ],
+      [
+        31.164928267490293,
+        121.68293952941895
+      ]
+    ],
+    "background": "地图资源/view-07-底图.jpg",
+    "static": "每日地图/D07-地理路线.jpg"
+  },
+  {
+    "id": 8,
+    "title": "返程",
+    "keys": [
+      "b",
+      "pvg"
+    ],
+    "routes": [
+      {
+        "route": [
+          "b",
+          "pvg"
+        ],
+        "color": "#475569"
+      }
+    ],
+    "description": {
+      "id": 8,
+      "title": "返程",
+      "route": [
+        "b",
+        "pvg"
+      ],
+      "mode": "按实际航班选择机场；地图以浦东作示例",
+      "meal": "早餐后出发；酒店到机场保留缓冲",
+      "pace": "优先下午航班；实际日期与航站楼确定后校正",
+      "source": [
+        "R127"
+      ]
+    },
+    "bounds": [
+      [
+        31.0291071583125,
+        121.519775390625
+      ],
+      [
+        31.24656244897015,
+        121.89743041992188
+      ]
+    ],
+    "background": "地图资源/view-08-底图.jpg",
+    "static": "每日地图/D08-地理路线.jpg"
+  },
+  {
+    "id": 9,
+    "title": "市区D2–D5·分区总览",
+    "keys": [
+      "hotel",
+      "wukang",
+      "court",
+      "park",
+      "uru",
+      "goodbai",
+      "fumin",
+      "changle",
+      "iapm",
+      "yu",
+      "nanxiang",
+      "nanjing",
+      "bund",
+      "ifc",
+      "tower",
+      "river"
+    ],
+    "routes": [
+      {
+        "route": [
+          "hotel",
+          "wukang",
+          "court",
+          "park",
+          "uru",
+          "hotel"
+        ],
+        "color": "#0f766e"
+      },
+      {
+        "route": [
+          "hotel",
+          "goodbai",
+          "fumin",
+          "changle",
+          "iapm",
+          "hotel"
+        ],
+        "color": "#b45309"
+      },
+      {
+        "route": [
+          "hotel",
+          "yu",
+          "nanxiang",
+          "nanjing",
+          "bund",
+          "hotel"
+        ],
+        "color": "#be123c"
+      },
+      {
+        "route": [
+          "hotel",
+          "ifc",
+          "tower",
+          "river",
+          "hotel"
+        ],
+        "color": "#1d4ed8"
+      }
+    ],
+    "description": null,
+    "bounds": [
+      [
+        31.19657721546952,
+        121.42021179199219
+      ],
+      [
+        31.25089179012258,
+        121.5146255493164
+      ]
+    ],
+    "background": "地图资源/view-09-底图.jpg",
+    "static": "01-市区路线总览.jpg"
+  },
+  {
+    "id": 10,
+    "title": "迪士尼园内·三主目标",
+    "keys": [
+      "disney",
+      "hot",
+      "pirate",
+      "soar",
+      "tron"
+    ],
+    "routes": [
+      {
+        "route": [
+          "disney",
+          "hot",
+          "pirate",
+          "soar",
+          "disney"
+        ],
+        "color": "#c2410c"
+      }
+    ],
+    "description": {
+      "id": 10,
+      "title": "迪士尼园内·三主目标",
+      "route": [
+        "disney",
+        "hot",
+        "pirate",
+        "soar",
+        "disney"
+      ],
+      "optional": [
+        "tron"
+      ],
+      "mode": "园内步行；连线表示安排顺序，入口与排队动线用官方App",
+      "meal": "加勒比附近安排看秀与午饭；午后留45–60分钟坐下",
+      "pace": "第三目标：飞越与创极速二选一；先查队列再决定先去哪个",
+      "source": [
+        "R122",
+        "R137",
+        "R139",
+        "R140",
+        "R142",
+        "R147",
+        "R153"
+      ]
+    },
+    "bounds": [
+      [
+        31.13905419031925,
+        121.64468050003052
+      ],
+      [
+        31.15264401140999,
+        121.66828393936157
+      ]
+    ],
+    "background": "地图资源/view-10-底图.jpg",
+    "static": "每日地图/D07-园内路线.jpg"
+  }
+]
