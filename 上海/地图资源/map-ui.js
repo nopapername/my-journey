@@ -6,9 +6,10 @@
   const parkLabels = {disney:'入口', tron:'极速', mine:'矿车', hot:'热力', pirate:'海盗', soar:'飞越', rapids:'漂流', peter:'小飞', rex:'抱龙', castle:'城堡', storm:'剧场', buzz:'巴斯'};
   const search = (name, location) => 'https://uri.amap.com/search?keyword=' + encodeURIComponent(name + ' ' + location) + '&city=' + encodeURIComponent('上海') + '&view=map';
   let current = Number(new URLSearchParams(location.search).get('day')) || window.JOURNEY_MAP.initial;
-  let parkVariant = new URLSearchParams(location.search).get('variant') === 'mine' ? 'mine' : 'tron';
+  const requestedParkVariant = new URLSearchParams(location.search).get('variant');
+  let parkVariant = ['tron','mine','hot'].includes(requestedParkVariant) ? requestedParkVariant : 'tron';
   let map, routes, placeLayer, offline, online, currentPins = [];
-  const selectedView = id => views.find(v => v.id === (id === 10 && parkVariant === 'mine' ? 11 : id));
+  const selectedView = id => views.find(v => v.id === (id === 10 ? {tron:10,mine:11,hot:12}[parkVariant] : id));
 
   if (typeof L !== 'undefined') {
     map = L.map('map', {zoomSnap:.25});
@@ -230,7 +231,7 @@
     if (!button) return;
     parkVariant = button.dataset.parkVariant;
     const nextUrl = new URL(location.href);
-    if (parkVariant === 'mine') nextUrl.searchParams.set('variant','mine');
+    if (parkVariant !== 'tron') nextUrl.searchParams.set('variant',parkVariant);
     else nextUrl.searchParams.delete('variant');
     history.replaceState(null,'',nextUrl);
     draw(10);

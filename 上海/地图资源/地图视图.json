@@ -617,6 +617,43 @@
           "OAPP",
           "OMAP"
         ]
+      },
+      "hot_first": {
+        "title": "迪士尼园内·热力追踪首站备用C",
+        "route": [
+          "disney",
+          "hot",
+          "mine",
+          "pirate",
+          "soar",
+          "rapids",
+          "peter",
+          "rex",
+          "tron",
+          "castle",
+          "disney"
+        ],
+        "optional": [
+          "storm",
+          "buzz"
+        ],
+        "mode": "C线：入口→热力追踪→矿山车→加勒比→飞越→雷鸣山→小飞侠→抱抱龙→创极速→城堡→出口；虚线只表示顺序。",
+        "meal": "约13:10–13:40在探险岛附近快餐；热门八项优先，演出和其他项目只在有余量时加。",
+        "pace": "热力开放且实显≤30分钟，创极速和矿山车均>25分钟时启用；八项含午饭约16:25–19:45完成。",
+        "source": [
+          "D001",
+          "D002",
+          "D003",
+          "D004",
+          "Q2026",
+          "QHEAT",
+          "QCAL",
+          "QRAP",
+          "QPAN",
+          "QREX",
+          "OAPP",
+          "OMAP"
+        ]
       }
     },
     "bounds": [
@@ -716,5 +753,90 @@
     ],
     "background": "地图资源/view-11-底图.jpg",
     "static": "每日地图/D07-园内路线-矿山车优先.jpg"
+  },
+  {
+    "id": 12,
+    "title": "迪士尼园内·热力追踪首站备用C",
+    "keys": [
+      "disney",
+      "hot",
+      "mine",
+      "pirate",
+      "soar",
+      "rapids",
+      "peter",
+      "rex",
+      "tron",
+      "castle",
+      "storm",
+      "buzz"
+    ],
+    "routes": [
+      {
+        "route": [
+          "disney",
+          "hot",
+          "mine",
+          "pirate",
+          "soar",
+          "rapids",
+          "peter",
+          "rex",
+          "tron",
+          "castle",
+          "disney"
+        ],
+        "color": "#7c3aed"
+      }
+    ],
+    "description": {
+      "title": "迪士尼园内·热力追踪首站备用C",
+      "route": [
+        "disney",
+        "hot",
+        "mine",
+        "pirate",
+        "soar",
+        "rapids",
+        "peter",
+        "rex",
+        "tron",
+        "castle",
+        "disney"
+      ],
+      "optional": [
+        "storm",
+        "buzz"
+      ],
+      "mode": "C线：入口→热力追踪→矿山车→加勒比→飞越→雷鸣山→小飞侠→抱抱龙→创极速→城堡→出口；虚线只表示顺序。",
+      "meal": "约13:10–13:40在探险岛附近快餐；热门八项优先，演出和其他项目只在有余量时加。",
+      "pace": "热力开放且实显≤30分钟，创极速和矿山车均>25分钟时启用；八项含午饭约16:25–19:45完成。",
+      "source": [
+        "D001",
+        "D002",
+        "D003",
+        "D004",
+        "Q2026",
+        "QHEAT",
+        "QCAL",
+        "QRAP",
+        "QPAN",
+        "QREX",
+        "OAPP",
+        "OMAP"
+      ]
+    },
+    "bounds": [
+      [
+        31.13712574709357,
+        121.64113998413086
+      ],
+      [
+        31.15457213901755,
+        121.67182445526123
+      ]
+    ],
+    "background": "地图资源/view-12-底图.jpg",
+    "static": "每日地图/D07-园内路线-热力优先.jpg"
   }
 ]

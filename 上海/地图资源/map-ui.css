@@ -14,7 +14,7 @@ body.park-view #pace,body.park-view #mode,body.park-view #meal,body.park-view .n
 .overview-pin.park-optional{background:#fff;color:#0f766e;border:2px dashed #0f766e;line-height:24px}
 .park-plan h3{font-size:17px;margin:0 0 8px}
 .park-variants{display:flex;gap:7px;margin:8px 0 13px}
-.park-variants button{flex:1;padding:8px 6px;font-size:12px;font-weight:600}
+.park-variants button{flex:1;min-width:0;padding:8px 4px;font-size:12px;font-weight:600;white-space:nowrap}
 .park-variants button.active{background:#0f766e;border-color:#0f766e;color:#fff}
 [data-park-content][hidden]{display:none}
 .park-plan .park-lead{font-size:13px;line-height:1.55;margin:0 0 12px}
