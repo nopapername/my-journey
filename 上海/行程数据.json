@@ -366,7 +366,7 @@
       "name": "雷鸣山漂流",
       "lat": 31.1449,
       "lon": 121.659,
-      "tip": "探险岛可选加项；午后显示≤35分钟、天气适合且愿意可能打湿衣物时再玩。",
+      "tip": "探险岛第六个热门目标；显示≤60分钟且愿意可能打湿衣物时排。",
       "coordinate_status": "Queue Times 标注的 OSM 近似坐标；入口以官方 App 为准",
       "coordinate_source": "https://queue-times.com/en-US/parks/30/rides/2986/2026"
     },
@@ -396,6 +396,24 @@
       "tip": "晚间演出或拍照收尾；10月27日演出和闭园时刻尚待官方公布。",
       "coordinate_status": "OSM 城堡主体近似坐标；具体观演区以现场为准",
       "coordinate_source": "https://static.shanghaidisneyresort.com/web-img-gallery/park-map-260227.pdf"
+    },
+    "peter": {
+      "id": "peter",
+      "name": "小飞侠天空奇遇",
+      "lat": 31.1454,
+      "lon": 121.654,
+      "tip": "梦幻世界第七站；显示≤50分钟就排，超出则转抱抱龙或傍晚再查。",
+      "coordinate_status": "Queue Times 标注的 OSM 近似坐标；入口以官方 App 为准",
+      "coordinate_source": "https://queue-times.com/en-US/parks/30/rides/2989/2026"
+    },
+    "rex": {
+      "id": "rex",
+      "name": "抱抱龙冲天赛车",
+      "lat": 31.14574,
+      "lon": 121.65231,
+      "tip": "玩具总动员园区第八站；显示≤90分钟且能接受高刺激再排；偏长可19:00后复查。",
+      "coordinate_status": "OSM 近似坐标；入口以官方 App 为准",
+      "coordinate_source": "https://www.openstreetmap.org/node/5599528012"
     }
   },
   "days": [
@@ -523,15 +541,15 @@
     {
       "id": 7,
       "date": "10/27",
-      "title": "迪士尼早享少排队一日",
+      "title": "迪士尼早享·热门项目尽量多玩",
       "route": [
         "b",
         "disney",
         "b"
       ],
       "mode": "早享票 7:30 入园；建议6:30–6:45到指定入口。10/26晚核对官方项目开放、演出和闭园时刻。",
-      "meal": "园内午饭与坐下休息；不为吃饭出园折返。",
-      "pace": "早享先抢创极速，再玩矿山车与热力；点「园内」看逐时安排与实时改线阈值。",
+      "meal": "园内快餐、短休息；演出与低队列项目按现场余量决定。",
+      "pace": "先抢创极速、矿山车、热力；下午接雷鸣山、小飞侠、抱抱龙。点「园内」看逐时表。",
       "source": [
         "D001",
         "D002",
@@ -540,9 +558,11 @@
         "Q2026",
         "QHEAT",
         "QCAL",
+        "QRAP",
+        "QPAN",
+        "QREX",
         "OAPP",
-        "OMAP",
-        "OSTORM"
+        "OMAP"
       ]
     },
     {
@@ -562,7 +582,7 @@
   ],
   "park": {
     "id": 10,
-    "title": "迪士尼园内·7:30早享一日环线",
+    "title": "迪士尼园内·7:30早享热门八项",
     "route": [
       "disney",
       "tron",
@@ -570,17 +590,19 @@
       "hot",
       "pirate",
       "soar",
-      "storm",
+      "rapids",
+      "peter",
+      "rex",
       "castle",
       "disney"
     ],
     "optional": [
-      "rapids",
+      "storm",
       "buzz"
     ],
-    "mode": "主线：入口→创极速→矿山车→热力→加勒比→飞越→宝藏湾剧场→城堡→出口；虚线只表示顺序，不是园内道路导航。",
-    "meal": "12:35左右在探险岛附近午饭并坐下休息；晚饭与演出按当日官方 App 微调。",
-    "pace": "7:30票面早享；建议6:30–6:45到入口。五个核心项目预计排队合计165–245分钟，完成时间约12:00–13:45。",
+    "mode": "主线：入口→创极速→矿山车→热力→加勒比→飞越→雷鸣山→小飞侠→抱抱龙→城堡→出口；虚线只表示顺序。",
+    "meal": "12:35–13:05附近快餐，17:00左右简短晚饭；项目慢于计划就优先删演出与低队列加项。",
+    "pace": "7:30早享；建议6:30–6:45到入口。前五项预计12:00–13:45完成；八项连午饭约15:45–18:40完成。",
     "source": [
       "D001",
       "D002",
@@ -589,9 +611,11 @@
       "Q2026",
       "QHEAT",
       "QCAL",
+      "QRAP",
+      "QPAN",
+      "QREX",
       "OAPP",
-      "OMAP",
-      "OSTORM"
+      "OMAP"
     ]
   },
   "colors": [
@@ -715,6 +739,9 @@
     "OMAP": "https://static.shanghaidisneyresort.com/web-img-gallery/park-map-260227.pdf",
     "QHEAT": "https://queue-times.com/en-US/parks/30/rides/2990/2026",
     "QCAL": "https://queue-times.com/en-US/parks/30/calendar",
-    "OSTORM": "https://www.shanghaidisneyresort.com/zh-cn/experience/entertainment/eye-of-storm-captain-jacks-spectacular"
+    "OSTORM": "https://www.shanghaidisneyresort.com/zh-cn/experience/entertainment/eye-of-storm-captain-jacks-spectacular",
+    "QRAP": "https://queue-times.com/en-US/parks/30/rides/2986/2026",
+    "QPAN": "https://queue-times.com/en-US/parks/30/rides/2989/2026",
+    "QREX": "https://queue-times.com/en-US/parks/30/rides/5633/2026"
   }
 }
