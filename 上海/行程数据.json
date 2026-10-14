@@ -223,7 +223,7 @@
       "name": "疯狂动物城·热力追踪",
       "lat": 31.148863050000003,
       "lon": 121.6552587,
-      "tip": "主目标之一；从南侧入园步行过来，先查队列",
+      "tip": "矿山车旁第二站候选；早享时≤30分钟即排，超过则晚间复查。",
       "coordinate_status": "OSM地物中心；并非实时入口",
       "coordinate_source": "https://www.openstreetmap.org/way/1234934044"
     },
@@ -232,7 +232,7 @@
       "name": "加勒比海盗·沉落宝藏",
       "lat": 31.1482271,
       "lon": 121.6581822,
-      "tip": "主目标之一；相邻区域看风暴来临，场次看官方App",
+      "tip": "宝藏湾顺路补；显示≤25分钟就排，较长先看剧场或吃饭。",
       "coordinate_status": "OSM地物中心；并非实时入口",
       "coordinate_source": "https://www.openstreetmap.org/way/495387203"
     },
@@ -241,16 +241,16 @@
       "name": "翱翔·飞越地平线",
       "lat": 31.145583600000002,
       "lon": 121.6611809,
-      "tip": "第三目标A；热力/加勒比/飞越不保证当日可同时完成",
+      "tip": "探险岛顺路补；显示≤45分钟再排，较长留待晚间复查。",
       "coordinate_status": "OSM地物中心；并非实时入口",
       "coordinate_source": "https://www.openstreetmap.org/way/494352071"
     },
     "tron": {
       "id": "tron",
-      "name": "创极速光轮·替换飞越",
+      "name": "创极速光轮",
       "lat": 31.144241100000002,
       "lon": 121.65178800000001,
-      "tip": "第三目标B；喜欢刺激才选，不强行两项全加",
+      "tip": "逆向早享首站；若运行且显示≤20分钟先排。刺激项目，不适合者跳过。",
       "coordinate_status": "OSM地物中心；并非实时入口",
       "coordinate_source": "https://www.openstreetmap.org/way/495378407"
     },
@@ -351,6 +351,15 @@
       "coordinate_status": "公开地图地物中心；非测量入口",
       "coordinate_source": "https://www.openstreetmap.org/way/40778038",
       "kind": "sight"
+    },
+    "mine": {
+      "id": "mine",
+      "name": "七个小矮人矿山车",
+      "lat": 31.1476,
+      "lon": 121.655,
+      "tip": "早享首抢候选；入园时显示≤25分钟才优先排，较长就改走创极速。",
+      "coordinate_status": "Queue Times 标注的 OSM 近似坐标；入口请用官方 App",
+      "coordinate_source": "https://queue-times.com/parks/30/rides/2990"
     }
   },
   "days": [
@@ -478,23 +487,23 @@
     {
       "id": 7,
       "date": "10/27",
-      "title": "迪士尼早享一日",
+      "title": "迪士尼早享少排队一日",
       "route": [
         "b",
         "disney",
         "b"
       ],
-      "mode": "一日票＋早享票已购；按官方当日早享时间提前到入口，酒店往返接驳先落实",
-      "meal": "园内午餐坐下休息；不强行出园吃饭",
-      "pace": "早享先选一项高排队目标；其余按官方App队列调整，午后留休息；点「园内」看主线",
+      "mode": "早享票已购；10/26晚核对官方开园与早享时刻，10/27按开园 O−120 分到指定早享入口。",
+      "meal": "园内午饭与坐下休息；不为吃饭出园折返。",
+      "pace": "早享优先抢矿山车或创极速，园内按实时候选阈值走；点「园内」看完整顺路路线。",
       "source": [
-        "R122",
-        "R137",
-        "R139",
-        "R140",
-        "R142",
-        "R147",
-        "R153"
+        "D001",
+        "D002",
+        "D003",
+        "D004",
+        "Q2026",
+        "OAPP",
+        "OMAP"
       ]
     },
     {
@@ -514,28 +523,28 @@
   ],
   "park": {
     "id": 10,
-    "title": "迪士尼园内·三主目标",
+    "title": "迪士尼园内·早享少排队环线",
     "route": [
       "disney",
+      "tron",
+      "mine",
       "hot",
       "pirate",
       "soar",
       "disney"
     ],
-    "optional": [
-      "tron"
-    ],
-    "mode": "园内步行；连线表示安排顺序，入口与排队动线用官方App",
-    "meal": "加勒比附近安排看秀与午饭；午后留45–60分钟坐下",
-    "pace": "27日早享先选一项高排队目标；第三目标飞越与创极速二选一，先查官方App队列",
+    "optional": [],
+    "mode": "路线：入口→创极速→矿山车→热力追踪→加勒比→飞越；图示顺序需按官方App实时排队调整。",
+    "meal": "宝藏湾剧场与午餐相邻；建议11:00前或13:30后就餐，午后坐下休息45–60分钟。",
+    "pace": "10/27早享已购。开园时间未公布；入园先比矿山车≤25分与创极速≤20分，较短者先玩。",
     "source": [
-      "R122",
-      "R137",
-      "R139",
-      "R140",
-      "R142",
-      "R147",
-      "R153"
+      "D001",
+      "D002",
+      "D003",
+      "D004",
+      "Q2026",
+      "OAPP",
+      "OMAP"
     ]
   },
   "colors": [
@@ -649,6 +658,13 @@
     "R147": "https://www.xiaohongshu.com/explore/6a4ed0e4000000001003fa09",
     "R152": "https://www.xiaohongshu.com/explore/6a04019800000000070116ad",
     "R153": "https://www.xiaohongshu.com/explore/6a546401000000001503d391",
-    "R155": "https://www.xiaohongshu.com/explore/6a9a6ec000000000270086ce"
+    "R155": "https://www.xiaohongshu.com/explore/6a9a6ec000000000270086ce",
+    "D001": "https://www.xiaohongshu.com/explore/6ac65163000000001500939f",
+    "D002": "https://www.xiaohongshu.com/explore/69eecf5a000000002301c0b4",
+    "D003": "https://www.xiaohongshu.com/explore/6a9fdca8000000002800368c",
+    "D004": "https://www.xiaohongshu.com/explore/6ac115d9000000001a029b60",
+    "Q2026": "https://queue-times.com/parks/30/stats/2026",
+    "OAPP": "https://www.shanghaidisneyresort.com/zh-cn/information/download-shanghai-disney-mobile-app",
+    "OMAP": "https://static.shanghaidisneyresort.com/web-img-gallery/park-map-260227.pdf"
   }
 }
