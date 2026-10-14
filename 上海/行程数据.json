@@ -28,7 +28,8 @@
       "lon": 121.4337292,
       "tip": "建筑外观；不占车道拍照；午餐瀚祥或蒋掌柜二选一",
       "coordinate_status": "公开地图POI中心；入口以现场导航为准",
-      "coordinate_source": "https://www.openstreetmap.org/way/293434151"
+      "coordinate_source": "https://www.openstreetmap.org/way/293434151",
+      "kind": "sight"
     },
     "court": {
       "id": "court",
@@ -37,7 +38,8 @@
       "lon": 121.43445879177155,
       "tip": "短逛后休息；使用庭内商户位置作园区锚点",
       "coordinate_status": "高德GCJ-02近似转换为WGS84；非测量入口",
-      "coordinate_source": "https://www.amap.com/place/B0FFISZVVB"
+      "coordinate_source": "https://www.amap.com/place/B0FFISZVVB",
+      "kind": "sight"
     },
     "park": {
       "id": "park",
@@ -55,7 +57,8 @@
       "lon": 121.4410455,
       "tip": "沿路短逛；茶饮一杯，店铺先查当天营业",
       "coordinate_status": "公交路口区域锚点；不是店铺入口",
-      "coordinate_source": "https://www.openstreetmap.org/node/154073217"
+      "coordinate_source": "https://www.openstreetmap.org/node/154073217",
+      "kind": "sight"
     },
     "goodbai": {
       "id": "goodbai",
@@ -107,9 +110,10 @@
       "name": "新天地·石库门街区",
       "lat": 31.2219311,
       "lon": 121.4704371,
-      "tip": "D3替换方案；ALTER在马当路245号L116；与巨富长二选一",
+      "tip": "石库门街巷短逛与休息；不安排新一轮买手店购物",
       "coordinate_status": "公开地图POI中心；入口以现场导航为准",
-      "coordinate_source": "https://www.openstreetmap.org/way/40325255"
+      "coordinate_source": "https://www.openstreetmap.org/way/40325255",
+      "kind": "sight"
     },
     "alter": {
       "id": "alter",
@@ -131,12 +135,13 @@
     },
     "yu": {
       "id": "yu",
-      "name": "豫园商城·九曲桥区域",
+      "name": "豫园·九曲桥街区",
       "lat": 31.22795,
       "lon": 121.48715,
-      "tip": "免费公共区与收费园林分开；此点在南翔周边",
+      "tip": "逛公共街区与九曲桥；收费园林另看开放与票务",
       "coordinate_status": "由南翔POI定位的商城周边近似锚点",
-      "coordinate_source": "https://www.openstreetmap.org/node/2485006011"
+      "coordinate_source": "https://www.openstreetmap.org/node/2485006011",
+      "kind": "sight"
     },
     "nanjing": {
       "id": "nanjing",
@@ -154,7 +159,8 @@
       "lon": 121.4846079,
       "tip": "黄昏短逛；江边添外套；酒店回程乘车",
       "coordinate_status": "公开地图POI中心；入口以现场导航为准",
-      "coordinate_source": "https://www.openstreetmap.org/way/177998987"
+      "coordinate_source": "https://www.openstreetmap.org/way/177998987",
+      "kind": "sight"
     },
     "ifc": {
       "id": "ifc",
@@ -170,18 +176,20 @@
       "name": "上海中心·外观",
       "lat": 31.2356449,
       "lon": 121.5012495,
-      "tip": "默认地面看三件套；想登高只加一个观景台",
+      "tip": "在地面看上海中心建筑外观；登高仅作天气好的加选",
       "coordinate_status": "公开地图POI中心；入口以现场导航为准",
-      "coordinate_source": "https://www.openstreetmap.org/way/165792123"
+      "coordinate_source": "https://www.openstreetmap.org/way/165792123",
+      "kind": "sight"
     },
     "river": {
       "id": "river",
       "name": "浦东滨江·陆家嘴短段",
       "lat": 31.2383631,
       "lon": 121.4929157,
-      "tip": "地图以陆家嘴西路滨江大道口作锚点；不沿江走完整长线",
+      "tip": "滨江步道选一小段坐看江景；累了直接乘车回住宿",
       "coordinate_status": "道路口区域锚点",
-      "coordinate_source": "https://www.openstreetmap.org/node/495652438"
+      "coordinate_source": "https://www.openstreetmap.org/node/495652438",
+      "kind": "sight"
     },
     "b": {
       "id": "b",
@@ -263,93 +271,164 @@
       "tip": "21日12:05抵沪；到达机场待核。此点仅以虹桥为示例，不是航站楼入口",
       "coordinate_status": "公开地图POI中心；入口以现场导航为准",
       "coordinate_source": "https://www.openstreetmap.org/way/428121878"
+    },
+    "hengshan": {
+      "id": "hengshan",
+      "name": "衡山路·梧桐街段",
+      "lat": 31.20646,
+      "lon": 121.44191,
+      "tip": "21日下午只走一小段；到酒店后再出发，累了随时回去",
+      "coordinate_status": "衡山路地铁站周边街段锚点；不是店铺入口",
+      "coordinate_source": "https://www.openstreetmap.org/node/4559664576",
+      "kind": "sight"
+    },
+    "dongping": {
+      "id": "dongping",
+      "name": "东平路·岳阳路街区",
+      "lat": 31.2090976,
+      "lon": 121.4472944,
+      "tip": "老建筑外观与梧桐街景；使用岳阳路酒店候选周边作街区锚点",
+      "coordinate_status": "岳阳路街区近似锚点；非东平路精确路口",
+      "coordinate_source": "https://www.openstreetmap.org/node/7656355076",
+      "kind": "sight"
+    },
+    "anfu": {
+      "id": "anfu",
+      "name": "安福路西段",
+      "lat": 31.2150838,
+      "lon": 121.4353991,
+      "tip": "只挑两三家兴趣店；路线点位表示街区，不代表必须进店",
+      "coordinate_status": "安福路322号附近街段锚点；非店铺入口",
+      "coordinate_source": "https://www.amap.com/place/B0GRPONMIN",
+      "kind": "sight"
+    },
+    "yanqing": {
+      "id": "yanqing",
+      "name": "延庆路·常熟路街区",
+      "lat": 31.217,
+      "lon": 121.4458,
+      "tip": "若体力允许再往东逛；GOODBAI是参考图钉，不是必经站",
+      "coordinate_status": "由延庆路92号向西取的街区近似锚点",
+      "coordinate_source": "https://www.amap.com/place/B0JDLCT3B2",
+      "kind": "sight"
+    },
+    "sinan": {
+      "id": "sinan",
+      "name": "思南公馆街区",
+      "lat": 31.21604,
+      "lon": 121.46437,
+      "tip": "看老洋房外观；街区开放空间慢逛，私宅不进入",
+      "coordinate_status": "公开地图地物中心；非测量入口",
+      "coordinate_source": "https://www.openstreetmap.org/way/494309300",
+      "kind": "sight"
+    },
+    "fuxing": {
+      "id": "fuxing",
+      "name": "复兴公园",
+      "lat": 31.21907,
+      "lon": 121.46444,
+      "tip": "公园坐下休息半小时；开放时间以现场为准",
+      "coordinate_status": "公开地图地物中心；非测量入口",
+      "coordinate_source": "https://www.openstreetmap.org/way/39961770",
+      "kind": "sight"
+    },
+    "nanjingstreet": {
+      "id": "nanjingstreet",
+      "name": "南京东路步行街",
+      "lat": 31.23836,
+      "lon": 121.48087,
+      "tip": "只走靠近外滩的短段；这一站看街景与建筑，不安排逛商场",
+      "coordinate_status": "河南中路／南京东路路口锚点；非店铺入口",
+      "coordinate_source": "https://www.openstreetmap.org/node/5345153737",
+      "kind": "sight"
+    },
+    "pearl": {
+      "id": "pearl",
+      "name": "东方明珠·外观",
+      "lat": 31.24194,
+      "lon": 121.49517,
+      "tip": "广场看陆家嘴天际线；登塔仅在想去且天气合适时加选",
+      "coordinate_status": "公开地图地物中心；非测量入口",
+      "coordinate_source": "https://www.openstreetmap.org/way/40778038",
+      "kind": "sight"
     }
   },
   "days": [
     {
       "id": 1,
       "date": "10/21",
-      "title": "抵达与附近晚餐",
+      "title": "抵达·衡山岳阳轻逛",
       "route": [
-        "sha",
-        "hotel"
+        "hengshan",
+        "dongping"
       ],
-      "optional": [
-        "hotelA"
-      ],
-      "mode": "21日12:05抵沪；图示虹桥仅为示例，按实际到达机场乘车赴住宿",
-      "meal": "酒店周边面馆或生煎，蔡先生/老盛昌等只选顺路分店",
-      "pace": "12:05抵沪后留出取行李与进城时间；下午入住或寄存，附近轻逛即可",
+      "mode": "21日12:05抵沪；机场待核。先去酒店办理入住／寄存，再乘车或步行到街区；图上只画午后漫步段",
+      "meal": "岳阳路附近面馆或本帮菜，顺路选一家；不为网红店跨区",
+      "pace": "预计15:00–16:00出门，衡山路→东平／岳阳路慢走约1小时；晚餐后回酒店休息",
       "source": [
         "R006",
-        "R017"
+        "R022",
+        "R035"
       ]
     },
     {
       "id": 2,
       "date": "10/22",
-      "title": "武康安福慢逛",
+      "title": "武康安福·唯一逛店日",
       "route": [
-        "hotel",
         "wukang",
         "court",
-        "park",
-        "uru"
+        "anfu",
+        "uru",
+        "yanqing"
       ],
-      "mode": "住宿到武康大楼可乘车；图上只画街区游览段；末站回程乘车",
-      "meal": "瀚祥面馆或蒋掌柜二选一；Apoli面包/一杯茶饮加选",
-      "pace": "10:30出门；安福路只逛两三店；坐下45–60分钟",
-      "source": [
-        "R028",
-        "R036",
-        "R059",
-        "R063",
-        "R064",
-        "R068",
-        "R098"
-      ]
-    },
-    {
-      "id": 3,
-      "date": "10/23",
-      "title": "巨富长购物半日",
-      "route": [
-        "hotel",
-        "goodbai",
-        "fumin",
-        "changle",
-        "iapm"
-      ],
-      "optional": [
-        "guang",
-        "xin"
-      ],
-      "mode": "住宿到延庆路乘车；图上只画店间游览段；末站回程乘车",
-      "meal": "iapm坐下吃饭；味香斋仅顺路时替换；不专程折返光明邨",
-      "pace": "午后出门也可；GOODBAI/蕾虎/Badmarket选两三家",
+      "mode": "住宿往返首末站另乘车；虚线只连武康路、安福路和延庆路街区，店铺全是参考图钉",
+      "meal": "瀚祥或蒋掌柜二选一；面包／茶饮最多加一家；买手店按兴趣选两三家",
+      "pace": "10:30左右出门，午后坐下45–60分钟；延庆路可按体力删去，后续几日不再安排购物",
       "source": [
         "R021",
-        "R038",
-        "R047",
-        "R052",
+        "R022",
+        "R028",
+        "R033",
+        "R036",
+        "R059",
         "R098",
         "R102"
       ]
     },
     {
+      "id": 3,
+      "date": "10/23",
+      "title": "思南公馆·复兴公园·新天地",
+      "route": [
+        "sinan",
+        "fuxing",
+        "xin"
+      ],
+      "mode": "从住宿乘车到思南公馆；街区和公园之间慢走，返程另乘车；新天地只逛石库门街巷",
+      "meal": "味香斋或附近正餐选一家；茶饮可顺路加选，不追远处店",
+      "pace": "午前或午后出发均可；公园坐下休息，整段约半日，不进入商场扫店",
+      "source": [
+        "R004",
+        "R016",
+        "R019",
+        "R022",
+        "R033",
+        "R039"
+      ]
+    },
+    {
       "id": 4,
       "date": "10/24",
-      "title": "老城与外滩黄昏",
+      "title": "豫园老城·南京东路·外滩",
       "route": [
-        "hotel",
         "yu",
-        "nanxiang",
-        "nanjing",
+        "nanjingstreet",
         "bund"
       ],
-      "mode": "住宿到老城、老城到南京路、外滩回程乘车；图上只画当天景区顺序",
-      "meal": "南翔或大壶春选一个；沈大成糕团少量；鲜得来可替换",
-      "pace": "11点左右到老城；下午商场休息；黄昏到外滩",
+      "mode": "住宿到豫园、豫园到南京东路、外滩回程均乘车；虚线是景区先后，不是跨区步行导航",
+      "meal": "南翔或大壶春二选一；沈大成糕团只顺路少量买",
+      "pace": "11:00左右进老城；下午休息，黄昏走南京东路靠东短段与外滩",
       "source": [
         "R010",
         "R013",
@@ -361,16 +440,15 @@
     {
       "id": 5,
       "date": "10/25",
-      "title": "陆家嘴与滨江",
+      "title": "东方明珠·上海中心·滨江",
       "route": [
-        "hotel",
-        "ifc",
+        "pearl",
         "tower",
         "river"
       ],
-      "mode": "住宿往返浦东乘地铁或打车；图上只画陆家嘴游览段",
-      "meal": "国金中心午餐；晚上回住宿街区选择本帮菜",
-      "pace": "11点出门；默认不登高；江边只走短段，累了即回",
+      "mode": "住宿往返浦东乘地铁或打车；图上仅画陆家嘴地面景观顺序",
+      "meal": "就近找一家正餐；红茶公司仅作为可选茶饮图钉，商场不列游览站",
+      "pace": "11:00左右出门；默认不登高，江边走短段，保留下午坐下休息时间",
       "source": [
         "R002",
         "R017",
