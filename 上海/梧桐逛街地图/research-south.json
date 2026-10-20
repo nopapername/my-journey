@@ -1,0 +1,385 @@
+{
+  "checkedAt": "2026-10-15",
+  "method": "20批左右公开web检索，高德POI优先；只有直接POI坐标计exact；未核坐标为null；address-only中商场/园区地址不可当作店铺精确点。",
+  "places": [
+    {
+      "lat": 31.216108,
+      "lon": 121.454883,
+      "coordinateSystem": "GCJ02",
+      "name": "Alimentari Grande（东湖路店）",
+      "address": "上海市徐汇区东湖路20号101、201室",
+      "evidenceUrl": "https://ditu.amap.com/place/B0FFMAXJ5X",
+      "confidence": "exact",
+      "notes": "高德POI直接给出地址及地理坐标。",
+      "style": "意式餐厅、熟食与咖啡"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "CUBIC（淮海中路中国首店）",
+      "address": "上海市黄浦区淮海中路911号",
+      "evidenceUrl": "https://www.jfdaily.com/sgh/detail?id=4015783",
+      "confidence": "address-only",
+      "notes": "2026-07-05上海黄浦报道确认地址；2026-08-27iziRetail报道已开业。未取得高德坐标。",
+      "style": "舒适、优雅的都市女装"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "HAUS NOWHERE 上海",
+      "address": "上海市黄浦区淮海中路798-812号",
+      "evidenceUrl": "https://www.gentlemonster.com/cn/zh-CN/stores/detail/779149670609076624",
+      "confidence": "address-only",
+      "notes": "品牌官网确认门牌。高德仅检得同空间TAMBURINS POI（B0H3SZL2EV），未将子店坐标冒充整个HAUS的精确点。",
+      "style": "眼镜、香氛与艺术装置空间",
+      "relatedEvidenceUrls": [
+        "https://www.amap.com/place/B0H3SZL2EV"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "emis（上海旗舰店）",
+      "address": "上海市黄浦区淮海中路795-2号",
+      "evidenceUrl": "https://hypebeast.cn/2025/4/emis-first-store-china-shanghai",
+      "confidence": "address-only",
+      "notes": "2025年开业报道给出795-2号；2026-08-27商圈报道仍提及双层旗舰店。",
+      "style": "韩国休闲服饰、球帽、包袋"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "niko and ... 上海全球旗舰店",
+      "address": "上海市黄浦区淮海中路775号",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5315880465729944.html",
+      "confidence": "address-only",
+      "notes": "品牌官方微博2026-07-01确认地址。高德检得同址一楼B区niko and COFFEE，但未取得旗舰店整体POI坐标。",
+      "style": "日系服饰、生活杂货、家具与餐饮",
+      "relatedEvidenceUrls": [
+        "https://m.thepaper.cn/baijiahao_5315251",
+        "https://www.amap.com/place/B0I1L6BX0J"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "Dragonshop",
+      "address": null,
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "notes": "用户给定线索为瑞金公寓401；公开检索未查到可验证的对应门店或门牌。不可依住宅/公寓名称推断精确门店坐标。",
+      "style": null
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "过森日·上海淮海中路站（快闪）",
+      "address": "上海市黄浦区淮海中路627号1-2层",
+      "evidenceUrl": "https://www.toutiao.com/w/1875385522177228/?source=m_redirect",
+      "confidence": "address-only",
+      "notes": "原文活动期2026-09-03至10-07；查询日2026-10-15已超过原文活动期，不能当作当前常驻店。黄浦融媒国庆报道亦确认627号。",
+      "style": "自然美学市集、手作与独立品牌快闪",
+      "relatedEvidenceUrls": [
+        "https://weibo.com/2/detail/5351329121700683"
+      ]
+    },
+    {
+      "lat": 31.220457,
+      "lon": 121.467461,
+      "coordinateSystem": "GCJ02",
+      "name": "光明邨大酒家（淮海中路总店）",
+      "address": "上海市黄浦区淮海中路588号",
+      "evidenceUrl": "https://www.amap.com/place/B00155L02C",
+      "confidence": "exact",
+      "notes": "高德POI直接给出地址及地理坐标。",
+      "style": "上海菜、熟食、点心"
+    },
+    {
+      "lat": 31.220486,
+      "lon": 121.468997,
+      "coordinateSystem": "GCJ02",
+      "name": "TX淮海",
+      "address": "上海市黄浦区淮海中路523号",
+      "evidenceUrl": "https://ditu.amap.com/place/B00150C2E4",
+      "confidence": "exact",
+      "notes": "高德商场POI直接给出地址及地理坐标。",
+      "style": "潮流品牌、策展零售与快闪"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "HAI550",
+      "address": "上海市黄浦区淮海中路550号",
+      "evidenceUrl": "https://www.amap.com/place/B0LKKMNL3N",
+      "confidence": "address-only",
+      "notes": "高德旗下Matcha Wang(HAI550店)地址确认商场门牌；其坐标属于L1层2号店铺，未冒充商场精确坐标。",
+      "style": "主理人品牌、服饰、手作与生活方式",
+      "relatedEvidenceUrls": [
+        "https://www.donews.com/news/detail/4/6282815.html"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "言二丁（HAI550）",
+      "address": "上海市黄浦区淮海中路550号HAI550（楼层铺位待核）",
+      "evidenceUrl": "https://www.donews.com/news/detail/4/6282815.html",
+      "confidence": "address-only",
+      "notes": "2025-12-02报道确认入驻HAI550；品牌官网可确认女鞋定位，未检得门店独立坐标或楼层。",
+      "style": "文艺女鞋、真皮、现代东方审美",
+      "relatedEvidenceUrls": [
+        "https://yanerding.com/"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "MURMURMI",
+      "address": null,
+      "evidenceUrl": "https://fashion.sina.cn/s/tr/2023-05-26/detail-imyuyrca2289981.d.html?wm=3049_0015",
+      "confidence": "unknown",
+      "notes": "可确认品牌存在及产品材质风格，未找到上海线下门店可靠地址或坐标。",
+      "style": "天然材质、真丝亚麻、脏染与褶皱设计"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "PSO BRAND（TX淮海店）",
+      "address": "上海市黄浦区淮海中路523号TX淮海（历史资料铺位L3-18，待核）",
+      "evidenceUrl": "https://shzr.saq.org.cn/up/20240322/0196e424eabb4cef88d00173ac1af92c.pdf",
+      "confidence": "address-only",
+      "notes": "百联集团2021年度社会责任报告确认品牌入驻；历史旅游资料写L3-18，当前是否同铺位未证实，无独立高德坐标。",
+      "style": "国内原创休闲服饰、强调舒适与生活质感",
+      "relatedEvidenceUrls": [
+        "https://www.funliday.com/kubao/trips/65c25866c7f964fb5ef49804",
+        "https://m.sohu.com/a/513169761_120099889/"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "W0311山石衣（TX淮海店）",
+      "address": "上海市黄浦区TX淮海商场3楼（城市吧记为淮海中路527号）",
+      "evidenceUrl": "https://jiajulinggan.com/p1/8061.html",
+      "confidence": "address-only",
+      "notes": "设计方项目资料确认TX淮海三楼；城市吧2023-08-08记录527号。商场主门牌523与店铺记录527存在差异，保留原始门牌备注，不编坐标。",
+      "style": "小众设计师品牌集合店",
+      "relatedEvidenceUrls": [
+        "https://sh.city8.com/shopping/8da6vp794uygb4f374"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "MASONPRINCE（上海淮海旗舰店）",
+      "address": "上海市黄浦区淮海中路530号",
+      "evidenceUrl": "https://m.thepaper.cn/baijiahao_26524989",
+      "confidence": "address-only",
+      "notes": "上海黄浦政务报道直接确认530号；未取得高德门店坐标。",
+      "style": "慵懒、摇滚、复古服饰与艺术装置"
+    },
+    {
+      "lat": 31.220232,
+      "lon": 121.467587,
+      "coordinateSystem": "GCJ02",
+      "name": "上海哈尔滨食品厂（淮海中路）",
+      "address": "上海市黄浦区淮海中路603号",
+      "evidenceUrl": "https://www.amap.com/place/B00155IQFX",
+      "confidence": "exact",
+      "notes": "高德POI直接给出地址及地理坐标。",
+      "style": "糕点食品"
+    },
+    {
+      "lat": 31.216009,
+      "lon": 121.458281,
+      "coordinateSystem": "GCJ02",
+      "name": "老吉士（环贸iapm）",
+      "address": "上海市徐汇区淮海中路999号环贸iapm商场L3",
+      "evidenceUrl": "https://www.amap.com/place/B0FFFBEBYV",
+      "confidence": "exact",
+      "notes": "高德POI直接给出地址及地理坐标。",
+      "style": "上海菜"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "SUPERSCAPE 素舶（芮欧百货）",
+      "address": "上海市静安区芮欧百货4F-404（街道门牌待核）",
+      "evidenceUrl": "https://www.reelshanghai.com/tw",
+      "confidence": "address-only",
+      "notes": "商场官网楼层导览确认4F-404。用户原写“素船”，核得品牌中文名为“素舶”。未取得高德店铺坐标。",
+      "style": "简约日常女装",
+      "relatedEvidenceUrls": [
+        "https://m.winshang.com/news724166.html"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "开间 KEIGAN（MAISON KEIGAN 1490）",
+      "address": "上海市静安区南京西路1490号",
+      "evidenceUrl": "https://www.jingan.gov.cn/rmtzx/003001/20260326/8d744329-097e-421e-8dc1-8da02e1cf7a4.html",
+      "confidence": "address-only",
+      "notes": "静安政府2026-03-26报道确认地址；未取得高德坐标。",
+      "style": "摩登极简女装、建筑学线条",
+      "relatedEvidenceUrls": [
+        "https://www.cosmopolitancn.com/cosmo/detail/44686"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "TWOI Design Lab（CP静安）",
+      "address": "上海市静安区CP静安商场1层（街道门牌待核）",
+      "evidenceUrl": "https://www.ctdsb.net/c1716_202508/2511840.html",
+      "confidence": "address-only",
+      "notes": "报道确认CP静安一层；静安政府2026-02报道确认品牌仍在CP静安。搜索另有延安中路旧Apple地图条目，不能与现店混用；未取得独立高德坐标。",
+      "style": "奶油色系、治愈风服饰与生活周边",
+      "relatedEvidenceUrls": [
+        "https://jp.jingan.gov.cn/xw/002001/20260213/5797157f-1a88-4c89-b798-1240bb2bf379.html",
+        "https://www.eastfi.com/m/view.php?aid=31531"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "jajainthemoment（何东旧居店）",
+      "address": "上海市静安区陕西北路457号何东旧居（园区内具体铺位待核）",
+      "evidenceUrl": "https://www.sohu.com/a/879250470_121119292",
+      "confidence": "address-only",
+      "notes": "2025-04-03开业报道确认何东旧居园区及457号；未取得门店独立高德坐标。",
+      "style": "休闲女装、松弛生活方式"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "RARELY ALIKE（淮海中路）",
+      "address": "上海市黄浦区淮海中路沿街，lady淮海对面（门牌待核）",
+      "evidenceUrl": "https://www.sohu.com/a/1068334628_121119292",
+      "confidence": "unknown",
+      "notes": "2026-08-27报道只到围板及“lady淮海对面”；搜索摘要见2026-10-10黄浦商务委开业文，但未取得原文完整门牌。不能定位为精确门店。",
+      "style": "独立设计师女装、日常实穿与设计感",
+      "relatedEvidenceUrls": [
+        "https://www.vogue.com.cn/fashion/brand_news/news_1523f7f7935d2b8f.html"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "Oneup（新天地东台里旗舰店）",
+      "address": "上海市黄浦区新天地东台里（园区主地址吉安路111号，独立铺位待核）",
+      "evidenceUrl": "https://m.winshang.com/news737252.html",
+      "confidence": "address-only",
+      "notes": "开业报道确认东台里；园区地址由上海城市导览交叉确认，未取得门店独立高德坐标。原开业文出现“台东里”字序，按园区标准名东台里记录。",
+      "style": "城市运动生活方式、运动与日常融合",
+      "relatedEvidenceUrls": [
+        "https://www.citynewsservice.cn/articles/cns/shanghai-living/general/3k0ebqqn"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "RandomPiece（用户线索：新天地）",
+      "address": null,
+      "evidenceUrl": "https://www.sohu.com/a/835291238_121119292",
+      "confidence": "unknown",
+      "notes": "未查实新天地门店。2024-12报道确认首个线下空间位于上海西岸梦中心，不能将西岸店地址移用于新天地。",
+      "style": "基本款、经典舒适廓形、休闲利落"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "Woodeng",
+      "address": null,
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "notes": "按Woodeng/WOODENG/Shanghai/上海多组合公开检索，未取得对应上海门店的可靠证据；可能拼写需核对。",
+      "style": null
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "Re knit",
+      "address": "上海市徐汇区永嘉路375号",
+      "evidenceUrl": "https://www.qingfibre.com/pages/find-our-stockists",
+      "confidence": "address-only",
+      "notes": "毛线品牌Qing Fibre官方经销商页直接列出Re knit及地址；未检得高德坐标。",
+      "style": "毛线、编织"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "miulab（永康路）",
+      "address": "上海市徐汇区永康路190号",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5191311309411210.html",
+      "confidence": "address-only",
+      "notes": "2025博主活动原文与2026-08探店均指向190号，非品牌官网；当前营业与具体铺位仍应现场核对。未取得高德坐标。",
+      "style": "古着与复古服饰",
+      "relatedEvidenceUrls": [
+        "https://www.toutiao.com/w/1874648022601930/?source=m_redirect"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "SoftServe 柔软供应（House of SoftServe）",
+      "address": "上海市徐汇区汾阳路64弄2号",
+      "evidenceUrl": "https://www.jfdaily.com/sgh/detail?id=1757079",
+      "confidence": "address-only",
+      "notes": "区商务委资料经上观确认实体店地址；品牌官方微博订货会也为同址。未取得高德坐标。",
+      "style": "陶瓷器皿、水果主题周边、生活方式设计",
+      "relatedEvidenceUrls": [
+        "https://www.sina.cn/news/detail/5279225074420744.html",
+        "https://www.sohu.com/a/1009836358_121119292"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "Fabrique（兴业太古汇）",
+      "address": "上海市静安区兴业太古汇2F-L229",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5299622802098856.html",
+      "confidence": "address-only",
+      "notes": "品牌官方微博2026-05-17公布2F-L229；2026-06商场调整报道也确认2层5月开业。百度地图出现3楼L376与该新店信息冲突，应采用官方较新信息。未取得高德坐标。",
+      "style": "全球设计师集合女装",
+      "relatedEvidenceUrls": [
+        "https://www.sohu.com/a/1040418237_141121"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "name": "Folder Bakery & Coffee",
+      "address": "上海市徐汇区乌鲁木齐南路205号104室",
+      "evidenceUrl": "https://www.sohu.com/a/1001460254_113612",
+      "confidence": "address-only",
+      "notes": "2026年烘焙探店报道给出门牌；未取得高德门店坐标。",
+      "style": "面包、法式吐司、蒸法棍、咖啡"
+    }
+  ]
+}

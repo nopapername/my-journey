@@ -1,0 +1,12 @@
+{
+  "checked_pages": 15,
+  "primary_nav_links": 3,
+  "daily_cards": 8,
+  "read": 155,
+  "accepted": 101,
+  "zip_files": 48,
+  "zip_bytes": 25866243,
+  "broken_links": [],
+  "zip_sha256": "bcf4b4dd3a9f29af9e7b520be44d2a7905498288398a537b5a76faa6c99d0934",
+  "browser_checks": "8日切换、园内地图、每日卡片联动、桌面与390px布局通过；无横向溢出"
+}

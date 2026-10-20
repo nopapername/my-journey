@@ -1,0 +1,108 @@
+{
+  "researchedAt": "2026-10-15",
+  "scope": "n01视频补充核实；仅研究，不修改产品",
+  "videoNoteId": "6acf6b87000000001501539a",
+  "findings": [
+    {
+      "subject": "视频2:36甜品/面包店",
+      "brand": "APOLI ITABAKERY",
+      "chineseName": "AP意大利料理面包坊",
+      "brandConfidence": "高",
+      "videoMatchConfidence": "高（依主代理提供的门头逐字读数；本研究未重新观看视频）",
+      "correction": "不应补成NAPOLI；品牌官方账号使用APOLI ITABAKERY。",
+      "address": "上海市长宁区兴国路380号一层",
+      "branch": "上海首店／武康大楼附近；本轮未找到可靠证据确认另有上海分店。",
+      "hours": {
+        "recommendedDisplay": "营业时间待出发前确认",
+        "publishedRanges": [
+          "10:00–20:00（Time Out及2025年游客记录）",
+          "09:00–21:00（2026年小分队文章及当前Trip POI）"
+        ],
+        "confidence": "存在资料冲突，不宜把旧10:00–20:00写成已核实的现行时间"
+      },
+      "style": [
+        "意式料理面包、可颂、奶油面包和甜点",
+        "石材、水磨石、藤蔓植物、罗马灯柱构成中世纪复古／魔法面包店氛围"
+      ],
+      "sources": [
+        {
+          "url": "https://www.weibo.com/7942855590/PiWQusdEw",
+          "type": "品牌认证官方微博",
+          "evidence": "APOLIITABAKERY账号简介为APOLI ITABAKERY（AP意大利料理面包坊）；2025-03-17发布地址长宁区兴国路380号一层"
+        },
+        {
+          "url": "https://www.timeoutshanghai.cn/features/7442.html",
+          "type": "本地生活媒体",
+          "evidence": "确认为兴国路首店；介绍意式料理面包、复古空间；旧营业时间10:00–20:00"
+        },
+        {
+          "url": "https://ranks.amap.com/ranking/%E7%83%98%E7%84%99%E5%9D%8A/%E4%B8%8A%E6%B5%B7%E5%B8%82/%E7%99%BD%E9%A2%86",
+          "type": "高德地图榜单",
+          "evidence": "apoli itabakery，长宁区兴国路380号"
+        },
+        {
+          "url": "https://www.sohu.com/a/975951295_391486",
+          "type": "本地美食媒体小分队转载，2026",
+          "evidence": "兴国路380号，营业时间09:00–21:00"
+        },
+        {
+          "url": "https://tw.trip.com/moments/poi-city-148922975/",
+          "type": "当前平台POI",
+          "evidence": "地址兴国路380号；现显示09:00–21:00，仅供参考"
+        }
+      ],
+      "rejectedAddressClaims": [
+        "去哪儿聚合问答称安福路308号、静安区胶州路，缺乏可信证据，不采用",
+        "个别Trip用户称武康路247号，与官方、高德不符，不采用"
+      ]
+    },
+    {
+      "subject": "视频BF候选",
+      "brand": "BASEMENT FG",
+      "address": "上海市徐汇区新乐路82号",
+      "addressConfidence": "高",
+      "videoMatchConfidence": "候选，未确证",
+      "matchReason": "主代理提供作者原评论：BF在南昌东日到新乐oror泰餐途中；BASEMENT FG的简称、地段符合，但无法仅靠路线推断强认视频门店。",
+      "hours": {
+        "published": "周一至周五11:00–21:30；周末11:00–22:00",
+        "confidence": "二手2025记录，当前需再确认"
+      },
+      "style": [
+        "老洋房潮流服装集合店",
+        "年轻、街头、复古、休闲，韩美少女风"
+      ],
+      "routeAnchor": {
+        "name": "OROR by FINE",
+        "address": "新乐路145号近东湖路",
+        "note": "与BASEMENT FG新乐路82号在同一路，路线相容只能增加候选可信度"
+      },
+      "sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5215144281903017.html",
+          "type": "BASEMENTFG官方微博镜像",
+          "evidence": "2025-09-26品牌官方宣布上海新乐路82号门店活动"
+        },
+        {
+          "url": "https://www.jfdaily.com/wx/detail.do?id=1053930",
+          "type": "解放日报／上观新闻，2026",
+          "evidence": "明确位于新乐路82号的潮流集合店Basement FG"
+        },
+        {
+          "url": "https://ep.shxwcb.com/2024/09/02/img/020902.pdf",
+          "type": "新闻晨报",
+          "evidence": "上海首店；面向年轻群体的时尚、街头、复古、休闲风"
+        },
+        {
+          "url": "https://theworldcoder.com/basement-fg-shanghai-review/",
+          "type": "游客实地文章",
+          "evidence": "2025记录地址新乐路82号；平日11:00–21:30，周末11:00–22:00"
+        },
+        {
+          "url": "https://www.sophieservesup.com/articles/where-to-eat-the-best-thai-food-in-shanghai/",
+          "type": "本地餐饮实地评测",
+          "evidence": "OROR by Fine，145 Xinle Lu，by Donghu Lu"
+        }
+      ]
+    }
+  ]
+}

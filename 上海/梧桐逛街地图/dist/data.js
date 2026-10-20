@@ -1,0 +1,3937 @@
+window.DATA = {
+  "updated": "2026-10-15",
+  "sources": [
+    {
+      "id": "n01",
+      "title": "超顺路J人自制上海逛街路线🛍️怒逛十五家",
+      "url": "https://www.xiaohongshu.com/explore/6acf6b87000000001501539a?xsec_token=CBzvBFShbaoMk2CWrjY68gXQvxulrZfab3ipZU0IlbbeY=&xsec_source=app_share",
+      "scope": "正文章节、作者评论；视频部分画面",
+      "limitations": "原始清单同一链接出现3次，作为1篇独立笔记保留。视频末尾甜品店已核为APOLI ITABAKERY；BF为作者评论简称候选，24ans仅评论相对位置。"
+    },
+    {
+      "id": "n02",
+      "title": "上海宝藏逛街地图🚶‍♀️10家小众私藏美店！",
+      "url": "https://www.xiaohongshu.com/explore/6a7c8ae7000000002402eb94?xsec_token=CBAGEkXKE4DB0ampYLBFqf4Rkb5hXseAViEJvGVsjUjhM=&xsec_source=app_share",
+      "scope": "正文10店清单",
+      "limitations": "部分小店缺门牌，未将同名或近似拼写店铺强行合并。"
+    },
+    {
+      "id": "n03",
+      "title": "上海shopping第二弹🛍️",
+      "url": "https://www.xiaohongshu.com/explore/6a58c472000000000301ed39?xsec_token=CBnQiFOeEMDHZTaX6qqgtogxOnFr55pqVEJTnlX4iX2sA=&xsec_source=app_share",
+      "scope": "正文路线与风格评价",
+      "limitations": "The Edit Room公开可查的是历史快闪地址，现状待确认。"
+    },
+    {
+      "id": "n04",
+      "title": "上海就是一个巨大的汉南洞",
+      "url": "https://www.xiaohongshu.com/explore/6a5223cc0000000008030062?xsec_token=CBV_czhmMovUCHAXfQ-Pwtc1697KOPBvmpuQsne-mfrOo=&xsec_source=app_share",
+      "scope": "正文4店清单",
+      "limitations": "东日/冬日是个卷毛保留别名；Negative three未查明上海门店。PB ARCHIVE位于苏河，不强塞进梧桐区主线。"
+    },
+    {
+      "id": "n05",
+      "title": "上海⑥家好逛的美丽新店🏡",
+      "url": "https://www.xiaohongshu.com/explore/6a3cecbc000000000f03283a?xsec_token=CBVEMAnRqRsmYdUB5AAOvc-8UWy480vQ2xkL3xh4s6vt4=&xsec_source=app_share",
+      "scope": "正文6店及门牌",
+      "limitations": "正文给出的门牌属于原文证据，独立地址核查不足的条目会明确标注。"
+    },
+    {
+      "id": "n06",
+      "title": "国庆假期 逛街必逛！！上海私藏小众店铺",
+      "url": "https://www.xiaohongshu.com/explore/6ab7c0fb000000001500f16c?xsec_token=CB2bPJ8KMajtwGxzKMhwXD-terno3TonEGCy9PHDzfQ3c=&xsec_source=app_share",
+      "scope": "正文、作者地址回复、视频三个品牌章节画面",
+      "limitations": "已核对FIRSTFLOOR、22 Collection、PB ARCHIVE画面。视频未做逐秒转录。"
+    },
+    {
+      "id": "n07",
+      "title": "跟穿搭博主怒逛12家！时髦美衣线下爽逛",
+      "url": "https://www.xiaohongshu.com/explore/6a6340a5000000000f0324fb?xsec_token=CBZEtNAMzN0zBKGXkhEjSiJZDsUM5ILCq9XvGp01Ik0gQ=&xsec_source=app_share",
+      "scope": "正文、作者评论及视频多段抽查",
+      "limitations": "视频正文未列全店名；评论中的点点总结仅作线索。仍有5个店名未可靠提取，保留缺口条目；不宣称12家已全部识别。"
+    },
+    {
+      "id": "n08",
+      "title": "上海｜巨富长之本土设计师品牌又美又卷7家",
+      "url": "https://www.xiaohongshu.com/explore/69903c7e000000001a02adc4?xsec_token=CBBsAnftgt-M4csZT0Cbu6Y26ncqfdOj7p0fhtg2DSGSw=&xsec_source=app_share",
+      "scope": "正文7店、街区与风格评价",
+      "limitations": "EXISTENTIALISM原文称新乐路，另一篇图片称长乐路，未查实前合为待核分店线索。"
+    },
+    {
+      "id": "n09",
+      "title": "跟着穿搭博主怒逛10家 上海购物狂来了",
+      "url": "https://www.xiaohongshu.com/explore/6abba21e0000000012035597?xsec_token=CB6rqq2UqkwvG-TmQT4HZJgZp-kPjrWLXx5lkRnJ4cPZI=&xsec_source=app_share",
+      "scope": "正文、作者评论、视频抽查、置顶网友地图图片",
+      "limitations": "网友地图列10家但道路方向不可靠，仅用作店名线索；SHKUCO、pupuhome门牌仍待核，不按网友地图直接落点。"
+    },
+    {
+      "id": "n10",
+      "title": "上海逛街🧭淮海中路“不回头版”攻略（附地图）",
+      "url": "https://www.xiaohongshu.com/explore/6aaf917d0000000028003e8d?xsec_token=CBuWuwzdr_W5yHLGOxGbqjYI5T8org5DNJhCFSB7UWgOs=&xsec_source=app_share",
+      "scope": "全文15组店铺、风格与活动日期",
+      "limitations": "过森日按原文活动期截至10月7日，现已超过期限；原文餐饮评价为作者主观感受。"
+    },
+    {
+      "id": "n11",
+      "title": "上海逛街去哪里｜一定是安福路的鞋店",
+      "url": "https://www.xiaohongshu.com/explore/6a2a7513000000003600018d?xsec_token=CBqiz8KKLahdBa1GcXnAIj0ETcO9pMiMMq6wwXSEPAggo=&xsec_source=app_share",
+      "scope": "正文两店",
+      "limitations": "安福路为片区称谓；Morethings+实查乌鲁木齐中路196号，RizzDarling仅查到街道。"
+    },
+    {
+      "id": "n12",
+      "title": "双11前必存｜在上海梧桐区种草的13家女装店",
+      "url": "https://www.xiaohongshu.com/explore/6acb9ffa000000001301b4f7?xsec_token=CBroMXAoVIDcGhJzYlPuDVnognzWs9Wfj9twrx96gdX1w=&xsec_source=app_share",
+      "scope": "正文及全部5张图片逐张查看",
+      "limitations": "13家含不同街区。图中素船依品牌官网校正为素舶；AAAD安福附近线索对应五原路分店；RandomPiece新天地铺位未独立查实。"
+    },
+    {
+      "id": "n13",
+      "title": "把上海当作小韩来逛｜一起云逛街",
+      "url": "https://www.xiaohongshu.com/explore/6a099bcc0000000036018827?xsec_token=CBezKx7q91mDopALpt1nckpg_FT-GsLckKsfJ9R3pAQ04=&xsec_source=app_share",
+      "scope": "正文、评论与视频各品牌段落画面核对",
+      "limitations": "画面确认OPEN YY、Negative Three、22 Collection、Lost in echo、MOONMOI、Rockfish、HAUS NOWHERE；MOONMOI同名地图登记类别有矛盾；OPEN YY活动期限未核。"
+    }
+  ],
+  "routes": [
+    {
+      "id": "r1",
+      "title": "静安寺 → 南京西路",
+      "subtitle": "极简女装 · 商场与老洋房",
+      "color": "#38735f",
+      "summary": "静安寺三店起步，经何东旧居向东到太古汇。苏河另作加选。",
+      "duration": "核心店建议 3–4 小时",
+      "walkNote": "核心点步行参考约3.2公里／43分钟（不含逛店、等候和支线；基于OSM与参考点，非现场核验导航）。",
+      "start": "静安寺站",
+      "end": "南京西路站",
+      "shopIds": [
+        "s01",
+        "s03",
+        "s02",
+        "s04",
+        "s05",
+        "s06",
+        "s93"
+      ],
+      "coreIds": [
+        "s01",
+        "s03",
+        "s02",
+        "s04",
+        "s05"
+      ],
+      "path": [
+        [
+          31.225527,
+          121.442638
+        ],
+        [
+          31.225696,
+          121.442946
+        ],
+        [
+          31.225898,
+          121.443275
+        ],
+        [
+          31.226001,
+          121.443231
+        ],
+        [
+          31.226103,
+          121.443268
+        ],
+        [
+          31.226235,
+          121.443424
+        ],
+        [
+          31.2269,
+          121.443111
+        ],
+        [
+          31.227046,
+          121.443046
+        ],
+        [
+          31.227184,
+          121.442993
+        ],
+        [
+          31.227297,
+          121.442958
+        ],
+        [
+          31.227391,
+          121.442926
+        ],
+        [
+          31.227571,
+          121.442852
+        ],
+        [
+          31.227757,
+          121.442781
+        ],
+        [
+          31.227941,
+          121.442718
+        ],
+        [
+          31.228129,
+          121.442659
+        ],
+        [
+          31.228223,
+          121.442634
+        ],
+        [
+          31.227927,
+          121.441623
+        ],
+        [
+          31.228223,
+          121.442634
+        ],
+        [
+          31.228129,
+          121.442659
+        ],
+        [
+          31.227941,
+          121.442718
+        ],
+        [
+          31.227757,
+          121.442781
+        ],
+        [
+          31.227571,
+          121.442852
+        ],
+        [
+          31.227391,
+          121.442926
+        ],
+        [
+          31.227297,
+          121.442958
+        ],
+        [
+          31.227184,
+          121.442993
+        ],
+        [
+          31.227046,
+          121.443046
+        ],
+        [
+          31.2269,
+          121.443111
+        ],
+        [
+          31.226235,
+          121.443424
+        ],
+        [
+          31.226382,
+          121.443597
+        ],
+        [
+          31.226367,
+          121.443713
+        ],
+        [
+          31.226309,
+          121.443744
+        ],
+        [
+          31.226521,
+          121.444214
+        ],
+        [
+          31.226673,
+          121.444533
+        ],
+        [
+          31.226829,
+          121.44486
+        ],
+        [
+          31.22687,
+          121.444964
+        ],
+        [
+          31.227904,
+          121.444563
+        ],
+        [
+          31.227904,
+          121.444531
+        ],
+        [
+          31.228203,
+          121.444422
+        ],
+        [
+          31.228395,
+          121.444348
+        ],
+        [
+          31.228458,
+          121.444318
+        ],
+        [
+          31.228513,
+          121.444502
+        ],
+        [
+          31.22856,
+          121.444566
+        ],
+        [
+          31.228615,
+          121.444592
+        ],
+        [
+          31.228825,
+          121.444533
+        ],
+        [
+          31.229013,
+          121.445072
+        ],
+        [
+          31.229226,
+          121.444973
+        ],
+        [
+          31.229405,
+          121.445372
+        ],
+        [
+          31.230215,
+          121.447226
+        ],
+        [
+          31.230226,
+          121.447252
+        ],
+        [
+          31.230245,
+          121.447239
+        ],
+        [
+          31.230889,
+          121.446748
+        ],
+        [
+          31.230895,
+          121.446744
+        ],
+        [
+          31.230897,
+          121.44675
+        ],
+        [
+          31.23096,
+          121.446947
+        ],
+        [
+          31.23105,
+          121.447238
+        ],
+        [
+          31.231104,
+          121.447415
+        ],
+        [
+          31.231177,
+          121.447653
+        ],
+        [
+          31.231211,
+          121.447757
+        ],
+        [
+          31.231268,
+          121.447943
+        ],
+        [
+          31.231503,
+          121.448672
+        ],
+        [
+          31.231632,
+          121.448613
+        ],
+        [
+          31.232007,
+          121.448519
+        ],
+        [
+          31.232227,
+          121.448428
+        ],
+        [
+          31.232444,
+          121.448322
+        ],
+        [
+          31.232227,
+          121.448428
+        ],
+        [
+          31.232007,
+          121.448519
+        ],
+        [
+          31.231632,
+          121.448613
+        ],
+        [
+          31.231503,
+          121.448672
+        ],
+        [
+          31.230936,
+          121.449058
+        ],
+        [
+          31.230841,
+          121.449119
+        ],
+        [
+          31.230791,
+          121.449174
+        ],
+        [
+          31.23072,
+          121.449283
+        ],
+        [
+          31.230655,
+          121.449388
+        ],
+        [
+          31.230887,
+          121.45003
+        ],
+        [
+          31.230887,
+          121.450234
+        ],
+        [
+          31.230785,
+          121.450639
+        ],
+        [
+          31.230788,
+          121.450814
+        ],
+        [
+          31.231072,
+          121.451357
+        ],
+        [
+          31.231667,
+          121.452426
+        ],
+        [
+          31.232031,
+          121.453071
+        ],
+        [
+          31.23201,
+          121.453313
+        ],
+        [
+          31.232473,
+          121.454429
+        ],
+        [
+          31.231953,
+          121.45476
+        ],
+        [
+          31.231528,
+          121.454987
+        ],
+        [
+          31.231431,
+          121.455041
+        ],
+        [
+          31.231331,
+          121.455089
+        ],
+        [
+          31.230889,
+          121.455278
+        ],
+        [
+          31.231366,
+          121.456152
+        ],
+        [
+          31.23146,
+          121.456354
+        ],
+        [
+          31.231513,
+          121.456576
+        ],
+        [
+          31.231497,
+          121.456783
+        ],
+        [
+          31.231377,
+          121.457141
+        ],
+        [
+          31.231475,
+          121.457468
+        ],
+        [
+          31.231209,
+          121.457548
+        ],
+        [
+          31.230963,
+          121.457634
+        ],
+        [
+          31.230598,
+          121.457796
+        ]
+      ],
+      "walkingDistanceKm": 3.2,
+      "walkingMinutes": 43,
+      "pathKind": "pedestrian-reference",
+      "routeEvidenceUrl": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/121.442882,31.225201;121.441808,31.227466;121.444501,31.226723;121.447876,31.232284;121.458548,31.230841?overview=full&geometries=geojson&steps=false&continue_straight=false"
+    },
+    {
+      "id": "r2",
+      "title": "安福路 → 五原路 → 武康路",
+      "subtitle": "少女鞋包 · 设计小物 · 梧桐散步",
+      "color": "#bd7755",
+      "summary": "沿安福路向东，再接五原路向西，武康路收尾。愚园、利西为远端加选。",
+      "duration": "核心店建议 4–5 小时",
+      "walkNote": "核心点步行参考约2.3公里／30分钟（不含逛店、等候和支线；基于OSM与参考点，非现场核验导航）。",
+      "start": "常熟路站／安福路西端",
+      "end": "交通大学站／武康路南端",
+      "shopIds": [
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s82",
+        "s15",
+        "s16",
+        "s39",
+        "s17",
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s73",
+        "s85",
+        "s92",
+        "s94"
+      ],
+      "coreIds": [
+        "s10",
+        "s11",
+        "s12",
+        "s82",
+        "s15",
+        "s17",
+        "s18",
+        "s19",
+        "s21"
+      ],
+      "path": [
+        [
+          31.215085,
+          121.435756
+        ],
+        [
+          31.215085,
+          121.435756
+        ],
+        [
+          31.215117,
+          121.435849
+        ],
+        [
+          31.215173,
+          121.436082
+        ],
+        [
+          31.21518,
+          121.43611
+        ],
+        [
+          31.215411,
+          121.43705
+        ],
+        [
+          31.215769,
+          121.438756
+        ],
+        [
+          31.215889,
+          121.439326
+        ],
+        [
+          31.215905,
+          121.439406
+        ],
+        [
+          31.215919,
+          121.439466
+        ],
+        [
+          31.215959,
+          121.43966
+        ],
+        [
+          31.215982,
+          121.439769
+        ],
+        [
+          31.216074,
+          121.440203
+        ],
+        [
+          31.216171,
+          121.440673
+        ],
+        [
+          31.215618,
+          121.440909
+        ],
+        [
+          31.215082,
+          121.441126
+        ],
+        [
+          31.214443,
+          121.441385
+        ],
+        [
+          31.214859,
+          121.442569
+        ],
+        [
+          31.214969,
+          121.442878
+        ],
+        [
+          31.214983,
+          121.44292
+        ],
+        [
+          31.214859,
+          121.442569
+        ],
+        [
+          31.214443,
+          121.441385
+        ],
+        [
+          31.214356,
+          121.440911
+        ],
+        [
+          31.215006,
+          121.440698
+        ],
+        [
+          31.214971,
+          121.440557
+        ],
+        [
+          31.214907,
+          121.440298
+        ],
+        [
+          31.214862,
+          121.440226
+        ],
+        [
+          31.214652,
+          121.440295
+        ],
+        [
+          31.214257,
+          121.440409
+        ],
+        [
+          31.214216,
+          121.440168
+        ],
+        [
+          31.214041,
+          121.439263
+        ],
+        [
+          31.21392,
+          121.438658
+        ],
+        [
+          31.21368,
+          121.437447
+        ],
+        [
+          31.213472,
+          121.436376
+        ],
+        [
+          31.213223,
+          121.436438
+        ],
+        [
+          31.212819,
+          121.43646
+        ],
+        [
+          31.212645,
+          121.436426
+        ],
+        [
+          31.212233,
+          121.436313
+        ],
+        [
+          31.211499,
+          121.436112
+        ],
+        [
+          31.210252,
+          121.435767
+        ],
+        [
+          31.210169,
+          121.435746
+        ],
+        [
+          31.209474,
+          121.435487
+        ],
+        [
+          31.209075,
+          121.435333
+        ],
+        [
+          31.208576,
+          121.434998
+        ],
+        [
+          31.20823,
+          121.434763
+        ],
+        [
+          31.208148,
+          121.434708
+        ]
+      ],
+      "walkingDistanceKm": 2.3,
+      "walkingMinutes": 30,
+      "pathKind": "pedestrian-reference",
+      "routeEvidenceUrl": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/121.435713,31.215177;121.435713,31.215177;121.436054,31.215257;121.438778,31.215693;121.441066,31.215064;121.442810,31.215109;121.442833,31.215163;121.440597,31.214854;121.434558,31.208222?overview=full&geometries=geojson&steps=false&continue_straight=false"
+    },
+    {
+      "id": "r3",
+      "title": "巨鹿路 → 富民路 → 东湖路",
+      "subtitle": "本土设计师 · 韩系选品 · 杂货",
+      "color": "#8f719a",
+      "summary": "巨鹿→富民→新乐→东湖，主线集中。长乐、华亭与巨鹿东段另作加选。",
+      "duration": "核心店建议 4–5 小时",
+      "walkNote": "核心点步行参考约1.3公里／17分钟（不含逛店、等候和支线；基于OSM与参考点，非现场核验导航）。",
+      "start": "静安寺站南侧／巨鹿路",
+      "end": "陕西南路站",
+      "shopIds": [
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30",
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36",
+        "s37",
+        "s38",
+        "s40",
+        "s41",
+        "s42",
+        "s43",
+        "s44",
+        "s95"
+      ],
+      "coreIds": [
+        "s24",
+        "s26",
+        "s34",
+        "s36",
+        "s37"
+      ],
+      "path": [
+        [
+          31.222343,
+          121.447468
+        ],
+        [
+          31.222316,
+          121.447391
+        ],
+        [
+          31.222018,
+          121.446637
+        ],
+        [
+          31.221795,
+          121.446134
+        ],
+        [
+          31.220636,
+          121.446794
+        ],
+        [
+          31.220205,
+          121.447055
+        ],
+        [
+          31.219331,
+          121.447584
+        ],
+        [
+          31.219264,
+          121.447615
+        ],
+        [
+          31.219174,
+          121.447658
+        ],
+        [
+          31.218842,
+          121.447765
+        ],
+        [
+          31.218701,
+          121.447827
+        ],
+        [
+          31.218681,
+          121.447955
+        ],
+        [
+          31.218636,
+          121.448226
+        ],
+        [
+          31.218716,
+          121.448402
+        ],
+        [
+          31.21954,
+          121.450943
+        ],
+        [
+          31.219615,
+          121.451174
+        ],
+        [
+          31.219645,
+          121.451278
+        ],
+        [
+          31.219607,
+          121.451301
+        ],
+        [
+          31.219492,
+          121.451355
+        ],
+        [
+          31.219419,
+          121.451508
+        ],
+        [
+          31.219402,
+          121.4515
+        ],
+        [
+          31.219383,
+          121.451499
+        ],
+        [
+          31.219366,
+          121.451506
+        ],
+        [
+          31.219352,
+          121.451517
+        ],
+        [
+          31.219342,
+          121.451534
+        ],
+        [
+          31.219337,
+          121.451553
+        ],
+        [
+          31.219337,
+          121.451573
+        ],
+        [
+          31.219342,
+          121.451593
+        ],
+        [
+          31.219226,
+          121.451672
+        ],
+        [
+          31.219157,
+          121.45166
+        ],
+        [
+          31.219122,
+          121.451662
+        ],
+        [
+          31.219031,
+          121.451674
+        ],
+        [
+          31.218938,
+          121.451692
+        ],
+        [
+          31.218915,
+          121.451705
+        ],
+        [
+          31.218825,
+          121.451759
+        ],
+        [
+          31.218799,
+          121.451775
+        ],
+        [
+          31.218776,
+          121.451788
+        ],
+        [
+          31.218735,
+          121.451813
+        ],
+        [
+          31.218705,
+          121.451831
+        ],
+        [
+          31.218634,
+          121.451904
+        ],
+        [
+          31.218611,
+          121.451933
+        ],
+        [
+          31.218591,
+          121.451971
+        ],
+        [
+          31.218598,
+          121.452068
+        ],
+        [
+          31.218606,
+          121.452104
+        ],
+        [
+          31.218613,
+          121.452135
+        ],
+        [
+          31.218596,
+          121.452212
+        ],
+        [
+          31.218535,
+          121.452195
+        ],
+        [
+          31.218138,
+          121.452089
+        ],
+        [
+          31.218036,
+          121.452064
+        ],
+        [
+          31.218006,
+          121.452057
+        ],
+        [
+          31.217929,
+          121.452101
+        ],
+        [
+          31.217883,
+          121.45213
+        ],
+        [
+          31.217872,
+          121.452149
+        ],
+        [
+          31.21768,
+          121.452198
+        ],
+        [
+          31.217358,
+          121.451423
+        ],
+        [
+          31.217497,
+          121.45134
+        ],
+        [
+          31.217589,
+          121.451075
+        ],
+        [
+          31.217589,
+          121.451075
+        ]
+      ],
+      "walkingDistanceKm": 1.3,
+      "walkingMinutes": 17,
+      "pathKind": "pedestrian-reference",
+      "routeEvidenceUrl": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/121.447553,31.222168;121.446984,31.220173;121.450923,31.219585;121.451100,31.217642;121.451100,31.217642?overview=full&geometries=geojson&steps=false&continue_straight=false"
+    },
+    {
+      "id": "r4",
+      "title": "淮海中路 · 向东一直逛",
+      "subtitle": "艺术香氛 · 日杂 · 潮流商场",
+      "color": "#567b9b",
+      "summary": "从环贸对面沿淮海路向东，至TX、HAI550收尾；新天地另行加选。",
+      "duration": "核心店建议 4–5 小时",
+      "walkNote": "核心点步行参考约1.3公里／18分钟（不含逛店、等候和支线；基于OSM与参考点，非现场核验导航）。",
+      "start": "陕西南路站",
+      "end": "淮海中路站；加选新天地站",
+      "shopIds": [
+        "s45",
+        "s46",
+        "s47",
+        "s48",
+        "s49",
+        "s50",
+        "s51",
+        "s53",
+        "s52",
+        "s54",
+        "s58",
+        "s59",
+        "s55",
+        "s56",
+        "s57",
+        "s60",
+        "s61",
+        "s65",
+        "s80",
+        "s64",
+        "s62",
+        "s63",
+        "s81"
+      ],
+      "coreIds": [
+        "s45",
+        "s48",
+        "s49",
+        "s50",
+        "s51",
+        "s54",
+        "s55"
+      ],
+      "path": [
+        [
+          31.218469,
+          121.452826
+        ],
+        [
+          31.218511,
+          121.452713
+        ],
+        [
+          31.218522,
+          121.452754
+        ],
+        [
+          31.218561,
+          121.452781
+        ],
+        [
+          31.218616,
+          121.452786
+        ],
+        [
+          31.218662,
+          121.452807
+        ],
+        [
+          31.218673,
+          121.452807
+        ],
+        [
+          31.218717,
+          121.452807
+        ],
+        [
+          31.218666,
+          121.452906
+        ],
+        [
+          31.218728,
+          121.453091
+        ],
+        [
+          31.218877,
+          121.453523
+        ],
+        [
+          31.218646,
+          121.453684
+        ],
+        [
+          31.21882,
+          121.454145
+        ],
+        [
+          31.218572,
+          121.454289
+        ],
+        [
+          31.218606,
+          121.454368
+        ],
+        [
+          31.218658,
+          121.454493
+        ],
+        [
+          31.218725,
+          121.454649
+        ],
+        [
+          31.218943,
+          121.455165
+        ],
+        [
+          31.218992,
+          121.455281
+        ],
+        [
+          31.219169,
+          121.455698
+        ],
+        [
+          31.219298,
+          121.456003
+        ],
+        [
+          31.219559,
+          121.456618
+        ],
+        [
+          31.219607,
+          121.456731
+        ],
+        [
+          31.219634,
+          121.456802
+        ],
+        [
+          31.219992,
+          121.457647
+        ],
+        [
+          31.220107,
+          121.457911
+        ],
+        [
+          31.22033,
+          121.458426
+        ],
+        [
+          31.220314,
+          121.458388
+        ],
+        [
+          31.220424,
+          121.458643
+        ],
+        [
+          31.220542,
+          121.458917
+        ],
+        [
+          31.220747,
+          121.459395
+        ],
+        [
+          31.221003,
+          121.459964
+        ],
+        [
+          31.221281,
+          121.460648
+        ],
+        [
+          31.221393,
+          121.460921
+        ],
+        [
+          31.221562,
+          121.461365
+        ],
+        [
+          31.221675,
+          121.461625
+        ],
+        [
+          31.222126,
+          121.462689
+        ],
+        [
+          31.222508,
+          121.463607
+        ],
+        [
+          31.22255,
+          121.463707
+        ],
+        [
+          31.222734,
+          121.464155
+        ],
+        [
+          31.222777,
+          121.464259
+        ],
+        [
+          31.222734,
+          121.464155
+        ],
+        [
+          31.222665,
+          121.463986
+        ]
+      ],
+      "walkingDistanceKm": 1.3,
+      "walkingMinutes": 18,
+      "pathKind": "pedestrian-reference",
+      "routeEvidenceUrl": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/121.452927,31.218278;121.455728,31.219118;121.458339,31.220478;121.458466,31.220182;121.458968,31.220455;121.464460,31.222420;121.463876,31.222861?overview=full&geometries=geojson&steps=false&continue_straight=false"
+    },
+    {
+      "id": "r5",
+      "title": "乌南 → 建国西 → 永嘉路",
+      "subtitle": "珠宝与编织 · 器物与生活设计",
+      "color": "#af9250",
+      "summary": "乌南→建国西→永嘉→汾阳，一路向北逛。永康及22 COLLECTION为待核加选。",
+      "duration": "核心店建议 3–4 小时",
+      "walkNote": "核心点步行参考约1.9公里／26分钟（不含逛店、等候和支线；基于OSM与参考点，非现场核验导航）。",
+      "start": "衡山路站／乌鲁木齐南路",
+      "end": "汾阳路／陕西南路站方向",
+      "shopIds": [
+        "s66",
+        "s67",
+        "s68",
+        "s69",
+        "s70",
+        "s71",
+        "s72"
+      ],
+      "coreIds": [
+        "s66",
+        "s67",
+        "s68",
+        "s69"
+      ],
+      "path": [
+        [
+          31.201642,
+          121.445803
+        ],
+        [
+          31.201823,
+          121.445738
+        ],
+        [
+          31.202041,
+          121.445681
+        ],
+        [
+          31.202683,
+          121.445476
+        ],
+        [
+          31.202805,
+          121.445436
+        ],
+        [
+          31.202929,
+          121.445392
+        ],
+        [
+          31.203266,
+          121.445265
+        ],
+        [
+          31.203605,
+          121.445135
+        ],
+        [
+          31.204041,
+          121.44501
+        ],
+        [
+          31.204562,
+          121.445855
+        ],
+        [
+          31.204738,
+          121.446173
+        ],
+        [
+          31.204881,
+          121.446514
+        ],
+        [
+          31.205,
+          121.447012
+        ],
+        [
+          31.205016,
+          121.447078
+        ],
+        [
+          31.205072,
+          121.44731
+        ],
+        [
+          31.205139,
+          121.447587
+        ],
+        [
+          31.205162,
+          121.447688
+        ],
+        [
+          31.205292,
+          121.448218
+        ],
+        [
+          31.207491,
+          121.447844
+        ],
+        [
+          31.207903,
+          121.447769
+        ],
+        [
+          31.208055,
+          121.448445
+        ],
+        [
+          31.20814,
+          121.448685
+        ],
+        [
+          31.208236,
+          121.44888
+        ],
+        [
+          31.209142,
+          121.450221
+        ],
+        [
+          31.209457,
+          121.450762
+        ],
+        [
+          31.209581,
+          121.450975
+        ],
+        [
+          31.209671,
+          121.451129
+        ],
+        [
+          31.209684,
+          121.451151
+        ],
+        [
+          31.209671,
+          121.451129
+        ],
+        [
+          31.209581,
+          121.450975
+        ],
+        [
+          31.209457,
+          121.450762
+        ],
+        [
+          31.209142,
+          121.450221
+        ],
+        [
+          31.210792,
+          121.449718
+        ],
+        [
+          31.211411,
+          121.449546
+        ],
+        [
+          31.211494,
+          121.44952
+        ],
+        [
+          31.211968,
+          121.449396
+        ],
+        [
+          31.212234,
+          121.44932
+        ],
+        [
+          31.21284,
+          121.449584
+        ],
+        [
+          31.212911,
+          121.449612
+        ],
+        [
+          31.213687,
+          121.449932
+        ],
+        [
+          31.213752,
+          121.449961
+        ]
+      ],
+      "walkingDistanceKm": 1.9,
+      "walkingMinutes": 26,
+      "pathKind": "pedestrian-reference",
+      "routeEvidenceUrl": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/121.445863,31.201658;121.447280,31.205162;121.451185,31.209642;121.449956,31.213754?overview=full&geometries=geojson&steps=false&continue_straight=false"
+    }
+  ],
+  "shops": [
+    {
+      "id": "s01",
+      "name": "素舶 SUPERSCAPE",
+      "style": "简约日常女装，基础版型与柔和配色",
+      "address": "上海市静安区芮欧百货4F-404（街道门牌待核）",
+      "tags": [
+        "极简",
+        "女装"
+      ],
+      "routeId": "r1",
+      "sourceIds": [
+        "n12"
+      ],
+      "lat": 31.225201,
+      "lon": 121.442882,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "商场官网楼层导览确认4F-404。用户原写“素船”，核得品牌中文名为“素舶”。未取得高德店铺坐标。",
+      "evidenceUrl": "https://www.reelshanghai.com/tw",
+      "coordinateNote": "同楼／邻近地图POI参考点：芮欧百货。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "SUPERSCAPE",
+      "extension": false,
+      "anchorEvidenceUrl": "https://ditu.amap.com/place/B0FFFA6WPS",
+      "anchorName": "芮欧百货"
+    },
+    {
+      "id": "s02",
+      "name": "开间 KEIGAN",
+      "style": "摩登极简，建筑感线条与利落剪裁",
+      "address": "上海市静安区南京西路1490号",
+      "tags": [
+        "极简",
+        "通勤"
+      ],
+      "routeId": "r1",
+      "sourceIds": [
+        "n12"
+      ],
+      "lat": 31.226723,
+      "lon": 121.444501,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "静安政府2026-03-26报道确认地址；未取得高德坐标。",
+      "evidenceUrl": "https://www.jingan.gov.cn/rmtzx/003001/20260326/8d744329-097e-421e-8dc1-8da02e1cf7a4.html",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "开间 KEIGAN",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1490%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市静安区南京西路1490号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s03",
+      "name": "TWOI Design Lab",
+      "style": "奶油色系、松弛服饰与生活周边",
+      "address": "上海市静安区CP静安商场1层（街道门牌待核）",
+      "tags": [
+        "休闲",
+        "生活方式"
+      ],
+      "routeId": "r1",
+      "sourceIds": [
+        "n12"
+      ],
+      "lat": 31.227466,
+      "lon": 121.441808,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "报道确认CP静安一层；静安政府2026-02报道确认品牌仍在CP静安。搜索另有延安中路旧Apple地图条目，不能与现店混用；未取得独立高德坐标。",
+      "evidenceUrl": "https://www.ctdsb.net/c1716_202508/2511840.html",
+      "coordinateNote": "同楼／邻近地图POI参考点：CP静安。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "TWOI",
+      "extension": false,
+      "anchorEvidenceUrl": "https://ditu.amap.com/place/B00156YMHK",
+      "anchorName": "CP静安"
+    },
+    {
+      "id": "s04",
+      "name": "jajainthemoment",
+      "style": "轻松休闲女装，老洋房生活场景",
+      "address": "上海市静安区陕西北路457号何东旧居（园区内具体铺位待核）",
+      "tags": [
+        "休闲",
+        "女装"
+      ],
+      "routeId": "r1",
+      "sourceIds": [
+        "n12"
+      ],
+      "lat": 31.232284,
+      "lon": 121.447876,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "2025-04-03开业报道确认何东旧居园区及457号；未取得门店独立高德坐标。",
+      "evidenceUrl": "https://www.sohu.com/a/879250470_121119292",
+      "coordinateNote": "同楼／邻近地图POI参考点：何东旧居。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "jajainthemoment",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B00156O1YV",
+      "anchorName": "何东旧居"
+    },
+    {
+      "id": "s05",
+      "name": "Fabrique · 兴业太古汇",
+      "style": "设计师合作女装，视频以度假风穿搭为线索",
+      "address": "上海市静安区兴业太古汇2F-L229",
+      "tags": [
+        "设计师",
+        "女装"
+      ],
+      "routeId": "r1",
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": 31.230841,
+      "lon": 121.458548,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "品牌官方微博2026-05-17公布2F-L229；2026-06商场调整报道也确认2层5月开业。百度地图出现3楼L376与该新店信息冲突，应采用官方较新信息。未取得高德坐标。",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5299622802098856.html",
+      "coordinateNote": "同楼／邻近地图POI参考点：兴业太古汇。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "Fabrique",
+      "extension": false,
+      "anchorEvidenceUrl": "https://ditu.amap.com/place/B0FFG8S5RN",
+      "anchorName": "兴业太古汇"
+    },
+    {
+      "id": "s06",
+      "name": "PB ARCHIVE",
+      "style": "韩系买手选品，视频出现针织与设计感女装",
+      "address": "上海市静安区光复路195号（百空间光二仓库）",
+      "tags": [
+        "韩系",
+        "买手店"
+      ],
+      "routeId": "r1",
+      "sourceIds": [
+        "n04",
+        "n06"
+      ],
+      "lat": 31.24209,
+      "lon": 121.464109,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "上观2025年报道列其为光二仓库引入的时尚买手品牌，同时提示部分门店当时仍装修、未开放。仅确认所在建筑，具体铺号与当前营业状态待核；该店超出梧桐核心区。 苏河延伸点，离静安主线较远；原建筑报道曾提示装修，不承诺当前营业。",
+      "evidenceUrl": "https://www.jfdaily.com.cn/wx/detail.do?id=1037568",
+      "coordinateNote": "同楼／邻近地图POI参考点：百空间光二仓库。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "PB ARCHIVE",
+      "extension": true,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B00155E48M",
+      "anchorName": "百空间光二仓库"
+    },
+    {
+      "id": "s07",
+      "name": "an action a day · 愚园路",
+      "style": "自然舒适的运动休闲，家居场景式陈列",
+      "address": "上海市长宁区愚园路1382号",
+      "tags": [
+        "运动",
+        "休闲"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n05"
+      ],
+      "lat": 31.220832,
+      "lon": 121.42068,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "上海市商务委2025-08-07文章明确地址；品牌方供稿亦确认2025年5月开出第三家店。与五原路店分开。",
+      "evidenceUrl": "https://sww.sh.gov.cn/swdt/20250807/db7d863d76e54fb895f85855c7a8da4e.html",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "an action a day（愚园",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%84%9A%E5%9B%AD%E8%B7%AF1382%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市长宁区江苏路街道愚园路1382号",
+      "geocodeType": "StreetAddressExt",
+      "broadLocation": false
+    },
+    {
+      "id": "s08",
+      "name": "Typha",
+      "style": "芭蕾舞蹈运动，蕾丝与蓬裙的浪漫感",
+      "address": "上海市长宁区利西路102号（1幢由原文提供，未独立核实）",
+      "tags": [
+        "芭蕾",
+        "运动"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n05"
+      ],
+      "lat": 31.21679,
+      "lon": 121.425511,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "品牌标识设计方rain.rein.reign公开项目介绍明确上海首店利西路102号；1幢未在来源中验证。2026年探店及商业报道可佐证在利西路营业。",
+      "evidenceUrl": "https://www.pixnoy.com/profile/rain.rein.reign/",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "Typha",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%88%A9%E8%A5%BF%E8%B7%AF102%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市长宁区江苏路街道利西路102号",
+      "geocodeType": "PointAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s09",
+      "name": "TOGGLER",
+      "style": "英伦浪漫配饰，珍珠、蝴蝶结与芭蕾元素",
+      "address": "上海市徐汇区华山路847号",
+      "tags": [
+        "配饰",
+        "浪漫"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n05"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "PopDaily 2026年文章明确847号；2026年9月iziRetail文章支持首店在华山路1922年英式别墅，未列具体门牌。未查到可验证坐标。 地址地理编码落点与街区资料存在明显矛盾，取消图钉，待确认后再落点。",
+      "evidenceUrl": "https://popdaily.com/my/article/318738/amp",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "TOGGLER",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8D%8E%E5%B1%B1%E8%B7%AF847%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区徐家汇街道华山路847号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s10",
+      "name": "Rockfish Weatherwear · 安福路",
+      "style": "复古英伦鞋履，芭蕾鞋与日常鞋袜",
+      "address": "上海市徐汇区安福路322号2栋105室",
+      "tags": [
+        "鞋履",
+        "英伦"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n01",
+        "n13"
+      ],
+      "lat": 31.215177,
+      "lon": 121.435713,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "合作设计师SusanFangOfficial 2025-11-30联名发售公告列明；未取得坐标。",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5238802178115775.html",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "Rockfish Weatherwear（安福",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF322%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区湖南路街道安福路322号",
+      "geocodeType": "PointAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s11",
+      "name": "GROVE · 安福路",
+      "style": "韩系复古休闲，基础款带轻运动感",
+      "address": "上海市徐汇区安福路322号3号楼101室",
+      "tags": [
+        "韩系",
+        "休闲"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n01"
+      ],
+      "lat": 31.215177,
+      "lon": 121.435713,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "GROVE品牌官方门店清单确认，未取得坐标；与Rockfish安福路店为不同楼栋铺位。",
+      "evidenceUrl": "https://grovestore.com/shopinfo/company.html",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "Grove / GRVRGROVE（安福",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF322%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区湖南路街道安福路322号",
+      "geocodeType": "PointAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s12",
+      "name": "Brandy Melville · 安福路",
+      "style": "美式少女基础款，吊带、针织和短裙",
+      "address": "上海市徐汇区安福路308号",
+      "tags": [
+        "美式",
+        "少女"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n01",
+        "n03"
+      ],
+      "lat": 31.215257,
+      "lon": 121.436054,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "高德POI直接列明门牌和坐标。",
+      "evidenceUrl": "https://www.amap.com/place/B0FFLBNYQD",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": true,
+      "sourceKey": "Brandy",
+      "extension": false
+    },
+    {
+      "id": "s13",
+      "name": "Alicia",
+      "style": "饰品与发饰；视频作者在此购买头饰，完整选品待核",
+      "address": "上海市安福路275弄5号（原文提供，待独立核实）",
+      "tags": [
+        "配饰",
+        "发饰"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n05",
+        "n09"
+      ],
+      "lat": 31.214963,
+      "lon": 121.436039,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "未找到该名称与门牌的可引用匹配；成都CPI同名品牌报道不能用于证明上海门店。",
+      "evidenceUrl": null,
+      "coordinateNote": "同楼／邻近地图POI参考点：安福路275弄。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "Alicia",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0FFGFILIX",
+      "anchorName": "安福路275弄"
+    },
+    {
+      "id": "s14",
+      "name": "The Edit Room",
+      "style": "韩牌买手集合，适合比较多种韩系穿搭",
+      "address": "上海市徐汇区安福路275弄6号",
+      "tags": [
+        "韩系",
+        "买手店"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n03"
+      ],
+      "lat": 31.215156,
+      "lon": 121.436252,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "参与方润润同学129的2026年7月快闪公告确认安福路275弄6号，携程对应The Edit Room。活动7月15–20日已过，常设门店现状待确认。2025年永康路190号为历史快闪，不能合并。 当前地址证据来自7月快闪，原文较新探店不等于已核实当前常设营业。",
+      "evidenceUrl": "https://www.sina.cn/media/7656866209",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "The Edit Room",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF275%E5%BC%846%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区湖南路街道安福路275号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s15",
+      "name": "Morethings+",
+      "style": "设计鞋包与首饰，手工皮具、中古配饰",
+      "address": "上海市徐汇区乌鲁木齐中路196号",
+      "tags": [
+        "鞋履",
+        "包袋",
+        "首饰"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n11"
+      ],
+      "lat": 31.215064,
+      "lon": 121.441066,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "经营方上海良趣文化传播有限公司招聘页明确MORE THINGS乌鲁木齐中路196号；播客称安福路区域店，属于片区称谓，非门牌安福路。",
+      "evidenceUrl": "https://m.zhipin.com/companys/ca64c79f692d2f511XV52NS_Els~.html",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "Morethings+",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E4%B8%AD%E8%B7%AF196%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区天平路街道乌鲁木齐中路196号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s16",
+      "name": "RizzDarling",
+      "style": "设计女鞋与搭配配饰；具体门牌待核",
+      "address": "上海市乌鲁木齐中路（门牌未核实）",
+      "tags": [
+        "鞋履",
+        "配饰"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n02",
+        "n11"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "来都来了播客No.242节目说明将rizzdarling鞋子列于乌鲁木齐中路；未获具体门牌。",
+      "evidenceUrl": "https://www.qtfm.cn/channels/469464/programs/30268289/",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "RizzDarling",
+      "extension": false
+    },
+    {
+      "id": "s17",
+      "name": "FIRSTFLOOR 家与工坊",
+      "style": "极简休闲，牛仔、短外套与日常基础款",
+      "address": "上海市徐汇区五原路89号",
+      "tags": [
+        "极简",
+        "休闲"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n06"
+      ],
+      "lat": 31.215109,
+      "lon": 121.44281,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "主代理已核实所给笔记／评论提供国庆视频原作者评论回复第一家地址为上海市徐汇区五原路89号（原文视频内部标识6ab7c0fb）；另2026-09-27头条公开探店记录直接包含#FIRSTFLOOR家与工坊#和五原路，可交叉支持门店名。完整原视频URL待主代理并入；未查到可验证坐标。",
+      "evidenceUrl": "https://www.toutiao.com/w/1877414420319241/",
+      "coordinateNote": "同楼／邻近地图POI参考点：P.M CAFE（五原路店）。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "FIRSTFLOOR",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0K30DJNAU",
+      "anchorName": "P.M CAFE（五原路店）"
+    },
+    {
+      "id": "s18",
+      "name": "an action a day · 五原路",
+      "style": "运动休闲基础款，「客厅与阳台」生活场景",
+      "address": "上海市徐汇区五原路86号",
+      "tags": [
+        "运动",
+        "休闲"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n12"
+      ],
+      "lat": 31.215163,
+      "lon": 121.442833,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "品牌方供稿明确五原路86号「客厅与阳台」。安福路LOOKNOW曾为买手销售渠道，不能直接当作AAAD独立安福路店。",
+      "evidenceUrl": "https://www.brandstar.com.cn/news/7542",
+      "coordinateNote": "同楼／邻近地图POI参考点：动径咖啡。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "an action a day（五原",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0L6CU9GBJ",
+      "anchorName": "动径咖啡"
+    },
+    {
+      "id": "s19",
+      "name": "椋木",
+      "style": "原创茶酒器皿、家居器物与艺术策展",
+      "address": "上海市徐汇区五原路210弄1号",
+      "tags": [
+        "器物",
+        "生活方式"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n02"
+      ],
+      "lat": 31.214854,
+      "lon": 121.440597,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "2026-03-15上海徐汇官方政务报道明确门牌及11:00—19:00；未查到可验证坐标。",
+      "evidenceUrl": "https://www.thepaper.cn/newsDetail_forward_32773404",
+      "coordinateNote": "同楼／邻近地图POI参考点：大华新村。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "椋木",
+      "extension": false,
+      "anchorEvidenceUrl": "https://ditu.amap.com/place/B00155LAY7",
+      "anchorName": "大华新村"
+    },
+    {
+      "id": "s20",
+      "name": "LOOKNOW · 武康路",
+      "style": "全球设计师服装、鞋包与生活方式集合",
+      "address": "上海市徐汇区武康路286号",
+      "tags": [
+        "买手店",
+        "设计师"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n01"
+      ],
+      "lat": 31.208373,
+      "lon": 121.434783,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "合作品牌immi官方门店清单确认门牌；未查得该分店高德坐标，勿误用中山南二路107号的同名POI。 n01未明确LOOKNOW分店；同时保留武康旗舰店为同品牌加选，原文路线更可能为淮海店。",
+      "evidenceUrl": "https://www.immi-fashion.com/zh/store-location/",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "LOOKNOW（武康",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%AD%A6%E5%BA%B7%E8%B7%AF286%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市长宁区江苏路街道武康路286号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s21",
+      "name": "Subdued · 武康路",
+      "style": "青春少女与Y2K，贴身上衣和小翅膀元素",
+      "address": "上海市徐汇区武康路378号",
+      "tags": [
+        "少女",
+        "Y2K"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n01",
+        "n12"
+      ],
+      "lat": 31.208222,
+      "lon": 121.434558,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "高德门牌378号；百度出现武康路376号武康庭102室描述。坐标以直接同名高德POI为准，门牌存在差异应保留提示。",
+      "evidenceUrl": "https://www.amap.com/place/B0K2MDUB57",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": true,
+      "sourceKey": "Subdued",
+      "extension": false
+    },
+    {
+      "id": "s22",
+      "name": "Yearly Plan",
+      "style": "中性长期主义服装，零售与Gallery并置",
+      "address": "上海市静安区长乐路888号（另有892号记录）",
+      "tags": [
+        "中性",
+        "极简"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n08"
+      ],
+      "lat": 31.218239,
+      "lon": 121.444305,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "建筑师供稿项目明确长乐路888号；上海商务委商户支付名录另列892号，可能涉及整体建筑/相邻入口，未自行统一，出行导航应按店名复核。",
+      "evidenceUrl": "https://www.gooood.cn/yearly-plan-shanghai-by-dongqi-design.htm",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "Yearly Plan",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E4%B9%90%E8%B7%AF888%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区湖南路街道长乐路888号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s23",
+      "name": "asomesome · 长乐路",
+      "style": "简洁日常、柔和通勤，轻松好搭的设计款",
+      "address": "上海市静安区长乐路816号（高德描述：长乐路与常熟路交叉口西60米）",
+      "tags": [
+        "通勤",
+        "简约"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n01",
+        "n03",
+        "n08",
+        "n12"
+      ],
+      "lat": 31.217938,
+      "lon": 121.442809,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "高德POI明示经纬度；2026年PUMA联名发售店列表佐证长乐路816号。 n12图片标为安福附近，不额外杜撰安福独立分店。",
+      "evidenceUrl": "https://www.amap.com/place/B0LDKZPXZ0",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": false,
+      "sourceKey": "asomesome（长乐",
+      "extension": true
+    },
+    {
+      "id": "s24",
+      "name": "LABELDEL.",
+      "style": "东方复古与天然肌理，宽松剪裁和手工细节",
+      "address": "上海市静安区巨鹿路741-4号",
+      "tags": [
+        "东方",
+        "设计师"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n08"
+      ],
+      "lat": 31.222168,
+      "lon": 121.447553,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "设计上海2026官方城市指南明确No.741-4 Julu Road及11:00—22:00。",
+      "evidenceUrl": "https://cdn.asp.events/CLIENT_CL_EA_DE3B6632_02E3_4F5C_06E2D09D198B097F/sites/Design-Shanghai/media/in-the-city/Design-in-the-City-2026-by-Design-Shanghai.pdf",
+      "coordinateNote": "同楼／邻近地图POI参考点：MOND时光画廊欧洲古董版画。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "LABELDEL",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0L2RAM3GE",
+      "anchorName": "MOND时光画廊欧洲古董版画"
+    },
+    {
+      "id": "s25",
+      "name": "LADYFAFA",
+      "style": "原创复古女装，别致花色与轮廓",
+      "address": "上海市巨鹿路699-4号",
+      "tags": [
+        "复古",
+        "原创"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n08",
+        "n09"
+      ],
+      "lat": 31.222168,
+      "lon": 121.447553,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "2022年报道列服饰店巨鹿路699-4；该资料较旧，现址和营业状态仍需复核。文中318号301室属于后续FlippedApartment段落，不能误配给LADYFAFA。 699-4号证据较早，741号仅为附近地图锚点，不代表该店当前地址已确认。",
+      "evidenceUrl": "https://www.ysjhz.com/info/202202/08/d0acc0dbbffce34eba9353918ebab886.html",
+      "coordinateNote": "同楼／邻近地图POI参考点：MOND时光画廊欧洲古董版画。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "LADYFAFA",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0L2RAM3GE",
+      "anchorName": "MOND时光画廊欧洲古董版画",
+      "broadLocation": true
+    },
+    {
+      "id": "s26",
+      "name": "LABELHOOD 蕾虎",
+      "style": "中国独立设计师，先锋服装、首饰与家居",
+      "address": "上海市静安区富民路184号",
+      "tags": [
+        "先锋",
+        "设计师"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n02",
+        "n08"
+      ],
+      "lat": 31.220173,
+      "lon": 121.446984,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "官网现行门店页 https://www.labelhood.com/md 仍列富民路184号，并非仅有旧游记。坐标直接取高德POI，未转换。",
+      "evidenceUrl": "https://www.amap.com/place/B0FFJUR3UN",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": true,
+      "sourceKey": "LABELHOOD",
+      "extension": false
+    },
+    {
+      "id": "s27",
+      "name": "chelchel house",
+      "style": "简约自然女装，亲肤面料与通勤休闲",
+      "address": "上海市富民路182弄13号（原文提供，待独立核实）",
+      "tags": [
+        "自然",
+        "通勤"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n05"
+      ],
+      "lat": 31.220173,
+      "lon": 121.446984,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "所给笔记／评论提供门牌未在公开网页核实；EveryArt招聘介绍只支持品牌身份和风格，不支持该店地址。",
+      "evidenceUrl": "https://www.everyart.cn/single/17139",
+      "coordinateNote": "同楼／邻近地图POI参考点：LABELHOOD Pillar（富民路店）。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "chelchel",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0FFJUR3UN",
+      "anchorName": "LABELHOOD Pillar（富民路店）"
+    },
+    {
+      "id": "s28",
+      "name": "Bistro11",
+      "style": "All Day Brunch与融合西餐，蓝色法式门头",
+      "address": "上海市静安区富民路179号1楼",
+      "tags": [
+        "餐饮",
+        "休息"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n02"
+      ],
+      "lat": 31.220173,
+      "lon": 121.446984,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "Time Out及Trip.com同列179号1楼；City8/Google关联聚合页另有177号，存在门牌差异，优先179并保留提醒。",
+      "evidenceUrl": "https://www.timeoutshanghai.cn/features/7194.html",
+      "coordinateNote": "同楼／邻近地图POI参考点：LABELHOOD Pillar（富民路店）。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "Bistro11",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0FFJUR3UN",
+      "anchorName": "LABELHOOD Pillar（富民路店）"
+    },
+    {
+      "id": "s29",
+      "name": "Freja 别院",
+      "style": "审美空间与服饰探店；具体选品风格待核",
+      "address": "上海市富民路271号（原文提供，待独立核实）",
+      "tags": [
+        "空间",
+        "待核"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n05"
+      ],
+      "lat": 31.219874,
+      "lon": 121.447677,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "未找到该名称与该门牌的可靠匹配；不要与同名餐厅、Freja NYC或其他香氛小店合并。",
+      "evidenceUrl": null,
+      "coordinateNote": "同楼／邻近地图POI参考点：times remake。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "Freja",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0JUFMQM1Y",
+      "anchorName": "times remake"
+    },
+    {
+      "id": "s30",
+      "name": "Academy of Love",
+      "style": "纯白极简与爱心元素，无性别服装",
+      "address": "上海市静安区富民路（门牌未核实）",
+      "tags": [
+        "极简",
+        "中性"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n08"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "上海市政府英文站及静安媒体确认富民路首店，但未列门牌；不可用愚园路1288号分店地址代替。",
+      "evidenceUrl": "https://english.shanghai.gov.cn/en-TrendyStores/20251224/edd3e02e1e534882a5f7da310c4f8a0f.html",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "Academy of Love",
+      "extension": false
+    },
+    {
+      "id": "s31",
+      "name": "CERRIC",
+      "style": "韩国设计师服饰与鞋履，牛仔、针织、机能与自由工装",
+      "address": "上海市徐汇区新乐路（慢闪店，门牌待核实）",
+      "tags": [
+        "韩系",
+        "设计师",
+        "鞋履"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n01",
+        "n09",
+        "n12",
+        "n13"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "界面新闻2026-08-04确认新乐路慢闪店；未取得门牌、结束日期或精确坐标。 界面新闻官方2026-08-04确认新乐路慢闪店；2026-08-18 iziRetail实访teenteens指出与CERRIC慢闪、GOODBAI Minuet相邻（https://www.sohu.com/a/1064329847_121119292）。尚未取得具体门牌及结束日期。品牌真正官网为cerric.co；cerric.com搜索结果为另一女装电商，不作该韩国品牌证据。",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5328203707057861.html",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "CERRIC",
+      "extension": false
+    },
+    {
+      "id": "s32",
+      "name": "teenteens",
+      "style": "韩系休闲服装与帽饰；当前快闪状态待核",
+      "address": "上海市新乐路（门牌待核实）",
+      "tags": [
+        "韩系",
+        "帽饰"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n01"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "2026年8月首店开业，毗邻CERRIC与GOODBAI Minuet；另有行业报道称限时快闪，当前营业仍需核实。",
+      "evidenceUrl": "https://www.sohu.com/a/1064329847_121119292",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "teenteens",
+      "extension": false
+    },
+    {
+      "id": "s33",
+      "name": "oror by fine",
+      "style": "泰式餐厅，冬阴功与绿咖喱为原文推荐",
+      "address": "上海市徐汇区新乐路145号",
+      "tags": [
+        "餐饮",
+        "泰式"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n01"
+      ],
+      "lat": 31.219532,
+      "lon": 121.450946,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "这是泰式餐厅，不是服饰店。实地餐饮文章明确地址，地图坐标未查得。",
+      "evidenceUrl": "https://www.sophieservesup.com/articles/where-to-eat-the-best-thai-food-in-shanghai/",
+      "coordinateNote": "整条街道参考，未匹配门牌，可能偏离门店较远。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "oror",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%96%B0%E4%B9%90%E8%B7%AF145%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市黄浦区瑞金二路街道新乐路",
+      "geocodeType": "StreetName",
+      "broadLocation": true
+    },
+    {
+      "id": "s34",
+      "name": "NNN2097 vintage",
+      "style": "美式古着、学院衬衫与90年代休闲",
+      "address": "上海市徐汇区新乐路144号",
+      "tags": [
+        "古着",
+        "学院"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n09"
+      ],
+      "lat": 31.219585,
+      "lon": 121.450923,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "Shanghai Daily/City News Service实地报道明确门牌；未取得坐标。",
+      "evidenceUrl": "https://www.citynewsservice.cn/articles/shanghaidaily/news/untitled-xm5g6lek",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "NNN2097",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%96%B0%E4%B9%90%E8%B7%AF144%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市黄浦区瑞金二路街道新乐路144号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s35",
+      "name": "melomela",
+      "style": "可爱杂货、文具与小型收纳好物",
+      "address": "上海市徐汇区华亭路4号",
+      "tags": [
+        "杂货",
+        "可爱"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n01"
+      ],
+      "lat": 31.215211,
+      "lon": 121.446353,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "此为小红书内容汇编线索；独立文具品牌Nagi实地列表也确认Melomela在华亭路6号102室左邻。门牌4号仍建议地图复核，未取得坐标。",
+      "evidenceUrl": "https://post.m.smzdm.com/zz/p/agomdo57/",
+      "coordinateNote": "整条街道参考，未匹配门牌，可能偏离门店较远。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "melomela",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8D%8E%E4%BA%AD%E8%B7%AF4%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+      "geocodeMatchedAddress": "上海市徐汇区湖南路街道华亭路",
+      "geocodeType": "StreetName",
+      "broadLocation": true
+    },
+    {
+      "id": "s36",
+      "name": "Sinoon / Snoon",
+      "style": "韩系浪漫少女，蕾丝、蝴蝶结与花苞轮廓",
+      "address": "上海市徐汇区东湖路30号FUFU上海园区4幢",
+      "tags": [
+        "韩系",
+        "浪漫"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n01",
+        "n03",
+        "n10"
+      ],
+      "lat": 31.217642,
+      "lon": 121.4511,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "选址服务方高力国际确认东湖路30号；上海官方旅游网站进一步明确4幢。中国市场名称已升级为Snoon，坐标未查得。",
+      "evidenceUrl": "https://www.colliers.com.cn/zh-cn/news/20260626sinoon",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "Sinoon",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%B9%96%E8%B7%AF30%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区湖南路街道东湖路30号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s37",
+      "name": "Rest & Recreation",
+      "style": "韩系日常与轻运动，开衫、短袖等基础款",
+      "address": "上海市徐汇区东湖路30号FUFU上海",
+      "tags": [
+        "韩系",
+        "运动"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n01",
+        "n10"
+      ],
+      "lat": 31.217642,
+      "lon": 121.4511,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "2026-06-04行业实地文章确认园区地址与2026年5月开业；园区内铺位及坐标未查得。",
+      "evidenceUrl": "https://www.sohu.com/a/1032092036_121119292",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "Rest &",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%B9%96%E8%B7%AF30%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区湖南路街道东湖路30号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s38",
+      "name": "Alimentari Grande · 东湖路",
+      "style": "意式熟食、咖啡与brunch，适合中途休息",
+      "address": "上海市徐汇区东湖路20号101、201室",
+      "tags": [
+        "餐饮",
+        "休息"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.21801,
+      "lon": 121.450305,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "高德POI直接给出地址及地理坐标。",
+      "evidenceUrl": "https://ditu.amap.com/place/B0FFMAXJ5X",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": false,
+      "sourceKey": "Alimentari",
+      "extension": false
+    },
+    {
+      "id": "s39",
+      "name": "Come Come Bakery",
+      "style": "烘焙面包，顺路补给；与soso为不同店",
+      "address": "上海市徐汇区乌鲁木齐中路300号",
+      "tags": [
+        "面包",
+        "餐饮"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n09"
+      ],
+      "lat": 31.213606,
+      "lon": 121.441673,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "2026年10月美食地图文章列明地址；上海ジャピオン2026-05-29有独立实地报道。未取得坐标。",
+      "evidenceUrl": "https://hao.cnyes.com/post/271193",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "Come Come",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E4%B8%AD%E8%B7%AF300%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区天平路街道乌鲁木齐中路300号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s40",
+      "name": "ffroom",
+      "style": "韩系少女服装，兼有配饰与收纳小物",
+      "address": "上海市巨鹿路（门牌待核实）",
+      "tags": [
+        "韩系",
+        "少女"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n01",
+        "n09"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "已找到巨鹿路开店证据及2026年7月试营业公告，未查到可靠门牌或门店坐标。",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5340573619979296.html",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "ffroom",
+      "extension": false
+    },
+    {
+      "id": "s41",
+      "name": "Lagoon Store",
+      "style": "中古器物、贝壳与餐具，生活杂货选品",
+      "address": "上海市黄浦区巨鹿路374弄2号",
+      "tags": [
+        "器物",
+        "杂货"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n09"
+      ],
+      "lat": 31.22497,
+      "lon": 121.455941,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "2026-07-17现场帖子列明门牌，售中古器物、贝壳、韩国餐具等；未取得坐标。",
+      "evidenceUrl": "https://jp.trip.com/moments/detail/shanghai-2-148344568/",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "Lagoon Store",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B7%A8%E9%B9%BF%E8%B7%AF374%E5%BC%842%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市黄浦区瑞金二路街道巨鹿路374号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s42",
+      "name": "pupuhome",
+      "style": "服饰与生活方式线索；上海门店和风格待核",
+      "address": "门牌待核实",
+      "tags": [
+        "待核"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n09"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "品牌方BlueMoon研究所确认有线下门店查询小程序与杭州工作室，但未找到可靠上海门店地址。不可把杭州地址当上海店。",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5205786406159012.html",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "pupuhome",
+      "extension": false
+    },
+    {
+      "id": "s43",
+      "name": "SHKUCO",
+      "style": "弄堂服饰小店；视频可见基础色与连衣裙",
+      "address": "上海市徐汇区（门牌待核实）",
+      "tags": [
+        "女装",
+        "待核"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n09"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "仅发现百度地图搜索索引中的徐汇区购物POI，未取得独立详情、可靠门牌或坐标。",
+      "evidenceUrl": null,
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "SHKUCO",
+      "extension": false
+    },
+    {
+      "id": "s44",
+      "name": "EXISTENTIALISM · 巨富长线索",
+      "style": "原创先锋女装，独特剪裁与沉浸式空间",
+      "address": "门牌待核实",
+      "tags": [
+        "先锋",
+        "设计师"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n08",
+        "n12"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "用户要求区分新乐路/长乐路与复兴西路分店，本轮未找到对应门牌证据；不将早期安福路157号或百度同名富民路童装POI混入。",
+      "evidenceUrl": null,
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "EXISTENTIALISM（新乐",
+      "extension": false
+    },
+    {
+      "id": "s45",
+      "name": "LOOKNOW PARK · 淮海中路",
+      "style": "工业风买手集合，设计服装、配饰与Jellycat",
+      "address": "上海市徐汇区淮海中路1008号1-3层",
+      "tags": [
+        "买手店",
+        "毛绒"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n01",
+        "n10"
+      ],
+      "lat": 31.218278,
+      "lon": 121.452927,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "高德POI名称为路可闹公园LOOKNOW PARK(淮海中路店)。",
+      "evidenceUrl": "https://www.amap.com/place/B0JRZ7COPJ",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": true,
+      "sourceKey": "LOOKNOW PARK",
+      "extension": false
+    },
+    {
+      "id": "s46",
+      "name": "GROVE · 环贸iapm",
+      "style": "韩系轻运动休闲；和环贸吃饭一起顺逛",
+      "address": "上海市徐汇区淮海中路999号上海环贸广场LG2层278室",
+      "tags": [
+        "韩系",
+        "运动"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.217528,
+      "lon": 121.453784,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "GROVE品牌官方门店清单确认，未取得坐标。",
+      "evidenceUrl": "https://grovestore.com/shopinfo/company.html",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "Grove / GRVRGROVE（环贸",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF999%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区湖南路街道淮海中路999号",
+      "geocodeType": "PointAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s47",
+      "name": "老吉士 · 环贸iapm",
+      "style": "本帮菜，作为原文餐饮替代选项",
+      "address": "上海市徐汇区淮海中路999号环贸iapm商场L3",
+      "tags": [
+        "餐饮",
+        "本帮"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.217919,
+      "lon": 121.453712,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "高德POI直接给出地址及地理坐标。",
+      "evidenceUrl": "https://www.amap.com/place/B0FFFBEBYV",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": false,
+      "sourceKey": "老吉士",
+      "extension": false
+    },
+    {
+      "id": "s48",
+      "name": "CUBIC",
+      "style": "都市极简女装，建筑感廓形与克制配色",
+      "address": "上海市黄浦区淮海中路911号",
+      "tags": [
+        "极简",
+        "通勤"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n09",
+        "n10"
+      ],
+      "lat": 31.219118,
+      "lon": 121.455728,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "2026-07-05上海黄浦报道确认地址；2026-08-27iziRetail报道已开业。未取得高德坐标。",
+      "evidenceUrl": "https://www.jfdaily.com/sgh/detail?id=4015783",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "CUBIC",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF911%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区湖南路街道淮海中路911号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s49",
+      "name": "HAUS NOWHERE 上海",
+      "style": "眼镜、香氛与大型装置，赛博艺术空间",
+      "address": "上海市黄浦区淮海中路798-812号",
+      "tags": [
+        "香氛",
+        "艺术"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10",
+        "n13"
+      ],
+      "lat": 31.220478,
+      "lon": 121.458339,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "品牌官网确认门牌。高德仅检得同空间TAMBURINS POI（B0H3SZL2EV），未将子店坐标冒充整个HAUS的精确点。",
+      "evidenceUrl": "https://www.gentlemonster.com/cn/zh-CN/stores/detail/779149670609076624",
+      "coordinateNote": "同楼／邻近地图POI参考点：TAMBURINS（HAUS NOWHERE）。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "HAUS NOWHERE",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0H3SZL2EV",
+      "anchorName": "TAMBURINS（HAUS NOWHERE）"
+    },
+    {
+      "id": "s50",
+      "name": "emis",
+      "style": "韩系休闲，彩色棒球帽、包袋与基础服装",
+      "address": "上海市黄浦区淮海中路795-2号",
+      "tags": [
+        "韩系",
+        "帽饰"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.220182,
+      "lon": 121.458466,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "2025年开业报道给出795-2号；2026-08-27商圈报道仍提及双层旗舰店。",
+      "evidenceUrl": "https://hypebeast.cn/2025/4/emis-first-store-china-shanghai",
+      "coordinateNote": "同楼／邻近地图POI参考点：金辰大酒店（西北门）。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "emis",
+      "extension": false,
+      "anchorEvidenceUrl": "https://ditu.amap.com/place/B00157HUNR",
+      "anchorName": "金辰大酒店（西北门）"
+    },
+    {
+      "id": "s51",
+      "name": "niko and ... 全球旗舰店",
+      "style": "日系服装、文创、家具与生活杂货",
+      "address": "上海市黄浦区淮海中路775号",
+      "tags": [
+        "日系",
+        "杂货"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.220455,
+      "lon": 121.458968,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "品牌官方微博2026-07-01确认地址。高德检得同址一楼B区niko and COFFEE，但未取得旗舰店整体POI坐标。",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5315880465729944.html",
+      "coordinateNote": "同楼／邻近地图POI参考点：niko and COFFEE（淮海中路店）。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "niko and",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0I1L6BX0J",
+      "anchorName": "niko and COFFEE（淮海中路店）"
+    },
+    {
+      "id": "s52",
+      "name": "光明邨大酒家",
+      "style": "沪上老字号，本帮菜、熟食与鲜肉月饼",
+      "address": "上海市黄浦区淮海中路588号",
+      "tags": [
+        "餐饮",
+        "老字号"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.222387,
+      "lon": 121.462919,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "高德POI直接给出地址及地理坐标。",
+      "evidenceUrl": "https://www.amap.com/place/B00155L02C",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": false,
+      "sourceKey": "光明邨",
+      "extension": false
+    },
+    {
+      "id": "s53",
+      "name": "哈尔滨食品厂",
+      "style": "俄式海派糕点、饼干与哈斗，适合买少量尝鲜",
+      "address": "上海市黄浦区淮海中路603号",
+      "tags": [
+        "糕点",
+        "老字号"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.222163,
+      "lon": 121.463045,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "高德POI直接给出地址及地理坐标。",
+      "evidenceUrl": "https://www.amap.com/place/B00155IQFX",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": false,
+      "sourceKey": "上海哈尔滨",
+      "extension": false
+    },
+    {
+      "id": "s54",
+      "name": "TX淮海",
+      "style": "潮流策展商场，服饰、快闪与青年文化",
+      "address": "上海市黄浦区淮海中路523号",
+      "tags": [
+        "商场",
+        "潮流"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.22242,
+      "lon": 121.46446,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "高德商场POI直接给出地址及地理坐标。",
+      "evidenceUrl": "https://ditu.amap.com/place/B00150C2E4",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": true,
+      "sourceKey": "TX淮海",
+      "extension": false
+    },
+    {
+      "id": "s55",
+      "name": "HAI550",
+      "style": "主理人品牌、手作与生活方式集合楼宇",
+      "address": "上海市黄浦区淮海中路550号",
+      "tags": [
+        "商场",
+        "生活方式"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.222861,
+      "lon": 121.463876,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "高德旗下Matcha Wang(HAI550店)地址确认商场门牌；其坐标属于L1层2号店铺，未冒充商场精确坐标。",
+      "evidenceUrl": "https://www.amap.com/place/B0LKKMNL3N",
+      "coordinateNote": "同楼／邻近地图POI参考点：Matcha Wang（HAI550店）。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "HAI550",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0LKKMNL3N",
+      "anchorName": "Matcha Wang（HAI550店）"
+    },
+    {
+      "id": "s56",
+      "name": "言二丁",
+      "style": "文艺真皮女鞋，现代东方审美",
+      "address": "上海市黄浦区淮海中路550号HAI550（楼层铺位待核）",
+      "tags": [
+        "鞋履",
+        "东方"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.222861,
+      "lon": 121.463876,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "2025-12-02报道确认入驻HAI550；品牌官网可确认女鞋定位，未检得门店独立坐标或楼层。",
+      "evidenceUrl": "https://www.donews.com/news/detail/4/6282815.html",
+      "coordinateNote": "同楼／邻近地图POI参考点：Matcha Wang（HAI550店）。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "言二丁",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0LKKMNL3N",
+      "anchorName": "Matcha Wang（HAI550店）"
+    },
+    {
+      "id": "s57",
+      "name": "MURMURMI",
+      "style": "天然材质与褶皱设计，原文尤其推荐连衣裙",
+      "address": "门牌待核实",
+      "tags": [
+        "设计师",
+        "自然"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "可确认品牌存在及产品材质风格，未找到上海线下门店可靠地址或坐标。",
+      "evidenceUrl": "https://fashion.sina.cn/s/tr/2023-05-26/detail-imyuyrca2289981.d.html?wm=3049_0015",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "MURMURMI",
+      "extension": false
+    },
+    {
+      "id": "s58",
+      "name": "PSO BRAND",
+      "style": "可爱印花与舒适休闲，年轻日常服饰",
+      "address": "上海市黄浦区淮海中路523号TX淮海（历史资料铺位L3-18，待核）",
+      "tags": [
+        "休闲",
+        "印花"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.22242,
+      "lon": 121.46446,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "百联集团2021年度社会责任报告确认品牌入驻；历史旅游资料写L3-18，当前是否同铺位未证实，无独立高德坐标。",
+      "evidenceUrl": "https://shzr.saq.org.cn/up/20240322/0196e424eabb4cef88d00173ac1af92c.pdf",
+      "coordinateNote": "同楼／邻近地图POI参考点：TX淮海。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "PSO BRAND",
+      "extension": false,
+      "anchorEvidenceUrl": "https://ditu.amap.com/place/B00150C2E4",
+      "anchorName": "TX淮海"
+    },
+    {
+      "id": "s59",
+      "name": "W0311 山石衣",
+      "style": "小众设计师集合，原文以小礼服为看点",
+      "address": "上海市黄浦区TX淮海商场3楼（城市吧记为淮海中路527号）",
+      "tags": [
+        "礼服",
+        "设计师"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.22242,
+      "lon": 121.46446,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "设计方项目资料确认TX淮海三楼；城市吧2023-08-08记录527号。商场主门牌523与店铺记录527存在差异，保留原始门牌备注，不编坐标。",
+      "evidenceUrl": "https://jiajulinggan.com/p1/8061.html",
+      "coordinateNote": "同楼／邻近地图POI参考点：TX淮海。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "W0311",
+      "extension": false,
+      "anchorEvidenceUrl": "https://ditu.amap.com/place/B00150C2E4",
+      "anchorName": "TX淮海"
+    },
+    {
+      "id": "s60",
+      "name": "MASON PRINCE",
+      "style": "无性别街头、复古摇滚与先锋解构",
+      "address": "上海市黄浦区淮海中路530号",
+      "tags": [
+        "街头",
+        "中性"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.222312,
+      "lon": 121.462989,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "上海黄浦政务报道直接确认530号；未取得高德门店坐标。",
+      "evidenceUrl": "https://m.thepaper.cn/baijiahao_26524989",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "MASONPRINCE",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF530%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市黄浦区瑞金二路街道淮海中路530号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s61",
+      "name": "RARELY ALIKE",
+      "style": "设计感女装，日常实穿与独立表达",
+      "address": "上海市黄浦区淮海中路沿街，lady淮海对面（门牌待核）",
+      "tags": [
+        "设计师",
+        "女装"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n12"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "2026-08-27报道只到围板及“lady淮海对面”；搜索摘要见2026-10-10黄浦商务委开业文，但未取得原文完整门牌。不能定位为精确门店。",
+      "evidenceUrl": "https://www.sohu.com/a/1068334628_121119292",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "RARELY ALIKE",
+      "extension": false
+    },
+    {
+      "id": "s62",
+      "name": "Oneup · 新天地东台里",
+      "style": "城市运动生活方式，将运动与日常结合",
+      "address": "上海市黄浦区新天地东台里（园区主地址吉安路111号，独立铺位待核）",
+      "tags": [
+        "运动",
+        "休闲"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n12"
+      ],
+      "lat": 31.222714,
+      "lon": 121.475911,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "开业报道确认东台里；园区地址由上海城市导览交叉确认，未取得门店独立高德坐标。原开业文出现“台东里”字序，按园区标准名东台里记录。",
+      "evidenceUrl": "https://m.winshang.com/news737252.html",
+      "coordinateNote": "同楼／邻近地图POI参考点：OSPREY（新天地东台里店）。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "Oneup",
+      "extension": true,
+      "anchorEvidenceUrl": "https://ditu.amap.com/place/B0L0DKLWTS",
+      "anchorName": "OSPREY（新天地东台里店）"
+    },
+    {
+      "id": "s63",
+      "name": "RandomPiece · 新天地线索",
+      "style": "舒适基本款与利落廓形，当前门店待核",
+      "address": "门牌待核实",
+      "tags": [
+        "休闲",
+        "极简"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n12"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "未查实新天地门店。2024-12报道确认首个线下空间位于上海西岸梦中心，不能将西岸店地址移用于新天地。",
+      "evidenceUrl": "https://www.sohu.com/a/835291238_121119292",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "RandomPiece",
+      "extension": false
+    },
+    {
+      "id": "s64",
+      "name": "过森日 · 原文快闪",
+      "style": "森系、日系、手作首饰与独立品牌市集",
+      "address": "上海市黄浦区淮海中路627号1-2层",
+      "tags": [
+        "快闪",
+        "手作"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": 31.221733,
+      "lon": 121.462057,
+      "locationStatus": "approximate",
+      "status": "expired",
+      "note": "原文活动期2026-09-03至10-07；查询日2026-10-15已超过原文活动期，不能当作当前常驻店。黄浦融媒国庆报道亦确认627号。",
+      "evidenceUrl": "https://www.toutiao.com/w/1875385522177228/?source=m_redirect",
+      "coordinateNote": "同楼／邻近地图POI参考点：WeWork中国（淮海中路627号社区店）。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": false,
+      "sourceKey": "过森日",
+      "extension": false,
+      "anchorEvidenceUrl": "https://ditu.amap.com/place/B0FFI0AZD0",
+      "anchorName": "WeWork中国（淮海中路627号社区店）"
+    },
+    {
+      "id": "s65",
+      "name": "Dragonshop",
+      "style": "韩系少女服装与连衣裙；原文提示瑞金公寓401",
+      "address": "门牌待核实",
+      "tags": [
+        "韩系",
+        "少女"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n10"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "用户给定线索为瑞金公寓401；公开检索未查到可验证的对应门店或门牌。不可依住宅/公寓名称推断精确门店坐标。",
+      "evidenceUrl": null,
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "Dragonshop",
+      "extension": false
+    },
+    {
+      "id": "s66",
+      "name": "Folder Bakery & Coffee",
+      "style": "法棍、法式吐司与咖啡，适合分享式补给",
+      "address": "上海市徐汇区乌鲁木齐南路205号104室",
+      "tags": [
+        "面包",
+        "餐饮"
+      ],
+      "routeId": "r5",
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": 31.201658,
+      "lon": 121.445863,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "2026年烘焙探店报道给出门牌；未取得高德门店坐标。",
+      "evidenceUrl": "https://www.sohu.com/a/1001460254_113612",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "Folder",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8D%97%E8%B7%AF205%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区天平路街道乌鲁木齐南路205号",
+      "geocodeType": "StreetAddressExt",
+      "broadLocation": false
+    },
+    {
+      "id": "s67",
+      "name": "ASTEE ATELIER",
+      "style": "珠宝与婚嫁首饰，钻戒、银饰和日常珠宝",
+      "address": "上海市建国西路436号",
+      "tags": [
+        "珠宝",
+        "首饰"
+      ],
+      "routeId": "r5",
+      "sourceIds": [
+        "n02"
+      ],
+      "lat": 31.205162,
+      "lon": 121.44728,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "官网预约页明确436 Jian Guo Road (W) Shanghai 200031；未查到可验证坐标。",
+      "evidenceUrl": "https://www.asteeatelier.com/pages/book-an-appointment",
+      "coordinateNote": "同楼／邻近地图POI参考点：上海建业里嘉佩乐酒店。不是该门店实测入口；请按门牌与高德搜索核对。",
+      "core": true,
+      "sourceKey": "ASTEE",
+      "extension": false,
+      "anchorEvidenceUrl": "https://www.amap.com/place/B0FFHJOOPL",
+      "anchorName": "上海建业里嘉佩乐酒店"
+    },
+    {
+      "id": "s68",
+      "name": "Re knit",
+      "style": "进口毛线、彩色编织与手作灵感",
+      "address": "上海市徐汇区永嘉路375号",
+      "tags": [
+        "编织",
+        "手作"
+      ],
+      "routeId": "r5",
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": 31.209642,
+      "lon": 121.451185,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "毛线品牌Qing Fibre官方经销商页直接列出Re knit及地址；未检得高德坐标。",
+      "evidenceUrl": "https://www.qingfibre.com/pages/find-our-stockists",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "Re knit",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B0%B8%E5%98%89%E8%B7%AF375%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区天平路街道永嘉路375号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s69",
+      "name": "SoftServe / Sorbet",
+      "style": "水果主题器皿、手机壳与可爱生活设计；Sorbet为同店配饰副线",
+      "address": "上海市徐汇区汾阳路64弄2号",
+      "tags": [
+        "器物",
+        "可爱"
+      ],
+      "routeId": "r5",
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": 31.213754,
+      "lon": 121.449956,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "区商务委资料经上观确认实体店地址；品牌官方微博订货会也为同址。未取得高德坐标。 Sorbet作为同店副线收录，不重复生成门店。",
+      "evidenceUrl": "https://www.jfdaily.com/sgh/detail?id=1757079",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": true,
+      "sourceKey": "SoftServe",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B1%BE%E9%98%B3%E8%B7%AF64%E5%BC%842%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区天平路街道汾阳路64号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s70",
+      "name": "miulab",
+      "style": "买手选品、韩牌与设计服装；视频提到Paloma Wool",
+      "address": "上海市徐汇区永康路190号",
+      "tags": [
+        "买手店",
+        "韩系"
+      ],
+      "routeId": "r5",
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": 31.212658,
+      "lon": 121.453088,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "2025博主活动原文与2026-08探店均指向190号，非品牌官网；当前营业与具体铺位仍应现场核对。未取得高德坐标。",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5191311309411210.html",
+      "coordinateNote": "整条街道参考，未匹配门牌，可能偏离门店较远。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "miulab",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B0%B8%E5%BA%B7%E8%B7%AF190%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+      "geocodeMatchedAddress": "上海市徐汇区天平路街道永康路",
+      "geocodeType": "StreetName",
+      "broadLocation": true
+    },
+    {
+      "id": "s71",
+      "name": "小玉 yuy × Parlid 快闪线索",
+      "style": "萌系潮玩与拍立得联名，当前快闪按公告复核",
+      "address": "上海市徐汇区嘉善路123号",
+      "tags": [
+        "潮玩",
+        "快闪"
+      ],
+      "routeId": "r5",
+      "sourceIds": [
+        "n01"
+      ],
+      "lat": 31.211745,
+      "lon": 121.454843,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "2026-10-01现场帖子给出9月28日–11月15日及门牌；SocialBeta 2026-10-05确认Parlid全球首店落地天平街道兴顺东里并联名小玉。时间以现场公告为准，未取得坐标。 此嘉善路联名活动与n01中的“小玉快闪”是否同一场尚未完全确认，作为候选线索，不算已核实原店。",
+      "evidenceUrl": "https://www.toutiao.com/w/1877786320671945/",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "小玉",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%98%89%E5%96%84%E8%B7%AF123%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市徐汇区天平路街道嘉善路123号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s72",
+      "name": "22 COLLECTION",
+      "style": "韩系服饰集合，针织、外套与设计细节",
+      "address": "上海市建国中路143号",
+      "tags": [
+        "韩系",
+        "买手店"
+      ],
+      "routeId": "r5",
+      "sourceIds": [
+        "n01",
+        "n02",
+        "n04",
+        "n06",
+        "n13"
+      ],
+      "lat": 31.211762,
+      "lon": 121.465409,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "ShanghaiLOOK 2026-04-22刊文列明门牌，未取得地图坐标。 当前门店地址存在建国中路／建国西路报道差异，保留候选但移出核心步行线，出发前以品牌门店公告核对。",
+      "evidenceUrl": "https://m.thepaper.cn/newsDetail_forward_33017716",
+      "coordinateNote": "整条街道参考，未匹配门牌，可能偏离门店较远。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "22collection",
+      "extension": true,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BB%BA%E5%9B%BD%E4%B8%AD%E8%B7%AF143%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市黄浦区打浦桥街道建国中路",
+      "geocodeType": "StreetName",
+      "broadLocation": true
+    },
+    {
+      "id": "s73",
+      "name": "EXISTENTIALISM · 复兴西路线索",
+      "style": "小众先锋设计女装；该分店信息仅评论线索",
+      "address": "上海市复兴西路74号（原文提供，待独立核实）",
+      "tags": [
+        "先锋",
+        "待核"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": 31.212513,
+      "lon": 121.439354,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "多次品牌与复兴西路74组合检索未获独立公开证据；保留为待核点，不生成坐标。",
+      "evidenceUrl": null,
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "core": false,
+      "sourceKey": "EXISTENTIALISM（复兴",
+      "extension": false,
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A4%8D%E5%85%B4%E8%A5%BF%E8%B7%AF74%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+      "geocodeMatchedAddress": "上海市长宁区江苏路街道复兴西路74号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s74",
+      "name": "Woodeng",
+      "style": "西太后品牌买手线索；店名拼写、门牌待核",
+      "address": "门牌待核实",
+      "tags": [
+        "买手店",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "按Woodeng/WOODENG/Shanghai/上海多组合公开检索，未取得对应上海门店的可靠证据；可能拼写需核对。",
+      "evidenceUrl": null,
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "Woodeng",
+      "extension": false
+    },
+    {
+      "id": "s75",
+      "name": "cotempt",
+      "style": "原文归为服装／珠宝，具体选品风格待核",
+      "address": "门牌待核实",
+      "tags": [
+        "服装珠宝",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n02"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "多次精确拼写及上海/店/路组合检索未找到可核实店铺。保留用户拼写，不猜测为其他品牌。",
+      "evidenceUrl": null,
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "cotempt",
+      "extension": false
+    },
+    {
+      "id": "s76",
+      "name": "luftkuss",
+      "style": "服装买手选品，具体风格与门牌待核",
+      "address": "门牌待核实",
+      "tags": [
+        "买手店",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n02"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "招聘页出现上海静安寺区域的Luftkuss买手店店长职位，但无门牌。不得把SourceUnknown官网所列深圳stockist地址套用上海店。",
+      "evidenceUrl": "https://m.zhipin.com/zhaopin/ee27bce4cc95beb91nZ62tS9EQ~~/",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "luftkuss",
+      "extension": false
+    },
+    {
+      "id": "s77",
+      "name": "thirty",
+      "style": "原文归为生活方式，具体选品待核",
+      "address": "门牌待核实",
+      "tags": [
+        "生活方式",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n02"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "未找到可确认属于清单店铺的上海地址；检索结果含无关Thirty Three服装贸易公司，未采用。",
+      "evidenceUrl": null,
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "thirty",
+      "extension": false
+    },
+    {
+      "id": "s78",
+      "name": "HAKU",
+      "style": "原文归为餐食／甜品，具体品类与地址待核",
+      "address": "门牌待核实",
+      "tags": [
+        "餐饮",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n02"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "未确认清单中的HAKU是服饰店、其他零售店还是餐厅；同名结果众多，不合并。",
+      "evidenceUrl": null,
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "HAKU",
+      "extension": false
+    },
+    {
+      "id": "s79",
+      "name": "Negative three",
+      "style": "韩国设计师鞋履，运动鞋、玛丽珍与靴子",
+      "address": "门牌待核实",
+      "tags": [
+        "韩系线索",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n04",
+        "n13"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "检索出现韩国同名鞋履品牌，但无法证明是用户所指上海店，也未获得上海门店地址。 新视频可见品牌标注；官网另有2025年12月已结束快闪，但不能据此认定为视频同一场。当前店址与活动期限待核。",
+      "evidenceUrl": null,
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "Negative three",
+      "extension": false
+    },
+    {
+      "id": "s80",
+      "name": "24ans · LOOKNOW对面线索",
+      "style": "女装线索；作者评论称粉色门头，风格待核",
+      "address": "上海苏河湾万象天地（2022年首店线索，具体铺位及现状待确认）",
+      "tags": [
+        "女装",
+        "待核"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n01"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "仅找到2022年苏河湾万象天地首店报道，未找到梧桐区街店或最新独立门店证据；不可据此在梧桐区落点。",
+      "evidenceUrl": "https://www.chinagrazia.com/article/169486.html",
+      "coordinateNote": "暂无可靠点位，不在地图上放置猜测图钉。",
+      "core": false,
+      "sourceKey": "24ans",
+      "extension": false
+    },
+    {
+      "id": "s81",
+      "name": "东日是个卷毛 · DongRi studio",
+      "style": "简约百搭、按色系陈列的日常女装；冬日为原文别称",
+      "address": "上海市黄浦区南昌路205弄2号",
+      "tags": [
+        "简约",
+        "日常"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n01",
+        "n04"
+      ],
+      "lat": 31.217424,
+      "lon": 121.456151,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "百度地图同名 Dongri studio POI、白色木栅栏门头照片与8月18/19日三楼试衣间评论，与上观及iziRetail所述南昌路上海首店吻合。7月售罄临时停业是历史事件，不当作当前闭店。门牌地理编码为参考位置，不是实测入口。",
+      "evidenceUrl": "https://map.baidu.com/poi/?uid=1cb35eb28673ae322e473364",
+      "coordinateNote": "百度同名门店POI目的地坐标，BD09MC转WGS84；不是实测入口。",
+      "core": false,
+      "sourceKey": "东日",
+      "extension": false,
+      "openingHours": "周一至周日 11:30–20:00（百度地图登记）",
+      "operatingNote": "2026-10-15查阅；非实时营业确认，出发前复核。",
+      "verifiedIdentity": true,
+      "coordinateSystem": "WGS84",
+      "originalCoordinates": {
+        "system": "BD09MC",
+        "x": 13521813.461419,
+        "y": 3639221.939186,
+        "source": "百度地图页面生成的路线URL中en目的地参数，非地图视图中心",
+        "conversion": "gcoord BD09MC -> WGS84"
+      }
+    },
+    {
+      "id": "s82",
+      "name": "MUSINSA Store · 安福路",
+      "style": "韩系与本土设计师集合，兼有运动品牌与潮流配饰",
+      "address": "上海市徐汇区安福路201-1号（品牌官网写201号）",
+      "tags": [
+        "韩系",
+        "买手店"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n12"
+      ],
+      "lat": 31.215693,
+      "lon": 121.438778,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "品牌官网2025-12-19开业公告与高德同名POI交叉确认，https://about.musinsa.com/zh/newsroom/2025-1219-musinsa-anpuru-open 。",
+      "evidenceUrl": "https://www.amap.com/place/B0LKUUYVQU",
+      "coordinateNote": "同名高德POI坐标，已由GCJ-02转换为WGS84；门店入口仍以现场门牌为准。",
+      "core": true,
+      "sourceKey": "MUSINSA",
+      "extension": false
+    },
+    {
+      "id": "s83",
+      "name": "花园饭店",
+      "style": "喷泉与老建筑拍照；不属于服装店",
+      "address": "上海市黄浦区茂名南路58号",
+      "tags": [
+        "拍照"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n01"
+      ],
+      "lat": 31.224401,
+      "lon": 121.455743,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "原文补充点；不计为已核实购物门店。",
+      "evidenceUrl": null,
+      "core": false,
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%8C%82%E5%90%8D%E5%8D%97%E8%B7%AF58%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+      "geocodeMatchedAddress": "上海市黄浦区瑞金二路街道茂名南路58号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s84",
+      "name": "ZARA · 分店待核",
+      "style": "快时尚女装；原视频与网友地图未可靠对应分店",
+      "address": "具体分店待核",
+      "tags": [
+        "补充",
+        "待核"
+      ],
+      "routeId": "r4",
+      "sourceIds": [
+        "n09"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "原文补充点；不计为已核实购物门店。",
+      "evidenceUrl": null,
+      "core": false,
+      "coordinateNote": "入口未核实。"
+    },
+    {
+      "id": "s85",
+      "name": "APOLI ITABAKERY · AP意大利料理面包坊",
+      "style": "意式料理面包、可颂与甜点，石材藤蔓的复古烘焙空间",
+      "address": "上海市长宁区兴国路380号一层",
+      "tags": [
+        "烘焙",
+        "餐饮",
+        "休息"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n01"
+      ],
+      "lat": 31.206578,
+      "lon": 121.433025,
+      "locationStatus": "exact",
+      "status": "active",
+      "note": "n01视频02:36已读到APOLI ITABAKERY门头和字幕，将原未命名甜品店记录原位补全。品牌认证微博给兴国路380号一层；Time Out、高德榜单交叉确认。近期与旧稿营业时段不同，未标作实时营业。",
+      "evidenceUrl": "https://map.baidu.com/poi/?uid=e6d9f4a4a45045e4a8175a1a",
+      "core": false,
+      "coordinateNote": "百度同名烘焙首店目的地坐标，BD09MC转WGS84；非实测入口。",
+      "sourceKey": "APOLI ITABAKERY",
+      "openingHours": "09:00–21:00（百度地图及近期资料登记）",
+      "operatingNote": "2026-10-15查阅；旧稿曾列10:00–20:00，出发前复核。",
+      "verifiedIdentity": true,
+      "coordinateSystem": "WGS84",
+      "originalCoordinates": {
+        "system": "BD09MC",
+        "x": 13519238.109351,
+        "y": 3637846.433561,
+        "source": "百度地图生成路线URL的en目的地参数",
+        "conversion": "gcoord BD09MC -> WGS84"
+      }
+    },
+    {
+      "id": "s86",
+      "name": "视频中老洋房首饰店 · 店名待识别",
+      "style": "珠宝首饰；尚未可靠对应具体店名",
+      "address": "店名与地址待核",
+      "tags": [
+        "视频缺口",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "n07视频未完整提取的店名，评论仅有描述；不以猜测品牌替代。",
+      "evidenceUrl": null,
+      "core": false
+    },
+    {
+      "id": "s87",
+      "name": "视频中手作屋 · 店名待识别",
+      "style": "手作小物；尚未可靠对应具体店名",
+      "address": "店名与地址待核",
+      "tags": [
+        "视频缺口",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "n07视频未完整提取的店名，评论仅有描述；不以猜测品牌替代。",
+      "evidenceUrl": null,
+      "core": false
+    },
+    {
+      "id": "s88",
+      "name": "视频中宝藏店铺 · 店名待识别",
+      "style": "选品未完整提取；尚未可靠对应具体店名",
+      "address": "店名与地址待核",
+      "tags": [
+        "视频缺口",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "n07视频未完整提取的店名，评论仅有描述；不以猜测品牌替代。",
+      "evidenceUrl": null,
+      "core": false
+    },
+    {
+      "id": "s89",
+      "name": "视频中法式马卡龙店 · 店名待识别",
+      "style": "甜品；尚未可靠对应具体店名",
+      "address": "店名与地址待核",
+      "tags": [
+        "视频缺口",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "n07视频未完整提取的店名，评论仅有描述；不以猜测品牌替代。",
+      "evidenceUrl": null,
+      "core": false
+    },
+    {
+      "id": "s90",
+      "name": "视频中尼泊尔风格买手店 · 店名待识别",
+      "style": "异域服饰、天然材质；尚未可靠对应具体店名",
+      "address": "店名与地址待核",
+      "tags": [
+        "视频缺口",
+        "待核"
+      ],
+      "routeId": null,
+      "sourceIds": [
+        "n07"
+      ],
+      "lat": null,
+      "lon": null,
+      "locationStatus": "unknown",
+      "status": "uncertain",
+      "note": "n07视频未完整提取的店名，评论仅有描述；不以猜测品牌替代。",
+      "evidenceUrl": null,
+      "core": false
+    },
+    {
+      "id": "s92",
+      "name": "MOONMOI",
+      "sourceKey": "MOONMOI",
+      "style": "韩系少女女装，轻柔裙装、蕾丝与日常成衣",
+      "address": "上海市徐汇区安福路298号2弄（百度同名点原文，门牌写法待核）",
+      "tags": [
+        "女装",
+        "日常"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n13"
+      ],
+      "lat": 31.215351,
+      "lon": 121.436244,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "n13视频03:00门头明确moon moi，03:01衣架与字幕确认韩系少女服饰。百度同名“moon moi(上海安福路店)”列安福路298号2弄，但类别为美食、无门头照片，与女装身份不一致；且历史资料有298弄2号楼的不同写法，不能擅自互换。参考点不代表已确认该女装店入口，不纳入核心线路。",
+      "evidenceUrl": "https://map.baidu.com/poi/?uid=12d666955b6df03db04c49eb",
+      "core": false,
+      "extension": false,
+      "coordinateNote": "百度同名点目的地坐标转换为WGS84；品牌与门牌仍有矛盾，仅候选参考。",
+      "openingHours": "10:00–21:30（百度同名点登记，待核）",
+      "operatingNote": "门牌与营业状态待核；地图仅为同名候选参考。",
+      "keepUncertain": true,
+      "coordinateSystem": "WGS84",
+      "originalCoordinates": {
+        "system": "BD09MC",
+        "x": 13519596.695375,
+        "y": 3638983.153379,
+        "source": "百度地图页面生成的路线URL中en目的地参数，非地图视图中心",
+        "conversion": "gcoord BD09MC -> WGS84"
+      }
+    },
+    {
+      "id": "s93",
+      "name": "OPEN YY",
+      "sourceKey": "OPEN YY",
+      "style": "韩系街头与解构女装，Y2K配饰与鞋履",
+      "address": "上海市静安区光复路1号四行仓库一层（OPEN YY中国首站快闪登记地址）",
+      "tags": [
+        "韩系",
+        "设计师"
+      ],
+      "routeId": "r1",
+      "sourceIds": [
+        "n13"
+      ],
+      "lat": 31.242146,
+      "lon": 121.466936,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "note": "HYPEBEAST现场采访及百联相关报道确认四行仓库一层快闪。百度同名POI补出光复路1号；采用门牌/场馆参考，不冒充当前营业直营店。平台列09:00–16:30、16:00停止入场，与四行仓库纪念馆开放格式相同，不能当作服装快闪营业时间。排除光复路195号光二仓库及仅能证实同楼的21号入口。",
+      "evidenceUrl": "https://map.baidu.com/poi/?uid=248a600e06a928e8cac3db9c",
+      "core": false,
+      "extension": true,
+      "coordinateNote": "百度同名点目的地坐标转换为WGS84；快闪场馆参考点，当前开放未确认。",
+      "openingHours": "快闪起止与当前开放时间未确认",
+      "operatingNote": "快闪场馆参考；未取得仍开放公告，请先确认再专程前往。",
+      "keepUncertain": true,
+      "coordinateSystem": "WGS84",
+      "originalCoordinates": {
+        "system": "BD09MC",
+        "x": 13523016.901711,
+        "y": 3642397.013684,
+        "source": "百度地图页面生成的路线URL中en目的地参数，非地图视图中心",
+        "conversion": "gcoord BD09MC -> WGS84"
+      }
+    },
+    {
+      "id": "s94",
+      "name": "Lost in echo",
+      "sourceKey": "Lost in echo",
+      "style": "设计鞋履与包袋，雕塑感廓形和金属细节",
+      "address": "上海市徐汇区安福路246号",
+      "tags": [
+        "鞋履",
+        "包袋"
+      ],
+      "routeId": "r2",
+      "sourceIds": [
+        "n13"
+      ],
+      "lat": 31.215639,
+      "lon": 121.437852,
+      "locationStatus": "approximate",
+      "status": "active",
+      "note": "上海市政府英文网2024-07-12及上海商务委外卡商户名单均明确安福路246号；后者门店名为lost in echo上海安福路店（https://sww.sh.gov.cn/cmsres/ae/ae6658e3f1e646d5b6b5ac8c248309cc/6c5492862a5bd2d562a54410489fd0f2.pdf）。设计项目资料亦对应246号。2026-07更新招聘仍有安福路店员职位。地图搜索未取得可核坐标，不能以百度AI汇总中246弄代替官方门牌；不采用品牌公司注册地址乌鲁木齐中路148弄8号。",
+      "evidenceUrl": "https://english.shanghai.gov.cn/en-FirstStores/20240712/62172e435d9b4bcf8f194455e2056034.html",
+      "core": false,
+      "extension": false,
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF246%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+      "geocodeMatchedAddress": "上海市徐汇区湖南路街道安福路246号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    },
+    {
+      "id": "s95",
+      "name": "BF · BASEMENT FG候选",
+      "sourceKey": "BF",
+      "style": "年轻街头与复古休闲服饰集合；品牌匹配待核",
+      "address": "上海市徐汇区新乐路82号（BASEMENT FG候选门牌）",
+      "tags": [
+        "街头",
+        "买手店",
+        "评论候选"
+      ],
+      "routeId": "r3",
+      "sourceIds": [
+        "n01"
+      ],
+      "lat": 31.220382,
+      "lon": 121.453434,
+      "locationStatus": "approximate",
+      "status": "uncertain",
+      "core": false,
+      "extension": false,
+      "keepUncertain": true,
+      "note": "n01作者原评论明确路线经过BF，位于东日到oror泰餐途中。BASEMENT FG官方与上观明确新乐路82号，简称和地段相容，但未取得作者确认全名；仅作为候选店址参考。",
+      "evidenceUrl": "https://www.sina.cn/news/detail/5215144281903017.html",
+      "operatingNote": "作者简称匹配与当前营业待确认；未纳入核心线。",
+      "coordinateNote": "公开门牌地理编码参考，非同名门店POI；园区楼栋及入口尚未核实。来源：Esri ArcGIS，WGS84。",
+      "geocodeEvidenceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%96%B0%E4%B9%90%E8%B7%AF82%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+      "geocodeMatchedAddress": "上海市黄浦区瑞金二路街道新乐路82号",
+      "geocodeType": "StreetAddress",
+      "broadLocation": false
+    }
+  ],
+  "coordinateSystem": "WGS84",
+  "mapNote": "核心虚线基于OSM步行路网与门店参考点规划，未实测入口或现场通行。空心点为门牌／同楼参考，实心点来自同名地图POI。",
+  "coverageNote": "13篇独立来源全部保留。视频采用正文、作者评论和画面抽查，尚有未识别店名；不宣称所有视频店铺已完全提取。",
+  "unplacedSummary": "未确认门牌、同名分店或店名的条目保留在待核清单，不用猜测坐标。"
+};

@@ -1,0 +1,849 @@
+[
+  {
+    "id": 0,
+    "title": "全程与住宿基地",
+    "keys": [
+      "sha",
+      "hotel",
+      "wukang",
+      "sinan",
+      "yu",
+      "bund",
+      "pearl",
+      "b",
+      "disney"
+    ],
+    "routes": [
+      {
+        "route": [
+          "sha",
+          "hotel",
+          "b",
+          "disney",
+          "b"
+        ],
+        "color": "#0f766e"
+      }
+    ],
+    "description": null,
+    "bounds": [
+      [
+        30.90811625106067,
+        121.00479125976562
+      ],
+      [
+        31.466153715024276,
+        121.9866943359375
+      ]
+    ],
+    "background": "地图资源/view-00-底图.jpg",
+    "static": "00-全程地理路线.jpg"
+  },
+  {
+    "id": 1,
+    "title": "抵达·衡山岳阳轻逛",
+    "keys": [
+      "hotel",
+      "hengshan",
+      "dongping"
+    ],
+    "routes": [
+      {
+        "route": [
+          "hengshan",
+          "dongping"
+        ],
+        "color": "#64748b"
+      }
+    ],
+    "description": {
+      "id": 1,
+      "date": "10/21",
+      "title": "抵达·衡山岳阳轻逛",
+      "route": [
+        "hengshan",
+        "dongping"
+      ],
+      "mode": "21日12:05抵沪，机场待核。先到海友上海淮海中路酒店办理入住／寄存，再去衡山路、东平路轻逛；酒店只作地图标记，不接午后游览线。",
+      "meal": "岳阳路附近面馆或本帮菜，顺路选一家；不为网红店跨区",
+      "pace": "预计15:00–16:00出门，衡山路→东平／岳阳路慢走约1小时；晚餐后回酒店休息",
+      "source": [
+        "R006",
+        "R022",
+        "R035"
+      ]
+    },
+    "bounds": [
+      [
+        31.201532878939982,
+        121.42913818359375
+      ],
+      [
+        31.218967408941598,
+        121.45982265472412
+      ]
+    ],
+    "background": "地图资源/view-01-底图.jpg",
+    "static": "每日地图/D01-地理路线.jpg"
+  },
+  {
+    "id": 2,
+    "title": "武康安福·唯一逛店日",
+    "keys": [
+      "hotel",
+      "wukang",
+      "court",
+      "anfu",
+      "uru",
+      "yanqing"
+    ],
+    "routes": [
+      {
+        "route": [
+          "wukang",
+          "court",
+          "anfu",
+          "uru",
+          "yanqing"
+        ],
+        "color": "#0f766e"
+      }
+    ],
+    "description": {
+      "id": 2,
+      "title": "武康安福·唯一逛店日",
+      "route": [
+        "wukang",
+        "court",
+        "anfu",
+        "uru",
+        "yanqing"
+      ],
+      "mode": "住宿往返首末站另乘车；虚线只连武康路、安福路和延庆路街区，店铺全是参考图钉",
+      "meal": "瀚祥或蒋掌柜二选一；面包／茶饮最多加一家；买手店按兴趣选两三家",
+      "pace": "10:30左右出门，午后坐下45–60分钟；延庆路可按体力删去，后续几日不再安排购物",
+      "source": [
+        "R021",
+        "R022",
+        "R028",
+        "R033",
+        "R036",
+        "R059",
+        "R098",
+        "R102"
+      ]
+    },
+    "bounds": [
+      [
+        31.202927759617843,
+        121.42441749572754
+      ],
+      [
+        31.220362032479244,
+        121.45510196685791
+      ]
+    ],
+    "background": "地图资源/view-02-底图.jpg",
+    "static": "每日地图/D02-地理路线.jpg"
+  },
+  {
+    "id": 3,
+    "title": "思南公馆·复兴公园·新天地",
+    "keys": [
+      "hotel",
+      "sinan",
+      "fuxing",
+      "xin"
+    ],
+    "routes": [
+      {
+        "route": [
+          "sinan",
+          "fuxing",
+          "xin"
+        ],
+        "color": "#b45309"
+      }
+    ],
+    "description": {
+      "id": 3,
+      "title": "思南公馆·复兴公园·新天地",
+      "route": [
+        "sinan",
+        "fuxing",
+        "xin"
+      ],
+      "mode": "从住宿乘车到思南公馆；街区和公园之间慢走，返程另乘车；新天地只逛石库门街巷",
+      "meal": "味香斋或附近正餐选一家；茶饮可顺路加选，不追远处店",
+      "pace": "午前或午后出发均可；公园坐下休息，整段约半日，不进入商场扫店",
+      "source": [
+        "R004",
+        "R016",
+        "R019",
+        "R022",
+        "R033",
+        "R039"
+      ]
+    },
+    "bounds": [
+      [
+        31.200541767012236,
+        121.42536163330078
+      ],
+      [
+        31.23540797775291,
+        121.48673057556152
+      ]
+    ],
+    "background": "地图资源/view-03-底图.jpg",
+    "static": "每日地图/D03-地理路线.jpg"
+  },
+  {
+    "id": 4,
+    "title": "豫园老城·南京东路·外滩",
+    "keys": [
+      "hotel",
+      "yu",
+      "nanjingstreet",
+      "bund"
+    ],
+    "routes": [
+      {
+        "route": [
+          "yu",
+          "nanjingstreet",
+          "bund"
+        ],
+        "color": "#be123c"
+      }
+    ],
+    "description": {
+      "id": 4,
+      "title": "豫园老城·南京东路·外滩",
+      "route": [
+        "yu",
+        "nanjingstreet",
+        "bund"
+      ],
+      "mode": "住宿到豫园、豫园到南京东路、外滩回程均乘车；虚线是景区先后，不是跨区步行导航",
+      "meal": "南翔或大壶春二选一；沈大成糕团只顺路少量买",
+      "pace": "11:00左右进老城；下午休息，黄昏走南京东路靠东短段与外滩",
+      "source": [
+        "R010",
+        "R013",
+        "R017",
+        "R052",
+        "R057"
+      ]
+    },
+    "bounds": [
+      [
+        31.192759342162304,
+        121.4029598236084
+      ],
+      [
+        31.26248464134164,
+        121.52569770812988
+      ]
+    ],
+    "background": "地图资源/view-04-底图.jpg",
+    "static": "每日地图/D04-地理路线.jpg"
+  },
+  {
+    "id": 5,
+    "title": "东方明珠·上海中心·滨江",
+    "keys": [
+      "hotel",
+      "pearl",
+      "tower",
+      "river"
+    ],
+    "routes": [
+      {
+        "route": [
+          "pearl",
+          "tower",
+          "river"
+        ],
+        "color": "#1d4ed8"
+      }
+    ],
+    "description": {
+      "id": 5,
+      "title": "东方明珠·上海中心·滨江",
+      "route": [
+        "pearl",
+        "tower",
+        "river"
+      ],
+      "mode": "住宿往返浦东乘地铁或打车；图上仅画陆家嘴地面景观顺序",
+      "meal": "就近找一家正餐；红茶公司仅作为可选茶饮图钉，商场不列游览站",
+      "pace": "11:00左右出门；默认不登高，江边走短段，保留下午坐下休息时间",
+      "source": [
+        "R002",
+        "R017",
+        "R043"
+      ]
+    },
+    "bounds": [
+      [
+        31.19312645205848,
+        121.41008377075195
+      ],
+      [
+        31.26285148048081,
+        121.53282165527344
+      ]
+    ],
+    "background": "地图资源/view-05-底图.jpg",
+    "static": "每日地图/D05-地理路线.jpg"
+  },
+  {
+    "id": 6,
+    "title": "退房转场与休息",
+    "keys": [
+      "hotel",
+      "b",
+      "town"
+    ],
+    "routes": [
+      {
+        "route": [
+          "hotel",
+          "b"
+        ],
+        "color": "#7c3aed"
+      }
+    ],
+    "description": {
+      "id": 6,
+      "date": "10/26",
+      "title": "退房转场与休息",
+      "route": [
+        "hotel",
+        "b"
+      ],
+      "optional": [
+        "town"
+      ],
+      "mode": "从海友上海淮海中路酒店退房，转往乐园附近住宿；小镇为可选延伸。",
+      "meal": "新酒店附近吃饭；不为省餐费另赶远路",
+      "pace": "午前退房，下午入住B；核对27日早享时间与入园交通，早点休息",
+      "source": [
+        "R125",
+        "R127",
+        "R152"
+      ]
+    },
+    "bounds": [
+      [
+        31.03381416472703,
+        121.30348205566406
+      ],
+      [
+        31.312874972975653,
+        121.79443359375
+      ]
+    ],
+    "background": "地图资源/view-06-底图.jpg",
+    "static": "每日地图/D06-地理路线.jpg"
+  },
+  {
+    "id": 7,
+    "title": "迪士尼早享一日",
+    "keys": [
+      "b",
+      "disney"
+    ],
+    "routes": [
+      {
+        "route": [
+          "b",
+          "disney",
+          "b"
+        ],
+        "color": "#c2410c"
+      }
+    ],
+    "description": {
+      "id": 7,
+      "date": "10/27",
+      "title": "迪士尼早享·热门项目尽量多玩",
+      "route": [
+        "b",
+        "disney",
+        "b"
+      ],
+      "mode": "早享票 7:30 入园；建议6:30–6:45到指定入口。10/26晚核对官方项目开放、演出和闭园时刻。",
+      "meal": "园内快餐、短休息；演出与低队列项目按现场余量决定。",
+      "pace": "先抢创极速、矿山车、热力；下午接雷鸣山、小飞侠、抱抱龙。点「园内」看逐时表。",
+      "source": [
+        "D001",
+        "D002",
+        "D003",
+        "D004",
+        "Q2026",
+        "QHEAT",
+        "QCAL",
+        "QRAP",
+        "QPAN",
+        "QREX",
+        "OAPP",
+        "OMAP"
+      ]
+    },
+    "bounds": [
+      [
+        31.10284801679202,
+        121.5743637084961
+      ],
+      [
+        31.172639542737272,
+        121.69710159301758
+      ]
+    ],
+    "background": "地图资源/view-07-底图.jpg",
+    "static": "每日地图/D07-地理路线.jpg"
+  },
+  {
+    "id": 8,
+    "title": "转往杭州·后续待定",
+    "keys": [
+      "b",
+      "disney"
+    ],
+    "routes": [
+      {
+        "route": [
+          "b"
+        ],
+        "color": "#475569"
+      }
+    ],
+    "description": {
+      "id": 8,
+      "title": "转往杭州·后续待定",
+      "route": [
+        "b"
+      ],
+      "mode": "28日起前往杭州；交通方式与杭州行程暂不规划",
+      "meal": "不预设餐饮点",
+      "pace": "从乐园附近酒店退房；此图只标住宿区域，不画未确定的转场线路",
+      "source": [
+        "R127"
+      ]
+    },
+    "bounds": [
+      [
+        31.10284801679202,
+        121.5743637084961
+      ],
+      [
+        31.172639542737272,
+        121.69710159301758
+      ]
+    ],
+    "background": "地图资源/view-08-底图.jpg",
+    "static": "每日地图/D08-地理路线.jpg"
+  },
+  {
+    "id": 9,
+    "title": "市区D2–D5·分区总览",
+    "keys": [
+      "hotel",
+      "wukang",
+      "court",
+      "anfu",
+      "uru",
+      "yanqing",
+      "sinan",
+      "fuxing",
+      "xin",
+      "yu",
+      "nanjingstreet",
+      "bund",
+      "pearl",
+      "tower",
+      "river"
+    ],
+    "routes": [
+      {
+        "route": [
+          "wukang",
+          "court",
+          "anfu",
+          "uru",
+          "yanqing"
+        ],
+        "color": "#0f766e"
+      },
+      {
+        "route": [
+          "sinan",
+          "fuxing",
+          "xin"
+        ],
+        "color": "#b45309"
+      },
+      {
+        "route": [
+          "yu",
+          "nanjingstreet",
+          "bund"
+        ],
+        "color": "#be123c"
+      },
+      {
+        "route": [
+          "pearl",
+          "tower",
+          "river"
+        ],
+        "color": "#1d4ed8"
+      }
+    ],
+    "description": null,
+    "bounds": [
+      [
+        31.18923501470075,
+        121.40604972839355
+      ],
+      [
+        31.258962913055324,
+        121.52878761291504
+      ]
+    ],
+    "background": "地图资源/view-09-底图.jpg",
+    "static": "01-市区路线总览.jpg"
+  },
+  {
+    "id": 10,
+    "title": "迪士尼园内·7:30早享热门八项",
+    "keys": [
+      "disney",
+      "tron",
+      "mine",
+      "hot",
+      "pirate",
+      "soar",
+      "rapids",
+      "peter",
+      "rex",
+      "castle",
+      "storm",
+      "buzz"
+    ],
+    "routes": [
+      {
+        "route": [
+          "disney",
+          "tron",
+          "mine",
+          "hot",
+          "pirate",
+          "soar",
+          "rapids",
+          "peter",
+          "rex",
+          "castle",
+          "disney"
+        ],
+        "color": "#c2410c"
+      }
+    ],
+    "description": {
+      "id": 10,
+      "title": "迪士尼园内·7:30早享热门八项",
+      "route": [
+        "disney",
+        "tron",
+        "mine",
+        "hot",
+        "pirate",
+        "soar",
+        "rapids",
+        "peter",
+        "rex",
+        "castle",
+        "disney"
+      ],
+      "optional": [
+        "storm",
+        "buzz"
+      ],
+      "mode": "主线：入口→创极速→矿山车→热力→加勒比→飞越→雷鸣山→小飞侠→抱抱龙→城堡→出口；虚线只表示顺序。",
+      "meal": "12:35–13:05附近快餐，17:00左右简短晚饭；项目慢于计划就优先删演出与低队列加项。",
+      "pace": "7:30早享；建议6:30–6:45到入口。前五项预计12:00–13:45完成；八项连午饭约15:45–18:40完成。",
+      "source": [
+        "D001",
+        "D002",
+        "D003",
+        "D004",
+        "Q2026",
+        "QHEAT",
+        "QCAL",
+        "QRAP",
+        "QPAN",
+        "QREX",
+        "OAPP",
+        "OMAP"
+      ],
+      "mine_first": {
+        "title": "迪士尼园内·矿山车先玩备用",
+        "route": [
+          "disney",
+          "mine",
+          "hot",
+          "tron",
+          "pirate",
+          "soar",
+          "rapids",
+          "peter",
+          "rex",
+          "castle",
+          "disney"
+        ],
+        "optional": [
+          "storm",
+          "buzz"
+        ],
+        "mode": "备用线：入口→矿山车→热力→创极速→加勒比→飞越→雷鸣山→小飞侠→抱抱龙→城堡→出口；虚线只表示顺序。",
+        "meal": "约13:40–14:10在探险岛附近快餐；项目慢于计划就优先删演出和低队列加项。",
+        "pace": "当创极速早享关闭或排队>25分钟、而矿山车开放且≤25分钟时启用；八项连午饭约16:40–19:45完成。",
+        "source": [
+          "D001",
+          "D002",
+          "D003",
+          "D004",
+          "Q2026",
+          "QHEAT",
+          "QCAL",
+          "QRAP",
+          "QPAN",
+          "QREX",
+          "OAPP",
+          "OMAP"
+        ]
+      },
+      "hot_first": {
+        "title": "迪士尼园内·热力追踪首站备用C",
+        "route": [
+          "disney",
+          "hot",
+          "mine",
+          "pirate",
+          "soar",
+          "rapids",
+          "peter",
+          "rex",
+          "tron",
+          "castle",
+          "disney"
+        ],
+        "optional": [
+          "storm",
+          "buzz"
+        ],
+        "mode": "C线：入口→热力追踪→矿山车→加勒比→飞越→雷鸣山→小飞侠→抱抱龙→创极速→城堡→出口；虚线只表示顺序。",
+        "meal": "约13:10–13:40在探险岛附近快餐；热门八项优先，演出和其他项目只在有余量时加。",
+        "pace": "热力开放且实显≤30分钟，创极速和矿山车均>25分钟时启用；八项含午饭约16:25–19:45完成。",
+        "source": [
+          "D001",
+          "D002",
+          "D003",
+          "D004",
+          "Q2026",
+          "QHEAT",
+          "QCAL",
+          "QRAP",
+          "QPAN",
+          "QREX",
+          "OAPP",
+          "OMAP"
+        ]
+      }
+    },
+    "bounds": [
+      [
+        31.13712574709357,
+        121.64113998413086
+      ],
+      [
+        31.15457213901755,
+        121.67182445526123
+      ]
+    ],
+    "background": "地图资源/view-10-底图.jpg",
+    "static": "每日地图/D07-园内路线.jpg"
+  },
+  {
+    "id": 11,
+    "title": "迪士尼园内·矿山车先玩备用",
+    "keys": [
+      "disney",
+      "mine",
+      "hot",
+      "tron",
+      "pirate",
+      "soar",
+      "rapids",
+      "peter",
+      "rex",
+      "castle",
+      "storm",
+      "buzz"
+    ],
+    "routes": [
+      {
+        "route": [
+          "disney",
+          "mine",
+          "hot",
+          "tron",
+          "pirate",
+          "soar",
+          "rapids",
+          "peter",
+          "rex",
+          "castle",
+          "disney"
+        ],
+        "color": "#9a3412"
+      }
+    ],
+    "description": {
+      "title": "迪士尼园内·矿山车先玩备用",
+      "route": [
+        "disney",
+        "mine",
+        "hot",
+        "tron",
+        "pirate",
+        "soar",
+        "rapids",
+        "peter",
+        "rex",
+        "castle",
+        "disney"
+      ],
+      "optional": [
+        "storm",
+        "buzz"
+      ],
+      "mode": "备用线：入口→矿山车→热力→创极速→加勒比→飞越→雷鸣山→小飞侠→抱抱龙→城堡→出口；虚线只表示顺序。",
+      "meal": "约13:40–14:10在探险岛附近快餐；项目慢于计划就优先删演出和低队列加项。",
+      "pace": "当创极速早享关闭或排队>25分钟、而矿山车开放且≤25分钟时启用；八项连午饭约16:40–19:45完成。",
+      "source": [
+        "D001",
+        "D002",
+        "D003",
+        "D004",
+        "Q2026",
+        "QHEAT",
+        "QCAL",
+        "QRAP",
+        "QPAN",
+        "QREX",
+        "OAPP",
+        "OMAP"
+      ]
+    },
+    "bounds": [
+      [
+        31.13712574709357,
+        121.64113998413086
+      ],
+      [
+        31.15457213901755,
+        121.67182445526123
+      ]
+    ],
+    "background": "地图资源/view-11-底图.jpg",
+    "static": "每日地图/D07-园内路线-矿山车优先.jpg"
+  },
+  {
+    "id": 12,
+    "title": "迪士尼园内·热力追踪首站备用C",
+    "keys": [
+      "disney",
+      "hot",
+      "mine",
+      "pirate",
+      "soar",
+      "rapids",
+      "peter",
+      "rex",
+      "tron",
+      "castle",
+      "storm",
+      "buzz"
+    ],
+    "routes": [
+      {
+        "route": [
+          "disney",
+          "hot",
+          "mine",
+          "pirate",
+          "soar",
+          "rapids",
+          "peter",
+          "rex",
+          "tron",
+          "castle",
+          "disney"
+        ],
+        "color": "#7c3aed"
+      }
+    ],
+    "description": {
+      "title": "迪士尼园内·热力追踪首站备用C",
+      "route": [
+        "disney",
+        "hot",
+        "mine",
+        "pirate",
+        "soar",
+        "rapids",
+        "peter",
+        "rex",
+        "tron",
+        "castle",
+        "disney"
+      ],
+      "optional": [
+        "storm",
+        "buzz"
+      ],
+      "mode": "C线：入口→热力追踪→矿山车→加勒比→飞越→雷鸣山→小飞侠→抱抱龙→创极速→城堡→出口；虚线只表示顺序。",
+      "meal": "约13:10–13:40在探险岛附近快餐；热门八项优先，演出和其他项目只在有余量时加。",
+      "pace": "热力开放且实显≤30分钟，创极速和矿山车均>25分钟时启用；八项含午饭约16:25–19:45完成。",
+      "source": [
+        "D001",
+        "D002",
+        "D003",
+        "D004",
+        "Q2026",
+        "QHEAT",
+        "QCAL",
+        "QRAP",
+        "QPAN",
+        "QREX",
+        "OAPP",
+        "OMAP"
+      ]
+    },
+    "bounds": [
+      [
+        31.13712574709357,
+        121.64113998413086
+      ],
+      [
+        31.15457213901755,
+        121.67182445526123
+      ]
+    ],
+    "background": "地图资源/view-12-底图.jpg",
+    "static": "每日地图/D07-园内路线-热力优先.jpg"
+  }
+]

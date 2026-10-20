@@ -1,0 +1,79 @@
+[
+  {
+    "name": "DORYDORY / dory dory",
+    "address": "上海门店地址待核实",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sohu.com/a/1050116920_121119292",
+    "confidence": "unknown",
+    "notes": "2026-10-15补查。2026-07-14 iziRetail报道明确品牌首个线下体验空间2026年5月落地成都COSMO；未找到上海当前实体门店的可靠门牌证据。不能把成都店、工商注册地址或同名韩国餐饮品牌当上海店。保留用户点名待核实，不落点。",
+    "style": "复古东方美学女装，成衣与裙装"
+  },
+  {
+    "name": "MOONMOI",
+    "address": "上海市徐汇区安福路（门牌待核实）",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sina.cn/news/detail/5327045850563230.html",
+    "confidence": "street-only",
+    "notes": "2026-08-01购物博主实逛提到安福路MOONMOI；BOSS直聘亦有Moonmoi导购/上海安福路职位（https://m.zhipin.com/zhaopin/af51157d391cdcfa1XB83tq-EQ~~/），但招聘聚合页可能混排职位，不能用龙华定位或企业地址落点。尚未取得门牌和地图POI。",
+    "style": "都市女装、风衣及日常成衣"
+  },
+  {
+    "name": "22collection / 22 COLLECTION",
+    "address": "上海市黄浦区建国中路143号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://m.thepaper.cn/newsDetail_forward_33017716",
+    "confidence": "address-only",
+    "notes": "ShanghaiLOOK 2026-04-22明确列建国中路143号，11:00–21:00；说明LCDC快闪于4月6日结束但集合店二楼常驻品牌仍在。2026-09 iziRetail南京报道写上海建国西路，未提供门牌；没有证据显示上海多店或迁址。保留可核实的建国中路143号，勿将西路报道独立生成第二家。另有2026-07 PopDaily写建国路143号整栋，2026-10-02用户实逛仍称建国中路。",
+    "style": "韩国设计师服饰、鞋靴及配件集合店"
+  },
+  {
+    "name": "OPEN YY",
+    "address": "上海市四行仓库一楼百联时尚消费品展厅（具体门牌及当前开放待核实）",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.guandian.cn/article/20260909/599444.html",
+    "confidence": "venue-only",
+    "notes": "2026-09-09报道确认四行仓库一楼官方快闪及26春夏系列，但没有起止日期或可证明2026-10-15仍开放的公告。2024年HAUS NOWHERE三层也曾引入OPEN YY快闪；2025年6月PUMA联名淮海中路852–854号活动是历史限时空间，均不能推断当前永久门店。保留为快闪待核实。",
+    "style": "韩国设计师女装，街头、解构与Y2K风格"
+  },
+  {
+    "name": "NEGATIVE THREE / NEGATIVETHREE",
+    "address": "上海市静安区光复路195号 白空间·光二仓库 F110–111（历史快闪）",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://negativethree.com/article/contents/8/2938/",
+    "confidence": "historical-pop-up",
+    "notes": "品牌官网明确上海快闪为2025-12-03至2025-12-14，11:00–21:00，活动已结束。尚未找到当前上海常设门店证据；不能将历史活动作为当前可逛门店落点。",
+    "style": "韩国设计师鞋履，运动鞋、玛丽珍鞋、靴子"
+  },
+  {
+    "name": "CERRIC",
+    "address": "上海市徐汇区新乐路（慢闪店，门牌待核实）",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sina.cn/news/detail/5328203707057861.html",
+    "confidence": "street-only",
+    "notes": "界面新闻官方2026-08-04确认新乐路慢闪店；2026-08-18 iziRetail实访teenteens指出与CERRIC慢闪、GOODBAI Minuet相邻（https://www.sohu.com/a/1064329847_121119292）。尚未取得具体门牌及结束日期。品牌真正官网为cerric.co；cerric.com搜索结果为另一女装电商，不作该韩国品牌证据。",
+    "style": "韩国设计师服饰与鞋履，牛仔、针织、机能与自由工装"
+  },
+  {
+    "name": "lost in echo（安福路店）",
+    "address": "上海市徐汇区安福路246号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://english.shanghai.gov.cn/en-FirstStores/20240712/62172e435d9b4bcf8f194455e2056034.html",
+    "confidence": "address-only",
+    "notes": "上海市政府英文网2024-07-12及上海商务委外卡商户名单均明确安福路246号；后者门店名为lost in echo上海安福路店（https://sww.sh.gov.cn/cmsres/ae/ae6658e3f1e646d5b6b5ac8c248309cc/6c5492862a5bd2d562a54410489fd0f2.pdf）。设计项目资料亦对应246号。2026-07更新招聘仍有安福路店员职位。地图搜索未取得可核坐标，不能以百度AI汇总中246弄代替官方门牌；不采用品牌公司注册地址乌鲁木齐中路148弄8号。",
+    "style": "设计师鞋履、包袋、首饰和成衣，现代摩登与前卫复古"
+  }
+]

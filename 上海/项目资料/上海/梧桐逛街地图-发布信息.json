@@ -1,0 +1,15 @@
+{
+  "url": "https://shanghai-wutong-shopwalk.quirkylily.chatgpt.site",
+  "access": "public",
+  "loginRequired": false,
+  "project_id": "appgprj_6ad07aee974c8191806d992e1f5c862b",
+  "version_id": "appgprj_6ad07aee974c8191806d992e1f5c862b~appgver_c0c29dd101f48191bd0fdace4dd25d1f",
+  "deployment_id": "appgdep_6ad09145591c819183892f4229b0708b",
+  "commit_sha": "9b12f50a80a3c736668c38ac8143736f265e78c8",
+  "sources": 13,
+  "records": 94,
+  "updated": "2026-10-15",
+  "exact": 13,
+  "approximate": 55,
+  "unplaced": 26
+}

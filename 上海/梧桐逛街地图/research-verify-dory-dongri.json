@@ -1,0 +1,138 @@
+{
+  "checkedAt": "2026-10-15",
+  "method": "公开搜索、媒体原文及可索引的实逛用户帖子交叉检索；未使用工商注册地址作为零售门店；尚未读取品牌账号实时公告或地图动态搜索结果。",
+  "entries": [
+    {
+      "name": "DORYDORY",
+      "aliases": [
+        "dory dory",
+        "阿斗Adou-的品牌"
+      ],
+      "address": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "confidence": "unknown",
+      "businessStatus": "上海门店及当前营业状态未核实",
+      "hours": null,
+      "style": "复古女性气质、新中式细节与昭和叙事感，蕾丝、棉麻、盘花、珍珠与做旧肌理。",
+      "evidence": [
+        {
+          "url": "https://www.sina.cn/news/detail/4854109860004458.html",
+          "published": "2023-01-04",
+          "type": "品牌创始人微博原帖镜像",
+          "supports": "阿斗Adou-亲自确认dorydory品牌及中式、法式、复古设计方向；不能用于证实2026上海门店。"
+        },
+        {
+          "url": "https://www.sohu.com/a/1050116920_121119292",
+          "published": "2026-07",
+          "type": "iziRetail店铺实地观察",
+          "supports": "2026年5月首个线下体验空间dorydory阁楼空间在成都COSMO落地。没有上海门店门牌。"
+        },
+        {
+          "url": "https://jingxuan.douyin.com/m/video/7658163236459052480",
+          "published": "2026-07-03",
+          "type": "个人实逛原视频正文",
+          "supports": "明确标注成都COSMO 3F的dorydory。不能据此在上海落点。"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-08-19/doc-ininwawm6984243.shtml",
+          "published": "2026-08-19",
+          "type": "封面新闻记者报道",
+          "supports": "继续列举成都COSMO二、三层Dorydory。没有上海门店证据。"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "DORI DORI",
+          "address": "上海闵行区虹泉路1078号井亭天地三楼",
+          "url": "https://www.dianping.com/shop/92541476/photos/album",
+          "reason": "大众点评分类儿童乐园，与用户女装店不同。"
+        },
+        {
+          "name": "dorydore多里多尔",
+          "reason": "拼写和鞋履品牌均不同，不能合并。"
+        },
+        {
+          "name": "도리도리 / dorydory.kr",
+          "reason": "韩国鸡肉料理连锁，非女装品牌。"
+        }
+      ],
+      "nextBestEvidence": "回看用户新增视频的DORYDORY门头是否确为同名品牌、读门牌或作者评论；品牌小红书账号的门店公告；上海地图动态检索。搜索无结果不等于上海没有店。"
+    },
+    {
+      "name": "东日是个卷毛 · DongRi studio",
+      "aliases": [
+        "冬日是个卷毛",
+        "Dongri studio girls"
+      ],
+      "address": "上海市黄浦区南昌路205弄2号",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "confidence": "address-confirmed",
+      "businessStatus": "2026-10-15内置浏览器读取百度地图同名POI与白色门头照片，页面列示营业时间，2026-08-18/19有三楼试衣间评论；营业情况以到店为准",
+      "hours": "周一至周日 11:30—20:00（百度地图列示，2026-10-15核实）",
+      "style": "冷色调少女叠穿与娃娃领、波点、中长裙；白色海岛风三层店，兼售配饰、餐盘杯具。",
+      "evidence": [
+        {
+          "url": "https://www.sohu.com/a/1055270211_121119292",
+          "published": "2026-07-27",
+          "type": "iziRetail现场观察",
+          "supports": "7月初南昌路上海首店开业，店招DongRi studio，白色木质外立面及木栅栏，三层。开业第三天缺货临时关店，不是长期闭店证据。"
+        },
+        {
+          "url": "https://www.jfdaily.com/sgh/detail?id=4041636",
+          "published": "2026-08-20",
+          "type": "上观新闻记者盛寅敏图文",
+          "supports": "证实南昌路上海首店、店内三层陈列与试衣五件规定；全文没有具体门牌。"
+        },
+        {
+          "url": "https://www.sina.cn/news/detail/5317128938849632.html",
+          "published": "2026-07-05",
+          "type": "Nov_heureux实逛原帖镜像",
+          "supports": "Shanghai首店实逛配9图，无正文门牌。"
+        },
+        {
+          "url": "https://www.sina.cn/media/5506399310",
+          "published": "2026-08-18",
+          "type": "神祷个人微博原帖列表",
+          "supports": "用户称离职、买衣、上海书展并夸冬日是个卷毛实体店装修；可辅助佐证8月实逛，但不提供门牌或实时营业表。"
+        },
+        {
+          "url": "https://m.cbndata.com/information/295636",
+          "published": "2026-08",
+          "type": "品牌行业报道",
+          "supports": "店铺照片标明来源小红书@Dongri studio girls，可据此找到品牌账号核查实时公告。"
+        },
+        {
+          "url": "https://j.map.baidu.com/1e/aVFM",
+          "checkedAt": "2026-10-15",
+          "type": "主代理内置浏览器读取百度地图同名POI",
+          "supports": "Dongri studio，南昌路205弄2号，周一至周日11:30—20:00，照片匹配白色门头；2026-08-18/19三楼试衣间评论",
+          "uid": "1cb35eb28673ae322e473364"
+        }
+      ],
+      "excluded": [
+        {
+          "address": "上海市宝山区吉浦路545-551号",
+          "url": "https://www.shuididp.cn/yp-5bad3ee8134105411881ebdff1a89201.html",
+          "reason": "工商注册地址，不是已证实的南昌路零售店，不能用于地图点位。"
+        },
+        {
+          "address": "厦门斗西路6号",
+          "reason": "品牌厦门二店，不是上海店。"
+        },
+        {
+          "url": "https://m.winshang.com/news742093.html",
+          "reason": "报道将街道写作南京路，与多篇原报道南昌路矛盾，应舍弃其街道字段。"
+        }
+      ],
+      "facadeImagesForManualDoorplateReading": [
+        "https://sghimages.shobserver.cn/img/sgh/20260820/FcuIYGJBlW/3f682372f63a4f57a86f3227028d4ba3.jpg",
+        "https://sghimages.shobserver.cn/img/sgh/20260820/BTYizPAXVQ/89724ca9ad41488e84139b5b99ff5a3a.jpg"
+      ],
+      "nextBestEvidence": "门牌与营业时间已通过主代理内置浏览器读取百度地图POI查实；坐标仍待从地图页面可见资料或门牌地理编码获取并注明精度。"
+    }
+  ]
+}

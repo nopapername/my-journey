@@ -1,0 +1,293 @@
+{
+  "checkedAt": "2026-10-15",
+  "researchMethod": "19轮网页批量搜索与来源核对；高德POI优先。只保留来源明确坐标，无坐标的lat/lon均为null；unknown包含仅知街道或用户提供未独立验证的门牌。",
+  "coordinateNote": "高德来源坐标按GCJ-02使用；不得将WGS84、BD09或未知坐标直接放入高德底图。",
+  "entries": [
+    {
+      "name": "LABELHOOD 蕾虎（富民路店）",
+      "address": "上海市静安区富民路184号",
+      "lat": 31.218279,
+      "lon": 121.45157,
+      "coordinateSystem": "GCJ-02",
+      "evidenceUrl": "https://www.amap.com/place/B0FFJUR3UN",
+      "confidence": "exact",
+      "notes": "官网现行门店页 https://www.labelhood.com/md 仍列富民路184号，并非仅有旧游记。坐标直接取高德POI，未转换。",
+      "style": "中国独立设计师品牌买手店；静安区政府介绍列有 SHUSHU/TONG、swaying、UMA WANG。"
+    },
+    {
+      "name": "cotempt",
+      "address": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "notes": "多次精确拼写及上海/店/路组合检索未找到可核实店铺。保留用户拼写，不猜测为其他品牌。",
+      "style": null
+    },
+    {
+      "name": "luftkuss",
+      "address": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://m.zhipin.com/zhaopin/ee27bce4cc95beb91nZ62tS9EQ~~/",
+      "confidence": "unknown",
+      "notes": "招聘页出现上海静安寺区域的Luftkuss买手店店长职位，但无门牌。不得把SourceUnknown官网所列深圳stockist地址套用上海店。",
+      "style": "买手店；具体服装风格待核。"
+    },
+    {
+      "name": "RizzDarling",
+      "address": "上海市乌鲁木齐中路（门牌未核实）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.qtfm.cn/channels/469464/programs/30268289/",
+      "confidence": "unknown",
+      "notes": "来都来了播客No.242节目说明将rizzdarling鞋子列于乌鲁木齐中路；未获具体门牌。",
+      "style": "鞋履店；公开探店记录提及多样化女鞋。"
+    },
+    {
+      "name": "ASTEE ATELIER",
+      "address": "上海市建国西路436号",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.asteeatelier.com/pages/book-an-appointment",
+      "confidence": "address-only",
+      "notes": "官网预约页明确436 Jian Guo Road (W) Shanghai 200031；未查到可验证坐标。",
+      "style": "珠宝与婚嫁首饰；官网有钻石戒指、银饰、耳环及项链。"
+    },
+    {
+      "name": "thirty",
+      "address": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "notes": "未找到可确认属于清单店铺的上海地址；检索结果含无关Thirty Three服装贸易公司，未采用。",
+      "style": null
+    },
+    {
+      "name": "椋木（上海五原路店）",
+      "address": "上海市徐汇区五原路210弄1号",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.thepaper.cn/newsDetail_forward_32773404",
+      "confidence": "address-only",
+      "notes": "2026-03-15上海徐汇官方政务报道明确门牌及11:00—19:00；未查到可验证坐标。",
+      "style": "原创器物与生活方式；茶具、酒具、家居器物及艺术策展。"
+    },
+    {
+      "name": "HAKU",
+      "address": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "notes": "未确认清单中的HAKU是服饰店、其他零售店还是餐厅；同名结果众多，不合并。",
+      "style": null
+    },
+    {
+      "name": "Bistro11",
+      "address": "上海市静安区富民路179号1楼",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.timeoutshanghai.cn/features/7194.html",
+      "confidence": "address-only",
+      "notes": "Time Out及Trip.com同列179号1楼；City8/Google关联聚合页另有177号，存在门牌差异，优先179并保留提醒。",
+      "style": "All Day Brunch与创意融合西餐；蓝色门头、法式装潢。"
+    },
+    {
+      "name": "Negative three",
+      "address": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "notes": "检索出现韩国同名鞋履品牌，但无法证明是用户所指上海店，也未获得上海门店地址。",
+      "style": null
+    },
+    {
+      "name": "PB ARCHIVE",
+      "address": "上海市静安区光复路195号（百空间光二仓库）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.jfdaily.com.cn/wx/detail.do?id=1037568",
+      "confidence": "address-only",
+      "notes": "上观2025年报道列其为光二仓库引入的时尚买手品牌，同时提示部分门店当时仍装修、未开放。仅确认所在建筑，具体铺号与当前营业状态待核；该店超出梧桐核心区。",
+      "style": "时尚买手品牌；具体选品风格待核。"
+    },
+    {
+      "name": "an action a day（愚园路店）",
+      "address": "上海市长宁区愚园路1382号",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://sww.sh.gov.cn/swdt/20250807/db7d863d76e54fb895f85855c7a8da4e.html",
+      "confidence": "address-only",
+      "notes": "上海市商务委2025-08-07文章明确地址；品牌方供稿亦确认2025年5月开出第三家店。与五原路店分开。",
+      "style": "运动休闲服饰；家居场景式陈列、自然舒适基础款。"
+    },
+    {
+      "name": "an action a day（五原路店／安福附近）",
+      "address": "上海市徐汇区五原路86号",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.brandstar.com.cn/news/7542",
+      "confidence": "address-only",
+      "notes": "品牌方供稿明确五原路86号「客厅与阳台」。安福路LOOKNOW曾为买手销售渠道，不能直接当作AAAD独立安福路店。",
+      "style": "运动休闲服饰；「散落的家」生活场景空间。"
+    },
+    {
+      "name": "chelchel house",
+      "address": "上海市富民路182弄13号（用户提供，待独立核实）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.everyart.cn/single/17139",
+      "confidence": "unknown",
+      "notes": "用户提供门牌未在公开网页核实；EveryArt招聘介绍只支持品牌身份和风格，不支持该店地址。",
+      "style": "上海独立女装品牌；简约、无性别化剪裁与天然亲肤材质，日常通勤休闲。"
+    },
+    {
+      "name": "Freja别院",
+      "address": "上海市富民路271号（用户提供，待独立核实）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "notes": "未找到该名称与该门牌的可靠匹配；不要与同名餐厅、Freja NYC或其他香氛小店合并。",
+      "style": null
+    },
+    {
+      "name": "Alicia",
+      "address": "上海市安福路275弄5号（用户提供，待独立核实）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "notes": "未找到该名称与门牌的可引用匹配；成都CPI同名品牌报道不能用于证明上海门店。",
+      "style": null
+    },
+    {
+      "name": "TOGGLER",
+      "address": "上海市徐汇区华山路847号",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://popdaily.com/my/article/318738/amp",
+      "confidence": "address-only",
+      "notes": "PopDaily 2026年文章明确847号；2026年9月iziRetail文章支持首店在华山路1922年英式别墅，未列具体门牌。未查到可验证坐标。",
+      "style": "配饰、耳环、项链、戒指、发饰；英伦古典浪漫，蝴蝶结、芭蕾丝、珍珠元素。"
+    },
+    {
+      "name": "Typha",
+      "address": "上海市长宁区利西路102号（1幢由用户提供，未独立核实）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.pixnoy.com/profile/rain.rein.reign/",
+      "confidence": "address-only",
+      "notes": "品牌标识设计方rain.rein.reign公开项目介绍明确上海首店利西路102号；1幢未在来源中验证。2026年探店及商业报道可佐证在利西路营业。",
+      "style": "独立舞蹈运动品牌；芭蕾服饰、蕾丝与蓬裙，优雅浪漫。"
+    },
+    {
+      "name": "LADYFAFA（巨鹿路服饰店）",
+      "address": "上海市巨鹿路699-4号",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.ysjhz.com/info/202202/08/d0acc0dbbffce34eba9353918ebab886.html",
+      "confidence": "address-only",
+      "notes": "2022年报道列服饰店巨鹿路699-4；该资料较旧，现址和营业状态仍需复核。文中318号301室属于后续FlippedApartment段落，不能误配给LADYFAFA。",
+      "style": "原创服饰；另有「發」主题原创饰品。"
+    },
+    {
+      "name": "LABELDEL（巨鹿路店）",
+      "address": "上海市静安区巨鹿路741-4号",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://cdn.asp.events/CLIENT_CL_EA_DE3B6632_02E3_4F5C_06E2D09D198B097F/sites/Design-Shanghai/media/in-the-city/Design-in-the-City-2026-by-Design-Shanghai.pdf",
+      "confidence": "address-only",
+      "notes": "设计上海2026官方城市指南明确No.741-4 Julu Road及11:00—22:00。",
+      "style": "东方文化灵感的中性设计品牌；天然肌理、手工细节、宽松舒适版型。"
+    },
+    {
+      "name": "Academy of Love（富民路店）",
+      "address": "上海市静安区富民路（门牌未核实）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://english.shanghai.gov.cn/en-TrendyStores/20251224/edd3e02e1e534882a5f7da310c4f8a0f.html",
+      "confidence": "unknown",
+      "notes": "上海市政府英文站及静安媒体确认富民路首店，但未列门牌；不可用愚园路1288号分店地址代替。",
+      "style": "纯白、无性别、极简服装；美术馆式少量陈列。"
+    },
+    {
+      "name": "Yearly Plan（长乐路店）",
+      "address": "上海市静安区长乐路888号（另有892号记录）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.gooood.cn/yearly-plan-shanghai-by-dongqi-design.htm",
+      "confidence": "address-only",
+      "notes": "建筑师供稿项目明确长乐路888号；上海商务委商户支付名录另列892号，可能涉及整体建筑/相邻入口，未自行统一，出行导航应按店名复核。",
+      "style": "零售与展览结合的设计空间；服装具体风格待核。"
+    },
+    {
+      "name": "EXISTENTIALISM（新乐路／长乐路店待区分）",
+      "address": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "notes": "用户要求区分新乐路/长乐路与复兴西路分店，本轮未找到对应门牌证据；不将早期安福路157号或百度同名富民路童装POI混入。",
+      "style": null
+    },
+    {
+      "name": "EXISTENTIALISM（复兴西路店）",
+      "address": "上海市复兴西路74号（用户提供，待独立核实）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "notes": "多次品牌与复兴西路74组合检索未获独立公开证据；保留为待核点，不生成坐标。",
+      "style": null
+    },
+    {
+      "name": "Morethings+（安福附近）",
+      "address": "上海市徐汇区乌鲁木齐中路196号",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://m.zhipin.com/companys/ca64c79f692d2f511XV52NS_Els~.html",
+      "confidence": "address-only",
+      "notes": "经营方上海良趣文化传播有限公司招聘页明确MORE THINGS乌鲁木齐中路196号；播客称安福路区域店，属于片区称谓，非门牌安福路。",
+      "style": "手工皮具、设计师首饰与中古首饰集合店。"
+    },
+    {
+      "name": "FIRSTFLOOR家与工坊",
+      "address": "上海市徐汇区五原路89号",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "evidenceUrl": "https://www.toutiao.com/w/1877414420319241/",
+      "confidence": "address-only",
+      "notes": "主代理已核实用户提供国庆视频原作者评论回复第一家地址为上海市徐汇区五原路89号（原文视频内部标识6ab7c0fb）；另2026-09-27头条公开探店记录直接包含#FIRSTFLOOR家与工坊#和五原路，可交叉支持门店名。完整原视频URL待主代理并入；未查到可验证坐标。",
+      "style": null
+    }
+  ]
+}

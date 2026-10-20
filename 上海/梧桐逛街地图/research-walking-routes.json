@@ -1,0 +1,1878 @@
+{
+  "r1": {
+    "url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/121.442882,31.225201;121.441808,31.227466;121.444501,31.226723;121.447876,31.232284;121.458548,31.230841?overview=full&geometries=geojson&steps=false&continue_straight=false",
+    "response": {
+      "code": "Ok",
+      "routes": [
+        {
+          "legs": [
+            {
+              "steps": [],
+              "weight": 52.25,
+              "summary": "",
+              "duration": 366.7,
+              "distance": 453.2
+            },
+            {
+              "steps": [],
+              "weight": 53.46,
+              "summary": "",
+              "duration": 373.6,
+              "distance": 461.7
+            },
+            {
+              "steps": [],
+              "weight": 108.86,
+              "summary": "",
+              "duration": 808.5,
+              "distance": 1011.1
+            },
+            {
+              "steps": [],
+              "weight": 133.89,
+              "summary": "",
+              "duration": 1038,
+              "distance": 1294.9
+            }
+          ],
+          "weight_name": "routability",
+          "geometry": {
+            "coordinates": [
+              [
+                121.442638,
+                31.225527
+              ],
+              [
+                121.442946,
+                31.225696
+              ],
+              [
+                121.443275,
+                31.225898
+              ],
+              [
+                121.443231,
+                31.226001
+              ],
+              [
+                121.443268,
+                31.226103
+              ],
+              [
+                121.443424,
+                31.226235
+              ],
+              [
+                121.443111,
+                31.2269
+              ],
+              [
+                121.443046,
+                31.227046
+              ],
+              [
+                121.442993,
+                31.227184
+              ],
+              [
+                121.442958,
+                31.227297
+              ],
+              [
+                121.442926,
+                31.227391
+              ],
+              [
+                121.442852,
+                31.227571
+              ],
+              [
+                121.442781,
+                31.227757
+              ],
+              [
+                121.442718,
+                31.227941
+              ],
+              [
+                121.442659,
+                31.228129
+              ],
+              [
+                121.442634,
+                31.228223
+              ],
+              [
+                121.441623,
+                31.227927
+              ],
+              [
+                121.442634,
+                31.228223
+              ],
+              [
+                121.442659,
+                31.228129
+              ],
+              [
+                121.442718,
+                31.227941
+              ],
+              [
+                121.442781,
+                31.227757
+              ],
+              [
+                121.442852,
+                31.227571
+              ],
+              [
+                121.442926,
+                31.227391
+              ],
+              [
+                121.442958,
+                31.227297
+              ],
+              [
+                121.442993,
+                31.227184
+              ],
+              [
+                121.443046,
+                31.227046
+              ],
+              [
+                121.443111,
+                31.2269
+              ],
+              [
+                121.443424,
+                31.226235
+              ],
+              [
+                121.443597,
+                31.226382
+              ],
+              [
+                121.443713,
+                31.226367
+              ],
+              [
+                121.443744,
+                31.226309
+              ],
+              [
+                121.444214,
+                31.226521
+              ],
+              [
+                121.444533,
+                31.226673
+              ],
+              [
+                121.44486,
+                31.226829
+              ],
+              [
+                121.444964,
+                31.22687
+              ],
+              [
+                121.444563,
+                31.227904
+              ],
+              [
+                121.444531,
+                31.227904
+              ],
+              [
+                121.444422,
+                31.228203
+              ],
+              [
+                121.444348,
+                31.228395
+              ],
+              [
+                121.444318,
+                31.228458
+              ],
+              [
+                121.444502,
+                31.228513
+              ],
+              [
+                121.444566,
+                31.22856
+              ],
+              [
+                121.444592,
+                31.228615
+              ],
+              [
+                121.444533,
+                31.228825
+              ],
+              [
+                121.445072,
+                31.229013
+              ],
+              [
+                121.444973,
+                31.229226
+              ],
+              [
+                121.445372,
+                31.229405
+              ],
+              [
+                121.447226,
+                31.230215
+              ],
+              [
+                121.447252,
+                31.230226
+              ],
+              [
+                121.447239,
+                31.230245
+              ],
+              [
+                121.446748,
+                31.230889
+              ],
+              [
+                121.446744,
+                31.230895
+              ],
+              [
+                121.44675,
+                31.230897
+              ],
+              [
+                121.446947,
+                31.23096
+              ],
+              [
+                121.447238,
+                31.23105
+              ],
+              [
+                121.447415,
+                31.231104
+              ],
+              [
+                121.447653,
+                31.231177
+              ],
+              [
+                121.447757,
+                31.231211
+              ],
+              [
+                121.447943,
+                31.231268
+              ],
+              [
+                121.448672,
+                31.231503
+              ],
+              [
+                121.448613,
+                31.231632
+              ],
+              [
+                121.448519,
+                31.232007
+              ],
+              [
+                121.448428,
+                31.232227
+              ],
+              [
+                121.448322,
+                31.232444
+              ],
+              [
+                121.448428,
+                31.232227
+              ],
+              [
+                121.448519,
+                31.232007
+              ],
+              [
+                121.448613,
+                31.231632
+              ],
+              [
+                121.448672,
+                31.231503
+              ],
+              [
+                121.449058,
+                31.230936
+              ],
+              [
+                121.449119,
+                31.230841
+              ],
+              [
+                121.449174,
+                31.230791
+              ],
+              [
+                121.449283,
+                31.23072
+              ],
+              [
+                121.449388,
+                31.230655
+              ],
+              [
+                121.45003,
+                31.230887
+              ],
+              [
+                121.450234,
+                31.230887
+              ],
+              [
+                121.450639,
+                31.230785
+              ],
+              [
+                121.450814,
+                31.230788
+              ],
+              [
+                121.451357,
+                31.231072
+              ],
+              [
+                121.452426,
+                31.231667
+              ],
+              [
+                121.453071,
+                31.232031
+              ],
+              [
+                121.453313,
+                31.23201
+              ],
+              [
+                121.454429,
+                31.232473
+              ],
+              [
+                121.45476,
+                31.231953
+              ],
+              [
+                121.454987,
+                31.231528
+              ],
+              [
+                121.455041,
+                31.231431
+              ],
+              [
+                121.455089,
+                31.231331
+              ],
+              [
+                121.455278,
+                31.230889
+              ],
+              [
+                121.456152,
+                31.231366
+              ],
+              [
+                121.456354,
+                31.23146
+              ],
+              [
+                121.456576,
+                31.231513
+              ],
+              [
+                121.456783,
+                31.231497
+              ],
+              [
+                121.457141,
+                31.231377
+              ],
+              [
+                121.457468,
+                31.231475
+              ],
+              [
+                121.457548,
+                31.231209
+              ],
+              [
+                121.457634,
+                31.230963
+              ],
+              [
+                121.457796,
+                31.230598
+              ]
+            ],
+            "type": "LineString"
+          },
+          "weight": 348.46,
+          "duration": 2586.8,
+          "distance": 3220.9
+        }
+      ],
+      "waypoints": [
+        {
+          "hint": "mI3ojMj9p5J7AAAAtAEAAMYEAADiAQAAN-UeQYhFC0JpjcNCRxoaQk8AAAAXAQAADwMAADQBAAB-AAAAThE9B7d23AFCEj0HcXXcAQQAnwMAAAAA",
+          "location": [
+            121.442638,
+            31.225527
+          ],
+          "name": "南京西路",
+          "distance": 42.97576364
+        },
+        {
+          "hint": "g2vBkIRrwZD5AwAAfwIAAAAAAAAAAAAAbYfLQilSf0IAAAAAAAAAAC4DAAD_AQAAAAAAAAAAAAB-AAAAVw09BxeA3AEQDj0HSn7cAQAAvw8AAAAA",
+          "location": [
+            121.441623,
+            31.227927
+          ],
+          "name": "",
+          "distance": 54.06660965
+        },
+        {
+          "hint": "1PrvjMT9p5K8AQAAtAEAAIgAAAB4AgAAlIoOQrwDC0KVbi5BCU1KQhwBAAAXAQAAVwAAAJUBAAB-AAAAtRg9BzF73AGVGD0HY3vcAQIADw8AAAAA",
+          "location": [
+            121.444533,
+            31.226673
+          ],
+          "name": "南京西路",
+          "distance": 6.326789194
+        },
+        {
+          "hint": "2UlrgLlkvI1GAQAAIAQAABgEAAAAAAAAKL_QQb76qEKNkqdCAAAAANAAAAClAgAAngIAAAAAAAB-AAAAgic9B7yR3AHEJT0HHJHcAQYAHxUAAAAA",
+          "location": [
+            121.448322,
+            31.232444
+          ],
+          "name": "陕西北路",
+          "distance": 46.04873486
+        },
+        {
+          "hint": "PLhmgBeWf40AAAAAHwIAAC4KAADhAgAAkBHjPfI_LUJSfFBDD8NrQgAAAABbAQAAgwYAANgBAAB-AAAAhEw9B4aK3AF0Tz0HeYvcAQgAPxUAAAAA",
+          "location": [
+            121.457796,
+            31.230598
+          ],
+          "name": "石门一路",
+          "distance": 76.54808448
+        }
+      ]
+    },
+    "profile": "FOSSGIS prepared foot graph",
+    "checkedAt": "2026-10-15",
+    "coreIds": [
+      "s01",
+      "s03",
+      "s02",
+      "s04",
+      "s05"
+    ],
+    "inputPoints": [
+      [
+        31.225201,
+        121.442882
+      ],
+      [
+        31.227466,
+        121.441808
+      ],
+      [
+        31.226723,
+        121.444501
+      ],
+      [
+        31.232284,
+        121.447876
+      ],
+      [
+        31.230841,
+        121.458548
+      ]
+    ]
+  },
+  "r2": {
+    "url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/121.435713,31.215177;121.435713,31.215177;121.436054,31.215257;121.438778,31.215693;121.441066,31.215064;121.442810,31.215109;121.442833,31.215163;121.440597,31.214854;121.434558,31.208222?overview=full&geometries=geojson&steps=false&continue_straight=false",
+    "response": {
+      "code": "Ok",
+      "routes": [
+        {
+          "legs": [
+            {
+              "steps": [],
+              "weight": 0,
+              "summary": "",
+              "duration": 0,
+              "distance": 0
+            },
+            {
+              "steps": [],
+              "weight": 3.25,
+              "summary": "",
+              "duration": 26.1,
+              "distance": 32.6
+            },
+            {
+              "steps": [],
+              "weight": 26.34,
+              "summary": "",
+              "duration": 210.6,
+              "distance": 263.3
+            },
+            {
+              "steps": [],
+              "weight": 33.06,
+              "summary": "",
+              "duration": 255.1,
+              "distance": 316.2
+            },
+            {
+              "steps": [],
+              "weight": 23.7,
+              "summary": "",
+              "duration": 184.9,
+              "distance": 228.8
+            },
+            {
+              "steps": [],
+              "weight": 0.43,
+              "summary": "",
+              "duration": 3.5,
+              "distance": 4.3
+            },
+            {
+              "steps": [],
+              "weight": 29.31,
+              "summary": "",
+              "duration": 236.4,
+              "distance": 293.1
+            },
+            {
+              "steps": [],
+              "weight": 111.85,
+              "summary": "",
+              "duration": 894.6,
+              "distance": 1118.5
+            }
+          ],
+          "weight_name": "routability",
+          "geometry": {
+            "coordinates": [
+              [
+                121.435756,
+                31.215085
+              ],
+              [
+                121.435756,
+                31.215085
+              ],
+              [
+                121.435849,
+                31.215117
+              ],
+              [
+                121.436082,
+                31.215173
+              ],
+              [
+                121.43611,
+                31.21518
+              ],
+              [
+                121.43705,
+                31.215411
+              ],
+              [
+                121.438756,
+                31.215769
+              ],
+              [
+                121.439326,
+                31.215889
+              ],
+              [
+                121.439406,
+                31.215905
+              ],
+              [
+                121.439466,
+                31.215919
+              ],
+              [
+                121.43966,
+                31.215959
+              ],
+              [
+                121.439769,
+                31.215982
+              ],
+              [
+                121.440203,
+                31.216074
+              ],
+              [
+                121.440673,
+                31.216171
+              ],
+              [
+                121.440909,
+                31.215618
+              ],
+              [
+                121.441126,
+                31.215082
+              ],
+              [
+                121.441385,
+                31.214443
+              ],
+              [
+                121.442569,
+                31.214859
+              ],
+              [
+                121.442878,
+                31.214969
+              ],
+              [
+                121.44292,
+                31.214983
+              ],
+              [
+                121.442569,
+                31.214859
+              ],
+              [
+                121.441385,
+                31.214443
+              ],
+              [
+                121.440911,
+                31.214356
+              ],
+              [
+                121.440698,
+                31.215006
+              ],
+              [
+                121.440557,
+                31.214971
+              ],
+              [
+                121.440298,
+                31.214907
+              ],
+              [
+                121.440226,
+                31.214862
+              ],
+              [
+                121.440295,
+                31.214652
+              ],
+              [
+                121.440409,
+                31.214257
+              ],
+              [
+                121.440168,
+                31.214216
+              ],
+              [
+                121.439263,
+                31.214041
+              ],
+              [
+                121.438658,
+                31.21392
+              ],
+              [
+                121.437447,
+                31.21368
+              ],
+              [
+                121.436376,
+                31.213472
+              ],
+              [
+                121.436438,
+                31.213223
+              ],
+              [
+                121.43646,
+                31.212819
+              ],
+              [
+                121.436426,
+                31.212645
+              ],
+              [
+                121.436313,
+                31.212233
+              ],
+              [
+                121.436112,
+                31.211499
+              ],
+              [
+                121.435767,
+                31.210252
+              ],
+              [
+                121.435746,
+                31.210169
+              ],
+              [
+                121.435487,
+                31.209474
+              ],
+              [
+                121.435333,
+                31.209075
+              ],
+              [
+                121.434998,
+                31.208576
+              ],
+              [
+                121.434763,
+                31.20823
+              ],
+              [
+                121.434708,
+                31.208148
+              ]
+            ],
+            "type": "LineString"
+          },
+          "weight": 227.94,
+          "duration": 1811.2,
+          "distance": 2256.8
+        }
+      ],
+      "waypoints": [
+        {
+          "hint": "fkWHgir7jYmIAAAAYAAAANIAAAACAQAAT-dZQde3GEHs_qdBY6TOQWwAAABNAAAAqAAAAM8AAAB-AAAAbPY8B-1N3AFB9jwHSU7cAQIATwQAAAAA",
+          "location": [
+            121.435756,
+            31.215085
+          ],
+          "name": "安福路",
+          "distance": 10.99238688
+        },
+        {
+          "hint": "fkWHgir7jYmIAAAAYAAAANIAAAACAQAAT-dZQde3GEHs_qdBY6TOQWwAAABNAAAAqAAAAM8AAAB-AAAAbPY8B-1N3AFB9jwHSU7cAQIATwQAAAAA",
+          "location": [
+            121.435756,
+            31.215085
+          ],
+          "name": "安福路",
+          "distance": 10.99238688
+        },
+        {
+          "hint": "fkWHgir7jYnlAAAAHQAAALoBAAAAAAAAdWq4QaHRMUAnpzBCAAAAALgAAAAXAAAAYQEAAAAAAAB-AAAAsvc8B0VO3AGW9zwHmU7cAQQArwQAAAAA",
+          "location": [
+            121.436082,
+            31.215173
+          ],
+          "name": "安福路",
+          "distance": 9.687927944
+        },
+        {
+          "hint": "KfuNiUuXypCJBgAALwIAAKQDAAAAAAAAl1InQyKpX0IiTrpCAAAAADoFAADAAQAA6QIAAAAAAAB-AAAAJAI9B5lQ3AE6Aj0HTVDcAQIAzwQAAAAA",
+          "location": [
+            121.438756,
+            31.215769
+          ],
+          "name": "安福路",
+          "distance": 8.683178934
+        },
+        {
+          "hint": "qfBvgAh3y5BBAwAAvAIAAAAAAAAAAAAAqwuWQiewe0IAAAAAAAAAAFgCAAD4AQAAAAAAAAAAAAB-AAAAZgs9B-pN3AEqCz0H2E3cAQAATxUAAAAA",
+          "location": [
+            121.441126,
+            31.215082
+          ],
+          "name": "乌鲁木齐中路",
+          "distance": 6.055098019
+        },
+        {
+          "hint": "p_BvgB_7jYk-AQAA6gAAAMMEAAAAAAAAiPD-QSIDu0EywPNCAAAAAP4AAAC8AAAAzwMAAAAAAAB-AAAAPhI9B3lN3AH6ET0HBU7cAQIAPwQAAAAA",
+          "location": [
+            121.442878,
+            31.214969
+          ],
+          "name": "五原路",
+          "distance": 16.82017005
+        },
+        {
+          "hint": "p_BvgB_7jYlpAQAAvwAAAMMEAAAAAAAAg6IQQp-umEEywPNCAAAAACEBAACZAAAAzwMAAAAAAAB-AAAAaBI9B4dN3AEREj0HO07cAQIAPwQAAAAA",
+          "location": [
+            121.44292,
+            31.214983
+          ],
+          "name": "五原路",
+          "distance": 21.61023686
+        },
+        {
+          "hint": "F5CXjhmQl44BAQAAjAAAAAoDAAAAAAAAEWvNQd68X0GpmJtCAAAAAM0AAABwAAAAbwIAAAAAAAB-AAAALQk9B3tN3AFVCT0HBk3cAQYAnwQAAAAA",
+          "location": [
+            121.440557,
+            31.214971
+          ],
+          "name": "",
+          "distance": 13.5204475
+        },
+        {
+          "hint": "vn-JgxKFvpCmAAAAagAAAAAAAAAAAAAAH2aFQWjmJ0EAAAAAAAAAAIUAAABUAAAAAAAAAAAAAAB-AAAAVPI8B9Qy3AG-8TwHHjPcAQAA7wEAAAAA",
+          "location": [
+            121.434708,
+            31.208148
+          ],
+          "name": "武康路",
+          "distance": 16.47950588
+        }
+      ]
+    },
+    "profile": "FOSSGIS prepared foot graph",
+    "checkedAt": "2026-10-15",
+    "coreIds": [
+      "s10",
+      "s11",
+      "s12",
+      "s82",
+      "s15",
+      "s17",
+      "s18",
+      "s19",
+      "s21"
+    ],
+    "inputPoints": [
+      [
+        31.215177,
+        121.435713
+      ],
+      [
+        31.215177,
+        121.435713
+      ],
+      [
+        31.215257,
+        121.436054
+      ],
+      [
+        31.215693,
+        121.438778
+      ],
+      [
+        31.215064,
+        121.441066
+      ],
+      [
+        31.215109,
+        121.44281
+      ],
+      [
+        31.215163,
+        121.442833
+      ],
+      [
+        31.214854,
+        121.440597
+      ],
+      [
+        31.208222,
+        121.434558
+      ]
+    ]
+  },
+  "r3": {
+    "url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/121.447553,31.222168;121.446984,31.220173;121.450923,31.219585;121.451100,31.217642;121.451100,31.217642?overview=full&geometries=geojson&steps=false&continue_straight=false",
+    "response": {
+      "code": "Ok",
+      "routes": [
+        {
+          "legs": [
+            {
+              "steps": [],
+              "weight": 35.98,
+              "summary": "",
+              "duration": 270.3,
+              "distance": 337.9
+            },
+            {
+              "steps": [],
+              "weight": 51.23,
+              "summary": "",
+              "duration": 399.4,
+              "distance": 499.3
+            },
+            {
+              "steps": [],
+              "weight": 41.07,
+              "summary": "",
+              "duration": 354.6,
+              "distance": 436
+            },
+            {
+              "steps": [],
+              "weight": 0,
+              "summary": "",
+              "duration": 0,
+              "distance": 0
+            }
+          ],
+          "weight_name": "routability",
+          "geometry": {
+            "coordinates": [
+              [
+                121.447468,
+                31.222343
+              ],
+              [
+                121.447391,
+                31.222316
+              ],
+              [
+                121.446637,
+                31.222018
+              ],
+              [
+                121.446134,
+                31.221795
+              ],
+              [
+                121.446794,
+                31.220636
+              ],
+              [
+                121.447055,
+                31.220205
+              ],
+              [
+                121.447584,
+                31.219331
+              ],
+              [
+                121.447615,
+                31.219264
+              ],
+              [
+                121.447658,
+                31.219174
+              ],
+              [
+                121.447765,
+                31.218842
+              ],
+              [
+                121.447827,
+                31.218701
+              ],
+              [
+                121.447955,
+                31.218681
+              ],
+              [
+                121.448226,
+                31.218636
+              ],
+              [
+                121.448402,
+                31.218716
+              ],
+              [
+                121.450943,
+                31.21954
+              ],
+              [
+                121.451174,
+                31.219615
+              ],
+              [
+                121.451278,
+                31.219645
+              ],
+              [
+                121.451301,
+                31.219607
+              ],
+              [
+                121.451355,
+                31.219492
+              ],
+              [
+                121.451508,
+                31.219419
+              ],
+              [
+                121.4515,
+                31.219402
+              ],
+              [
+                121.451499,
+                31.219383
+              ],
+              [
+                121.451506,
+                31.219366
+              ],
+              [
+                121.451517,
+                31.219352
+              ],
+              [
+                121.451534,
+                31.219342
+              ],
+              [
+                121.451553,
+                31.219337
+              ],
+              [
+                121.451573,
+                31.219337
+              ],
+              [
+                121.451593,
+                31.219342
+              ],
+              [
+                121.451672,
+                31.219226
+              ],
+              [
+                121.45166,
+                31.219157
+              ],
+              [
+                121.451662,
+                31.219122
+              ],
+              [
+                121.451674,
+                31.219031
+              ],
+              [
+                121.451692,
+                31.218938
+              ],
+              [
+                121.451705,
+                31.218915
+              ],
+              [
+                121.451759,
+                31.218825
+              ],
+              [
+                121.451775,
+                31.218799
+              ],
+              [
+                121.451788,
+                31.218776
+              ],
+              [
+                121.451813,
+                31.218735
+              ],
+              [
+                121.451831,
+                31.218705
+              ],
+              [
+                121.451904,
+                31.218634
+              ],
+              [
+                121.451933,
+                31.218611
+              ],
+              [
+                121.451971,
+                31.218591
+              ],
+              [
+                121.452068,
+                31.218598
+              ],
+              [
+                121.452104,
+                31.218606
+              ],
+              [
+                121.452135,
+                31.218613
+              ],
+              [
+                121.452212,
+                31.218596
+              ],
+              [
+                121.452195,
+                31.218535
+              ],
+              [
+                121.452089,
+                31.218138
+              ],
+              [
+                121.452064,
+                31.218036
+              ],
+              [
+                121.452057,
+                31.218006
+              ],
+              [
+                121.452101,
+                31.217929
+              ],
+              [
+                121.45213,
+                31.217883
+              ],
+              [
+                121.452149,
+                31.217872
+              ],
+              [
+                121.452198,
+                31.21768
+              ],
+              [
+                121.451423,
+                31.217358
+              ],
+              [
+                121.45134,
+                31.217497
+              ],
+              [
+                121.451075,
+                31.217589
+              ],
+              [
+                121.451075,
+                31.217589
+              ]
+            ],
+            "type": "LineString"
+          },
+          "weight": 128.28,
+          "duration": 1024.3,
+          "distance": 1273.2
+        }
+      ],
+      "waypoints": [
+        {
+          "hint": "_jOFlB9MnZtPAAAAUwIAABcDAAAvBAAAXo_9QB_1bUL8JZ5CPg7WQj8AAADcAQAAeQIAAFkDAAB-AAAALCQ9B0dq3AGBJD0HmGncAQIAPwQAAAAA",
+          "location": [
+            121.447468,
+            31.222343
+          ],
+          "name": "巨鹿路",
+          "distance": 21.02521256
+        },
+        {
+          "hint": "xDJqgHSxb4BXAgAAvQQAADYGAABZAAAAp3pXQpJ02kJWEA9DUtD_QK8BAABqAwAAeQQAAEAAAAB-AAAAjyI9B-1h3AFIIj0HzWHcAQIAjwkAAAAA",
+          "location": [
+            121.447055,
+            31.220205
+          ],
+          "name": "富民路",
+          "distance": 7.638772393
+        },
+        {
+          "hint": "TLRvgFQOM4MbCgAA7AAAAL4AAAAAAAAAZmKBQ1M5vEGLw5dBAAAAABUIAAC9AAAAmAAAAAAAAAB-AAAAvzE9B1Rf3AGrMT0HgV_cAQIAXwQAAAAA",
+          "location": [
+            121.450943,
+            31.21954
+          ],
+          "name": "新乐路",
+          "distance": 5.340821497
+        },
+        {
+          "hint": "e7FvgJqz7owQAQAAMAcAAK0AAAAAAAAATdrZQd_tN0Nhk4pBAAAAANkAAADABQAAiwAAAAAAAAB-AAAAQzI9B7VX3AFcMj0H6lfcAQIAPxIAAAAA",
+          "location": [
+            121.451075,
+            31.217589
+          ],
+          "name": "东湖路",
+          "distance": 6.340708786
+        },
+        {
+          "hint": "e7FvgJqz7owQAQAAMAcAAK0AAAAAAAAATdrZQd_tN0Nhk4pBAAAAANkAAADABQAAiwAAAAAAAAB-AAAAQzI9B7VX3AFcMj0H6lfcAQIAPxIAAAAA",
+          "location": [
+            121.451075,
+            31.217589
+          ],
+          "name": "东湖路",
+          "distance": 6.340708786
+        }
+      ]
+    },
+    "profile": "FOSSGIS prepared foot graph",
+    "checkedAt": "2026-10-15",
+    "coreIds": [
+      "s24",
+      "s26",
+      "s34",
+      "s36",
+      "s37"
+    ],
+    "inputPoints": [
+      [
+        31.222168,
+        121.447553
+      ],
+      [
+        31.220173,
+        121.446984
+      ],
+      [
+        31.219585,
+        121.450923
+      ],
+      [
+        31.217642,
+        121.4511
+      ],
+      [
+        31.217642,
+        121.4511
+      ]
+    ]
+  },
+  "r4": {
+    "url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/121.452927,31.218278;121.455728,31.219118;121.458339,31.220478;121.458466,31.220182;121.458968,31.220455;121.464460,31.222420;121.463876,31.222861?overview=full&geometries=geojson&steps=false&continue_straight=false",
+    "response": {
+      "code": "Ok",
+      "routes": [
+        {
+          "legs": [
+            {
+              "steps": [],
+              "weight": 40.04,
+              "summary": "",
+              "duration": 299,
+              "distance": 371.1
+            },
+            {
+              "steps": [],
+              "weight": 36.27,
+              "summary": "",
+              "duration": 234.2,
+              "distance": 290.1
+            },
+            {
+              "steps": [],
+              "weight": 0.51,
+              "summary": "",
+              "duration": 3.3,
+              "distance": 4
+            },
+            {
+              "steps": [],
+              "weight": 7.04,
+              "summary": "",
+              "duration": 45.1,
+              "distance": 56.4
+            },
+            {
+              "steps": [],
+              "weight": 70.75,
+              "summary": "",
+              "duration": 458.8,
+              "distance": 566.2
+            },
+            {
+              "steps": [],
+              "weight": 3.59,
+              "summary": "",
+              "duration": 23,
+              "distance": 28.8
+            }
+          ],
+          "weight_name": "routability",
+          "geometry": {
+            "coordinates": [
+              [
+                121.452826,
+                31.218469
+              ],
+              [
+                121.452713,
+                31.218511
+              ],
+              [
+                121.452754,
+                31.218522
+              ],
+              [
+                121.452781,
+                31.218561
+              ],
+              [
+                121.452786,
+                31.218616
+              ],
+              [
+                121.452807,
+                31.218662
+              ],
+              [
+                121.452807,
+                31.218673
+              ],
+              [
+                121.452807,
+                31.218717
+              ],
+              [
+                121.452906,
+                31.218666
+              ],
+              [
+                121.453091,
+                31.218728
+              ],
+              [
+                121.453523,
+                31.218877
+              ],
+              [
+                121.453684,
+                31.218646
+              ],
+              [
+                121.454145,
+                31.21882
+              ],
+              [
+                121.454289,
+                31.218572
+              ],
+              [
+                121.454368,
+                31.218606
+              ],
+              [
+                121.454493,
+                31.218658
+              ],
+              [
+                121.454649,
+                31.218725
+              ],
+              [
+                121.455165,
+                31.218943
+              ],
+              [
+                121.455281,
+                31.218992
+              ],
+              [
+                121.455698,
+                31.219169
+              ],
+              [
+                121.456003,
+                31.219298
+              ],
+              [
+                121.456618,
+                31.219559
+              ],
+              [
+                121.456731,
+                31.219607
+              ],
+              [
+                121.456802,
+                31.219634
+              ],
+              [
+                121.457647,
+                31.219992
+              ],
+              [
+                121.457911,
+                31.220107
+              ],
+              [
+                121.458426,
+                31.22033
+              ],
+              [
+                121.458388,
+                31.220314
+              ],
+              [
+                121.458643,
+                31.220424
+              ],
+              [
+                121.458917,
+                31.220542
+              ],
+              [
+                121.459395,
+                31.220747
+              ],
+              [
+                121.459964,
+                31.221003
+              ],
+              [
+                121.460648,
+                31.221281
+              ],
+              [
+                121.460921,
+                31.221393
+              ],
+              [
+                121.461365,
+                31.221562
+              ],
+              [
+                121.461625,
+                31.221675
+              ],
+              [
+                121.462689,
+                31.222126
+              ],
+              [
+                121.463607,
+                31.222508
+              ],
+              [
+                121.463707,
+                31.22255
+              ],
+              [
+                121.464155,
+                31.222734
+              ],
+              [
+                121.464259,
+                31.222777
+              ],
+              [
+                121.464155,
+                31.222734
+              ],
+              [
+                121.463986,
+                31.222665
+              ]
+            ],
+            "type": "LineString"
+          },
+          "weight": 158.2,
+          "duration": 1063.4,
+          "distance": 1316.6
+        }
+      ],
+      "waypoints": [
+        {
+          "hint": "IYXpjCKF6YxiAAAAAAAAAAAAAAAAAAAA7a87QQAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAAAAAAB-AAAAGjk9ByVb3AF_OT0HZlrcAQAAHwcAAAAA",
+          "location": [
+            121.452826,
+            31.218469
+          ],
+          "name": "",
+          "distance": 23.26076788
+        },
+        {
+          "hint": "ovbBjdYjA5IqAgAAlQEAAAAAAAAAAAAAVkExQouOAUIAAAAAAAAAAGMBAAADAQAAAAAAAAAAAAB-AAAAUkQ9B-Fd3AFwRD0Hrl3cAQAA_wMAAAAA",
+          "location": [
+            121.455698,
+            31.219169
+          ],
+          "name": "淮海中路",
+          "distance": 6.335941482
+        },
+        {
+          "hint": "MbhmgMgeAY0gAQAAsAIAAOkDAAAAAAAAFTu5QbbIW0LpM6BCAAAAALgAAAC5AQAAgQIAAAAAAAB-AAAA-k49B2pi3AGjTj0H_mLcAQIAPw8AAAAA",
+          "location": [
+            121.458426,
+            31.22033
+          ],
+          "name": "淮海中路",
+          "distance": 18.38412592
+        },
+        {
+          "hint": "MbhmgMgeAY1TAQAAfQIAAOkDAAAAAAAA3XvZQWCoS0LpM6BCAAAAANkAAACYAQAAgQIAAAAAAAB-AAAA1E49B1pi3AEiTz0H1mHcAQIAPw8AAAAA",
+          "location": [
+            121.458388,
+            31.220314
+          ],
+          "name": "淮海中路",
+          "distance": 16.41410563
+        },
+        {
+          "hint": "MbhmgMgeAY18AgAAbQEAAAAAAADQAwAAsplLQkyc6UEAAAAAIDOcQpcBAADqAAAAAAAAAHECAAB-AAAA5VA9Bz5j3AEYUT0H52LcAQAAPw8AAAAA",
+          "location": [
+            121.458917,
+            31.220542
+          ],
+          "name": "淮海中路",
+          "distance": 10.80079577
+        },
+        {
+          "hint": "JSErgnQ_dIiIAAAAZQMAAE8CAAACAwAA3_AvQUrfikIiPT1C4lx2QlcAAAAsAgAAegEAAO0BAAB-AAAAw2U9B_lr3AGMZj0HlGrcAQIADwQAAAAA",
+          "location": [
+            121.464259,
+            31.222777
+          ],
+          "name": "淮海中路",
+          "distance": 43.97139433
+        },
+        {
+          "hint": "JSErgnQ_dIhwAQAA3wAAAAAAAADvBgAAa9zrQQGejkEAAAAA7AUOQ-sAAACPAAAAAAAAAHAEAAB-AAAAsmQ9B4lr3AFEZD0HTWzcAQAADwQAAAAA",
+          "location": [
+            121.463986,
+            31.222665
+          ],
+          "name": "淮海中路",
+          "distance": 24.12653046
+        }
+      ]
+    },
+    "profile": "FOSSGIS prepared foot graph",
+    "checkedAt": "2026-10-15",
+    "coreIds": [
+      "s45",
+      "s48",
+      "s49",
+      "s50",
+      "s51",
+      "s54",
+      "s55"
+    ],
+    "inputPoints": [
+      [
+        31.218278,
+        121.452927
+      ],
+      [
+        31.219118,
+        121.455728
+      ],
+      [
+        31.220478,
+        121.458339
+      ],
+      [
+        31.220182,
+        121.458466
+      ],
+      [
+        31.220455,
+        121.458968
+      ],
+      [
+        31.22242,
+        121.46446
+      ],
+      [
+        31.222861,
+        121.463876
+      ]
+    ]
+  },
+  "r5": {
+    "url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/121.445863,31.201658;121.447280,31.205162;121.451185,31.209642;121.449956,31.213754?overview=full&geometries=geojson&steps=false&continue_straight=false",
+    "response": {
+      "code": "Ok",
+      "routes": [
+        {
+          "legs": [
+            {
+              "steps": [],
+              "weight": 58.51,
+              "summary": "",
+              "duration": 425.2,
+              "distance": 526.7
+            },
+            {
+              "steps": [],
+              "weight": 77.47,
+              "summary": "",
+              "duration": 613.8,
+              "distance": 764.8
+            },
+            {
+              "steps": [],
+              "weight": 63.95,
+              "summary": "",
+              "duration": 511.5,
+              "distance": 639.6
+            }
+          ],
+          "weight_name": "routability",
+          "geometry": {
+            "coordinates": [
+              [
+                121.445803,
+                31.201642
+              ],
+              [
+                121.445738,
+                31.201823
+              ],
+              [
+                121.445681,
+                31.202041
+              ],
+              [
+                121.445476,
+                31.202683
+              ],
+              [
+                121.445436,
+                31.202805
+              ],
+              [
+                121.445392,
+                31.202929
+              ],
+              [
+                121.445265,
+                31.203266
+              ],
+              [
+                121.445135,
+                31.203605
+              ],
+              [
+                121.44501,
+                31.204041
+              ],
+              [
+                121.445855,
+                31.204562
+              ],
+              [
+                121.446173,
+                31.204738
+              ],
+              [
+                121.446514,
+                31.204881
+              ],
+              [
+                121.447012,
+                31.205
+              ],
+              [
+                121.447078,
+                31.205016
+              ],
+              [
+                121.44731,
+                31.205072
+              ],
+              [
+                121.447587,
+                31.205139
+              ],
+              [
+                121.447688,
+                31.205162
+              ],
+              [
+                121.448218,
+                31.205292
+              ],
+              [
+                121.447844,
+                31.207491
+              ],
+              [
+                121.447769,
+                31.207903
+              ],
+              [
+                121.448445,
+                31.208055
+              ],
+              [
+                121.448685,
+                31.20814
+              ],
+              [
+                121.44888,
+                31.208236
+              ],
+              [
+                121.450221,
+                31.209142
+              ],
+              [
+                121.450762,
+                31.209457
+              ],
+              [
+                121.450975,
+                31.209581
+              ],
+              [
+                121.451129,
+                31.209671
+              ],
+              [
+                121.451151,
+                31.209684
+              ],
+              [
+                121.451129,
+                31.209671
+              ],
+              [
+                121.450975,
+                31.209581
+              ],
+              [
+                121.450762,
+                31.209457
+              ],
+              [
+                121.450221,
+                31.209142
+              ],
+              [
+                121.449718,
+                31.210792
+              ],
+              [
+                121.449546,
+                31.211411
+              ],
+              [
+                121.44952,
+                31.211494
+              ],
+              [
+                121.449396,
+                31.211968
+              ],
+              [
+                121.44932,
+                31.212234
+              ],
+              [
+                121.449584,
+                31.21284
+              ],
+              [
+                121.449612,
+                31.212911
+              ],
+              [
+                121.449932,
+                31.213687
+              ],
+              [
+                121.449961,
+                31.213752
+              ]
+            ],
+            "type": "LineString"
+          },
+          "weight": 199.93,
+          "duration": 1550.5,
+          "distance": 1931.1
+        }
+      ],
+      "waypoints": [
+        {
+          "hint": "c3xmgBnR1JhLAAAA6QAAAAAAAAATAQAABIPXQAkEqEEAAAAAJS_GQTYAAACoAAAAAAAAAMYAAAB-AAAAqx09B2oZ3AHnHT0HehncAQAAbxUAAAAA",
+          "location": [
+            121.445803,
+            31.201642
+          ],
+          "name": "乌鲁木齐南路",
+          "distance": 5.985674149
+        },
+        {
+          "hint": "XvDQjWXw0I0xAQAA_wAAAAAAAABJAAAAzFfbQZGut0EAAAAAaRXRQNsAAAC4AAAAAAAAADQAAAB-AAAAjiM9B9Am3AFwIz0HKifcAQAA7w8AAAAA",
+          "location": [
+            121.44731,
+            31.205072
+          ],
+          "name": "建国西路",
+          "distance": 10.3799228
+        },
+        {
+          "hint": "EGHanMvFqJ0ZAAAANQEAAAAAAABQAwAA6s4iQBK79kEAAAAAgImpQhQAAAD3AAAAAAAAAKYCAAB-AAAAjzI9B9Q43AGxMj0HqjjcAQAAfwMAAAAA",
+          "location": [
+            121.451151,
+            31.209684
+          ],
+          "name": "永嘉路",
+          "distance": 5.672654038
+        },
+        {
+          "hint": "tvBvgFddeY5NAAAAlAgAAAAAAAAAAAAAWPz2QGiXW0MAAAAAAAAAAD4AAADcBgAAAAAAAAAAAAB-AAAA6S09B7hI3AHkLT0HukjcAQAAXwEAAAAA",
+          "location": [
+            121.449961,
+            31.213752
+          ],
+          "name": "汾阳路",
+          "distance": 0.5254761215
+        }
+      ]
+    },
+    "profile": "FOSSGIS prepared foot graph",
+    "checkedAt": "2026-10-15",
+    "coreIds": [
+      "s66",
+      "s67",
+      "s68",
+      "s69"
+    ],
+    "inputPoints": [
+      [
+        31.201658,
+        121.445863
+      ],
+      [
+        31.205162,
+        121.44728
+      ],
+      [
+        31.209642,
+        121.451185
+      ],
+      [
+        31.213754,
+        121.449956
+      ]
+    ]
+  }
+}

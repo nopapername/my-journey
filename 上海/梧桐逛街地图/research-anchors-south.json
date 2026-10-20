@@ -1,0 +1,292 @@
+{
+  "checkedAt": "2026-10-15",
+  "method": "15批公开检索；直接高德POI坐标可作为同建筑/商场/园区approximate锚点，不代表目标店铺精确坐标。未取得坐标不进行门牌插值或手工编造。",
+  "anchors": [
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "SUPERSCAPE 素舶（芮欧百货）"
+      ],
+      "targetAddress": "南京西路1601号芮欧百货4F-404",
+      "anchorName": "芮欧百货",
+      "anchorAddress": "上海市静安区南京西路1601号",
+      "lat": 31.223318,
+      "lon": 121.447479,
+      "evidenceUrl": "https://ditu.amap.com/place/B0FFFA6WPS",
+      "relation": "same-mall",
+      "notes": "以商场POI作店铺近似锚点；不是4F-404精确铺位。"
+    },
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "TWOI Design Lab（CP静安）"
+      ],
+      "targetAddress": "愚园路68号CP静安1层",
+      "anchorName": "CP静安",
+      "anchorAddress": "上海市静安区愚园路68号",
+      "lat": 31.225586,
+      "lon": 121.446407,
+      "evidenceUrl": "https://ditu.amap.com/place/B00156YMHK",
+      "relation": "same-mall",
+      "notes": "商场整体POI，非TWOI门店独立点。"
+    },
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "jajainthemoment（何东旧居店）"
+      ],
+      "targetAddress": "陕西北路457号何东旧居园区",
+      "anchorName": "何东旧居",
+      "anchorAddress": "上海市静安区陕西北路457号",
+      "lat": 31.230394,
+      "lon": 121.452461,
+      "evidenceUrl": "https://www.amap.com/place/B00156O1YV",
+      "relation": "same-complex",
+      "notes": "同园区建筑POI；不能确定具体店铺所在小楼入口。"
+    },
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "Fabrique（兴业太古汇）"
+      ],
+      "targetAddress": "兴业太古汇2F-L229",
+      "anchorName": "兴业太古汇",
+      "anchorAddress": "上海市静安区石门一路288号",
+      "lat": 31.228926,
+      "lon": 121.463104,
+      "evidenceUrl": "https://ditu.amap.com/place/B0FFG8S5RN",
+      "relation": "same-mall",
+      "notes": "商场整体POI，非2F-L229铺位。"
+    },
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "Oneup（新天地东台里旗舰店）"
+      ],
+      "targetAddress": "吉安路111号新天地东台里，独立铺位未核",
+      "anchorName": "OSPREY（新天地东台里店）",
+      "anchorAddress": "上海市黄浦区吉安路111号新天地东台里C-L152单元",
+      "lat": 31.220749,
+      "lon": 121.480411,
+      "evidenceUrl": "https://ditu.amap.com/place/B0L0DKLWTS",
+      "relation": "same-complex",
+      "notes": "同商业园区其他店铺；东台里有多个街区楼栋，Oneup未核具体铺位，仅用于园区层级落点。"
+    },
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "emis（上海旗舰店）"
+      ],
+      "targetAddress": "淮海中路795-2号",
+      "anchorName": "金辰大酒店（西北门）",
+      "anchorAddress": "上海市黄浦区淮海中路795号",
+      "lat": 31.218262,
+      "lon": 121.463021,
+      "evidenceUrl": "https://ditu.amap.com/place/B00157HUNR",
+      "relation": "same-street-number-complex",
+      "notes": "795号建筑出入口锚点，emis为795-2号，具体沿街铺位不可视为精确；酒店本体POI标注暂停营业不影响历史建筑定位。"
+    },
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "HAI550",
+        "言二丁（HAI550）"
+      ],
+      "targetAddress": "淮海中路550号HAI550",
+      "anchorName": "Matcha Wang（HAI550店）",
+      "anchorAddress": "上海市黄浦区淮海中路550号HAI550商场L1层2号",
+      "lat": 31.220928,
+      "lon": 121.468415,
+      "evidenceUrl": "https://www.amap.com/place/B0LKKMNL3N",
+      "relation": "same-mall",
+      "notes": "同商场L1层2号其他店铺；可作HAI550及言二丁近似锚点，言二丁楼层未知。"
+    },
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "过森日·上海淮海中路站（快闪）"
+      ],
+      "targetAddress": "淮海中路627号1-2层",
+      "anchorName": "WeWork中国（淮海中路627号社区店）",
+      "anchorAddress": "上海市黄浦区淮海中路627号4层",
+      "lat": 31.219805,
+      "lon": 121.466602,
+      "evidenceUrl": "https://ditu.amap.com/place/B0FFI0AZD0",
+      "relation": "same-building",
+      "notes": "同门牌其他楼层锚点；过森日原活动期截至2026-10-07，查询日已过期。"
+    },
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "HAUS NOWHERE 上海"
+      ],
+      "targetAddress": "淮海中路798-812号",
+      "anchorName": "TAMBURINS（HAUS NOWHERE）",
+      "anchorAddress": "上海市黄浦区淮海中路与瑞金二路交叉口西100米",
+      "lat": 31.218558,
+      "lon": 121.462895,
+      "evidenceUrl": "https://www.amap.com/place/B0H3SZL2EV",
+      "relation": "same-building",
+      "notes": "HAUS内香氛子店POI；用于同一复合商业空间近似锚点。"
+    },
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "niko and ... 上海全球旗舰店"
+      ],
+      "targetAddress": "淮海中路775号",
+      "anchorName": "niko and COFFEE（淮海中路店）",
+      "anchorAddress": "上海市黄浦区淮海中路775号一楼B区",
+      "lat": 31.218534,
+      "lon": 121.463522,
+      "evidenceUrl": "https://www.amap.com/place/B0I1L6BX0J",
+      "relation": "same-building",
+      "notes": "同址一楼咖啡子店POI，用于全球旗舰店建筑级近似位置。"
+    },
+    {
+      "coordinateSystem": "GCJ02",
+      "confidence": "approximate",
+      "targetNames": [
+        "PSO BRAND（TX淮海店）",
+        "W0311山石衣（TX淮海店）"
+      ],
+      "targetAddress": "TX淮海商场3楼",
+      "anchorName": "TX淮海",
+      "anchorAddress": "上海市黄浦区淮海中路523号",
+      "lat": 31.220486,
+      "lon": 121.468997,
+      "evidenceUrl": "https://ditu.amap.com/place/B00150C2E4",
+      "relation": "same-mall",
+      "notes": "商场整体POI。W0311另有历史记录527号，设计方已确认TX3楼。"
+    }
+  ],
+  "unresolved": [
+    {
+      "anchorName": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "targetNames": [
+        "开间 KEIGAN（MAISON KEIGAN 1490）"
+      ],
+      "targetAddress": "南京西路1490号",
+      "notes": "多批高德域名、门牌与同址旧租户Indigo Living名称均未查得直接POI坐标。"
+    },
+    {
+      "anchorName": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "targetNames": [
+        "CUBIC（淮海中路中国首店）"
+      ],
+      "targetAddress": "淮海中路911号",
+      "notes": "查得同址旧租户6ixty8ight携程地址，未查得高德直接坐标。"
+    },
+    {
+      "anchorName": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "targetNames": [
+        "MASONPRINCE（上海淮海旗舰店）"
+      ],
+      "targetAddress": "淮海中路530号",
+      "notes": "未检得直接高德POI坐标；相邻550号可见但不同建筑，不强行标为同楼锚点。"
+    },
+    {
+      "anchorName": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "targetNames": [
+        "SoftServe 柔软供应"
+      ],
+      "targetAddress": "汾阳路64弄2号",
+      "notes": "未检得直接高德坐标；同弄旧商家Union Trading与瞿秋白旧居也未获可核GCJ02。"
+    },
+    {
+      "anchorName": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "targetNames": [
+        "miulab"
+      ],
+      "targetAddress": "永康路190号",
+      "notes": "未检得直接高德POI坐标。"
+    },
+    {
+      "anchorName": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "targetNames": [
+        "Re knit"
+      ],
+      "targetAddress": "永嘉路375号",
+      "notes": "同址旧店小阁楼地址可查，但未获得高德坐标。"
+    },
+    {
+      "anchorName": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "targetNames": [
+        "Folder Bakery & Coffee"
+      ],
+      "targetAddress": "乌鲁木齐南路205号104室",
+      "notes": "同门牌日常咖啡、聚福等可查地址，但未获得高德坐标。"
+    },
+    {
+      "anchorName": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "targetNames": [
+        "22 COLLECTION"
+      ],
+      "targetAddress": "建国中路143号",
+      "notes": "同址睿集设计地址可查，未获得高德坐标。"
+    },
+    {
+      "anchorName": null,
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": "GCJ02",
+      "evidenceUrl": null,
+      "confidence": "unknown",
+      "targetNames": [
+        "嘉善路123号目标店"
+      ],
+      "targetAddress": "嘉善路123号",
+      "notes": "同址附近德华烟杂店地址可查，未获得高德坐标。"
+    }
+  ]
+}

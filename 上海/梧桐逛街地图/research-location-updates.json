@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-15",
+  "entries": [
+    {
+      "id": "s81",
+      "address": "上海市黄浦区南昌路205弄2号",
+      "openingHours": "周一至周日 11:30–20:00（百度地图登记）",
+      "operatingNote": "2026-10-15查阅；非实时营业确认，出发前复核。",
+      "note": "百度地图同名 Dongri studio POI、白色木栅栏门头照片与8月18/19日三楼试衣间评论，与上观及iziRetail所述南昌路上海首店吻合。7月售罄临时停业是历史事件，不当作当前闭店。门牌地理编码为参考位置，不是实测入口。",
+      "evidenceUrl": "https://map.baidu.com/poi/?uid=1cb35eb28673ae322e473364",
+      "verifiedIdentity": true,
+      "lat": 31.217424,
+      "lon": 121.456151,
+      "locationStatus": "exact",
+      "coordinateSystem": "WGS84",
+      "originalCoordinates": {
+        "system": "BD09MC",
+        "x": 13521813.461419,
+        "y": 3639221.939186,
+        "source": "百度地图页面生成的路线URL中en目的地参数，非地图视图中心",
+        "conversion": "gcoord BD09MC -> WGS84"
+      },
+      "coordinateNote": "百度同名门店POI目的地坐标，BD09MC转WGS84；不是实测入口。"
+    },
+    {
+      "id": "s92",
+      "address": "上海市徐汇区安福路298号2弄（百度同名点原文，门牌写法待核）",
+      "style": "韩系少女女装，轻柔裙装、蕾丝与日常成衣",
+      "openingHours": "10:00–21:30（百度同名点登记，待核）",
+      "operatingNote": "门牌与营业状态待核；地图仅为同名候选参考。",
+      "note": "n13视频03:00门头明确moon moi，03:01衣架与字幕确认韩系少女服饰。百度同名“moon moi(上海安福路店)”列安福路298号2弄，但类别为美食、无门头照片，与女装身份不一致；且历史资料有298弄2号楼的不同写法，不能擅自互换。参考点不代表已确认该女装店入口，不纳入核心线路。",
+      "evidenceUrl": "https://map.baidu.com/poi/?uid=12d666955b6df03db04c49eb",
+      "keepUncertain": true,
+      "lat": 31.215351,
+      "lon": 121.436244,
+      "locationStatus": "approximate",
+      "coordinateSystem": "WGS84",
+      "originalCoordinates": {
+        "system": "BD09MC",
+        "x": 13519596.695375,
+        "y": 3638983.153379,
+        "source": "百度地图页面生成的路线URL中en目的地参数，非地图视图中心",
+        "conversion": "gcoord BD09MC -> WGS84"
+      },
+      "coordinateNote": "百度同名点目的地坐标转换为WGS84；品牌与门牌仍有矛盾，仅候选参考。"
+    },
+    {
+      "id": "s93",
+      "address": "上海市静安区光复路1号四行仓库一层（OPEN YY中国首站快闪登记地址）",
+      "openingHours": "快闪起止与当前开放时间未确认",
+      "operatingNote": "快闪场馆参考；未取得仍开放公告，请先确认再专程前往。",
+      "note": "HYPEBEAST现场采访及百联相关报道确认四行仓库一层快闪。百度同名POI补出光复路1号；采用门牌/场馆参考，不冒充当前营业直营店。平台列09:00–16:30、16:00停止入场，与四行仓库纪念馆开放格式相同，不能当作服装快闪营业时间。排除光复路195号光二仓库及仅能证实同楼的21号入口。",
+      "evidenceUrl": "https://map.baidu.com/poi/?uid=248a600e06a928e8cac3db9c",
+      "keepUncertain": true,
+      "lat": 31.242146,
+      "lon": 121.466936,
+      "locationStatus": "approximate",
+      "coordinateSystem": "WGS84",
+      "originalCoordinates": {
+        "system": "BD09MC",
+        "x": 13523016.901711,
+        "y": 3642397.013684,
+        "source": "百度地图页面生成的路线URL中en目的地参数，非地图视图中心",
+        "conversion": "gcoord BD09MC -> WGS84"
+      },
+      "coordinateNote": "百度同名点目的地坐标转换为WGS84；快闪场馆参考点，当前开放未确认。"
+    },
+    {
+      "id": "s85",
+      "sourceKey": "APOLI ITABAKERY",
+      "name": "APOLI ITABAKERY · AP意大利料理面包坊",
+      "routeId": "r2",
+      "address": "上海市长宁区兴国路380号一层",
+      "style": "意式料理面包、可颂与甜点，石材藤蔓的复古烘焙空间",
+      "tags": [
+        "烘焙",
+        "餐饮",
+        "休息"
+      ],
+      "openingHours": "09:00–21:00（百度地图及近期资料登记）",
+      "operatingNote": "2026-10-15查阅；旧稿曾列10:00–20:00，出发前复核。",
+      "note": "n01视频02:36已读到APOLI ITABAKERY门头和字幕，将原未命名甜品店记录原位补全。品牌认证微博给兴国路380号一层；Time Out、高德榜单交叉确认。近期与旧稿营业时段不同，未标作实时营业。",
+      "evidenceUrl": "https://map.baidu.com/poi/?uid=e6d9f4a4a45045e4a8175a1a",
+      "verifiedIdentity": true,
+      "lat": 31.206578,
+      "lon": 121.433025,
+      "locationStatus": "exact",
+      "coordinateSystem": "WGS84",
+      "coordinateNote": "百度同名烘焙首店目的地坐标，BD09MC转WGS84；非实测入口。",
+      "originalCoordinates": {
+        "system": "BD09MC",
+        "x": 13519238.109351,
+        "y": 3637846.433561,
+        "source": "百度地图生成路线URL的en目的地参数",
+        "conversion": "gcoord BD09MC -> WGS84"
+      }
+    }
+  ]
+}

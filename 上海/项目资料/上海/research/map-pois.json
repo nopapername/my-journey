@@ -1,0 +1,660 @@
+[
+  {
+    "id": "hotel",
+    "query": "上海图书馆 上海 淮海中路",
+    "results": [
+      {
+        "place_id": 224262754,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5306444960,
+        "lat": "31.2100122",
+        "lon": "121.4396546",
+        "category": "railway",
+        "type": "station",
+        "place_rank": 30,
+        "importance": 0.34328481186948456,
+        "addresstype": "railway",
+        "name": "上海图书馆",
+        "display_name": "上海图书馆, 淮海中路, 枫林桥, 湖南路街道, 徐汇区, 上海市, 200031, 中国",
+        "boundingbox": [
+          "31.2050122",
+          "31.2150122",
+          "121.4346546",
+          "121.4446546"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E4%B8%8A%E6%B5%B7%E5%9B%BE%E4%B9%A6%E9%A6%86+%E4%B8%8A%E6%B5%B7+%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "hotelA",
+    "query": "全季 岳阳路 上海",
+    "results": [
+      {
+        "place_id": 222905247,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 7656355076,
+        "lat": "31.2090976",
+        "lon": "121.4472944",
+        "category": "tourism",
+        "type": "hotel",
+        "place_rank": 30,
+        "importance": 7.91126878766616e-05,
+        "addresstype": "tourism",
+        "name": "全季酒店",
+        "display_name": "全季酒店, 岳阳路, 枫林桥, 天平路街道, 徐汇区, 上海市, 200031, 中国",
+        "boundingbox": [
+          "31.2090476",
+          "31.2091476",
+          "121.4472444",
+          "121.4473444"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E5%85%A8%E5%AD%A3+%E5%B2%B3%E9%98%B3%E8%B7%AF+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "wukang",
+    "query": "武康大楼 上海",
+    "results": [
+      {
+        "place_id": 224393580,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 293434151,
+        "lat": "31.2062561",
+        "lon": "121.4337292",
+        "category": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 0.34431618017923493,
+        "addresstype": "building",
+        "name": "武康大楼",
+        "display_name": "武康大楼, 1850, 淮海中路, 天平路街道, 徐汇区, 上海市, 200030, 中国",
+        "boundingbox": [
+          "31.2059766",
+          "31.2065692",
+          "121.4334133",
+          "121.4339882"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "court",
+    "query": "武康庭 上海",
+    "results": [],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E6%AD%A6%E5%BA%B7%E5%BA%AD+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "park",
+    "query": "in the PARK 上海 安福路",
+    "results": [],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=in+the+PARK+%E4%B8%8A%E6%B5%B7+%E5%AE%89%E7%A6%8F%E8%B7%AF&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "csy",
+    "query": "CSYSeLECTED 上海",
+    "results": [],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=CSYSeLECTED+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "uru",
+    "query": "乌鲁木齐中路 上海",
+    "results": [
+      {
+        "place_id": 224227213,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 492977127,
+        "lat": "31.2181135",
+        "lon": "121.4395171",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.05341244602121001,
+        "addresstype": "road",
+        "name": "乌鲁木齐中路",
+        "display_name": "乌鲁木齐中路, 永源浜, 静安寺街道, 静安区, 上海市, 200000, 中国",
+        "boundingbox": [
+          "31.2173279",
+          "31.2189666",
+          "121.4392437",
+          "121.4399522"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E4%B8%AD%E8%B7%AF+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "fumin",
+    "query": "富民路 上海",
+    "results": [
+      {
+        "place_id": 224152146,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 424580476,
+        "lat": "31.2205225",
+        "lon": "121.4468629",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.05341244602121001,
+        "addresstype": "road",
+        "name": "富民路",
+        "display_name": "富民路, 静安寺街道, 静安区, 上海市, 200000, 中国",
+        "boundingbox": [
+          "31.2192642",
+          "31.2217946",
+          "121.4461335",
+          "121.4476151"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E6%B0%91%E8%B7%AF+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "julu",
+    "query": "巨鹿路 上海",
+    "results": [
+      {
+        "place_id": 224614486,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 13909444,
+        "lat": "31.2249284",
+        "lon": "121.4571692",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05341244602121001,
+        "addresstype": "road",
+        "name": "巨鹿路",
+        "display_name": "巨鹿路, 瑞金二路街道, 上海市, 黄浦区, 上海市, 200003, 中国",
+        "boundingbox": [
+          "31.2229349",
+          "31.2257086",
+          "121.4495239",
+          "121.4649685"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E5%B7%A8%E9%B9%BF%E8%B7%AF+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "guang",
+    "query": "光明邨 上海",
+    "results": [
+      {
+        "place_id": 427197781,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 14174490844,
+        "lat": "31.2926088",
+        "lon": "121.6541413",
+        "category": "place",
+        "type": "village",
+        "place_rank": 19,
+        "importance": 0.14672914396887154,
+        "addresstype": "village",
+        "name": "光明村",
+        "display_name": "光明村, 浦东新区, 上海市, 201206, 中国",
+        "boundingbox": [
+          "31.2726088",
+          "31.3126088",
+          "121.6341413",
+          "121.6741413"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E5%85%89%E6%98%8E%E9%82%A8+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "xin",
+    "query": "新天地 上海",
+    "results": [
+      {
+        "place_id": 224912775,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 40325255,
+        "lat": "31.2219311",
+        "lon": "121.4704371",
+        "category": "tourism",
+        "type": "attraction",
+        "place_rank": 30,
+        "importance": 0.3791875842706339,
+        "addresstype": "tourism",
+        "name": "新天地",
+        "display_name": "新天地, 马当路, 新天地, 淮海中路街道, 上海市, 黄浦区, 上海市, 200020, 中国",
+        "boundingbox": [
+          "31.2203463",
+          "31.2235417",
+          "121.4696052",
+          "121.4713952"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E6%96%B0%E5%A4%A9%E5%9C%B0+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "alter",
+    "query": "ALTER 上海 新天地",
+    "results": [
+      {
+        "place_id": 225085154,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4729256391,
+        "lat": "31.2209788",
+        "lon": "121.4704157",
+        "category": "shop",
+        "type": "clothes",
+        "place_rank": 30,
+        "importance": 7.91126878766616e-05,
+        "addresstype": "shop",
+        "name": "alter",
+        "display_name": "alter, 245, 马当路, 新天地, 淮海中路街道, 上海市, 黄浦区, 上海市, 200020, 中国",
+        "boundingbox": [
+          "31.2209288",
+          "31.2210288",
+          "121.4703657",
+          "121.4704657"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=ALTER+%E4%B8%8A%E6%B5%B7+%E6%96%B0%E5%A4%A9%E5%9C%B0&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "yu",
+    "query": "豫园 上海",
+    "results": [
+      {
+        "place_id": 221810120,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 40036584,
+        "lat": "31.2289274",
+        "lon": "121.4879752",
+        "category": "leisure",
+        "type": "garden",
+        "place_rank": 25,
+        "importance": 0.4245821633666411,
+        "addresstype": "garden",
+        "name": "豫园",
+        "display_name": "豫园, 小北门, 豫园街道, 上海市, 黄浦区, 上海市, 中国",
+        "boundingbox": [
+          "31.2280698",
+          "31.2297789",
+          "121.4870105",
+          "121.4884980"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E8%B1%AB%E5%9B%AD+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "nanxiang",
+    "query": "南翔馒头店 上海 豫园",
+    "results": [
+      {
+        "place_id": 224069945,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2485006011,
+        "lat": "31.2285341",
+        "lon": "121.4871017",
+        "category": "amenity",
+        "type": "restaurant",
+        "place_rank": 30,
+        "importance": 0.3272701010450185,
+        "addresstype": "amenity",
+        "name": "南翔馒头店",
+        "display_name": "南翔馒头店, 85, 愚园路, 永源浜, 静安寺街道, 静安区, 上海市, 200040, 中国",
+        "boundingbox": [
+          "31.2284841",
+          "31.2285841",
+          "121.4870517",
+          "121.4871517"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E5%8D%97%E7%BF%94%E9%A6%92%E5%A4%B4%E5%BA%97+%E4%B8%8A%E6%B5%B7+%E8%B1%AB%E5%9B%AD&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "nanjing",
+    "query": "沈大成 上海 南京东路",
+    "results": [
+      {
+        "place_id": 224459638,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5901636685,
+        "lat": "31.2376356",
+        "lon": "121.4738510",
+        "category": "amenity",
+        "type": "restaurant",
+        "place_rank": 30,
+        "importance": 7.91126878766616e-05,
+        "addresstype": "amenity",
+        "name": "沈大成",
+        "display_name": "沈大成, Nanjing Pedestrian Street, 龙泉园路社区, 南京东路街道, 上海市, 黄浦区, 上海市, 200085, 中国",
+        "boundingbox": [
+          "31.2375856",
+          "31.2376856",
+          "121.4738010",
+          "121.4739010"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E6%B2%88%E5%A4%A7%E6%88%90+%E4%B8%8A%E6%B5%B7+%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "bund",
+    "query": "和平饭店 上海",
+    "results": [
+      {
+        "place_id": 222909402,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 177998987,
+        "lat": "31.2411331",
+        "lon": "121.4846079",
+        "category": "tourism",
+        "type": "hotel",
+        "place_rank": 30,
+        "importance": 0.39352038509246307,
+        "addresstype": "tourism",
+        "name": "和平饭店",
+        "display_name": "和平饭店, 滇池路, 外滩源, 外滩街道, 上海市, 黄浦区, 上海市, 200002, 中国",
+        "boundingbox": [
+          "31.2407601",
+          "31.2414194",
+          "121.4837495",
+          "121.4853187"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "ifc",
+    "query": "上海国金中心",
+    "results": [
+      {
+        "place_id": 227197621,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 499430069,
+        "lat": "31.2561444",
+        "lon": "121.4938642",
+        "category": "landuse",
+        "type": "commercial",
+        "place_rank": 24,
+        "importance": 0.08007911268787668,
+        "addresstype": "commercial",
+        "name": "国华金融中心",
+        "display_name": "国华金融中心, 三角地, 北外滩街道, 虹口区, 上海市, 中国",
+        "boundingbox": [
+          "31.2554042",
+          "31.2574536",
+          "121.4927106",
+          "121.4947169"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%87%91%E4%B8%AD%E5%BF%83&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "tower",
+    "query": "上海中心大厦",
+    "results": [
+      {
+        "place_id": 224134083,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 165792123,
+        "lat": "31.2356449",
+        "lon": "121.5012495",
+        "category": "building",
+        "type": "commercial",
+        "place_rank": 30,
+        "importance": 0.5095635668654198,
+        "addresstype": "building",
+        "name": "上海中心大厦",
+        "display_name": "上海中心大厦, 501, 银城中路, 陆家嘴, 陆家嘴街道, 浦东新区, 上海市, 200121, 中国",
+        "boundingbox": [
+          "31.2351852",
+          "31.2360492",
+          "121.5007275",
+          "121.5018060"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A6&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "river",
+    "query": "滨江大道 上海 陆家嘴",
+    "results": [
+      {
+        "place_id": 224520466,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 911102969,
+        "lat": "31.2134601",
+        "lon": "121.5076486",
+        "category": "building",
+        "type": "commercial",
+        "place_rank": 30,
+        "importance": 7.91126878766616e-05,
+        "addresstype": "building",
+        "name": "陆家嘴滨江中心N2座",
+        "display_name": "陆家嘴滨江中心N2座, 滨江大道, 塘桥, 塘桥街道, 浦东新区, 上海市, 200027, 中国",
+        "boundingbox": [
+          "31.2131861",
+          "31.2137188",
+          "121.5072452",
+          "121.5080557"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93+%E4%B8%8A%E6%B5%B7+%E9%99%86%E5%AE%B6%E5%98%B4&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "b",
+    "query": "康新公路站 上海",
+    "results": [],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E5%BA%B7%E6%96%B0%E5%85%AC%E8%B7%AF%E7%AB%99+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "disney",
+    "query": "上海迪士尼乐园",
+    "results": [
+      {
+        "place_id": 224715896,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 494725605,
+        "lat": "31.1462523",
+        "lon": "121.6562825",
+        "category": "tourism",
+        "type": "theme_park",
+        "place_rank": 30,
+        "importance": 0.4626188435861501,
+        "addresstype": "tourism",
+        "name": "上海迪士尼乐园",
+        "display_name": "上海迪士尼乐园, 753, 申迪北路, 黄楼, 川沙新镇, 浦东新区, 上海市, 201205, 中国",
+        "boundingbox": [
+          "31.1419249",
+          "31.1505936",
+          "121.6497235",
+          "121.6626070"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E4%B8%8A%E6%B5%B7%E8%BF%AA%E5%A3%AB%E5%B0%BC%E4%B9%90%E5%9B%AD&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "pvg",
+    "query": "上海浦东国际机场",
+    "results": [
+      {
+        "place_id": 224423339,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 19842271,
+        "lat": "31.1427359",
+        "lon": "121.8041131",
+        "category": "aeroway",
+        "type": "aerodrome",
+        "place_rank": 30,
+        "importance": 0.5692318389796553,
+        "addresstype": "aeroway",
+        "name": "上海浦东国际机场",
+        "display_name": "上海浦东国际机场, 祝桥镇, 浦东新区, 上海市, 中国",
+        "boundingbox": [
+          "31.1106505",
+          "31.1746791",
+          "121.7755101",
+          "121.8540946"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "sha",
+    "query": "上海虹桥国际机场",
+    "results": [
+      {
+        "place_id": 221852970,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 428121878,
+        "lat": "31.1976777",
+        "lon": "121.3344831",
+        "category": "aeroway",
+        "type": "aerodrome",
+        "place_rank": 30,
+        "importance": 0.5320161417764044,
+        "addresstype": "aeroway",
+        "name": "上海虹桥国际机场",
+        "display_name": "上海虹桥国际机场, 申达一路, 新虹街道, 闵行区, 上海市, 201106, 中国",
+        "boundingbox": [
+          "31.1750010",
+          "31.2202990",
+          "121.3207930",
+          "121.3476440"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "goodbai",
+    "query": "GOODBAI 上海 延庆路",
+    "results": [],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=GOODBAI+%E4%B8%8A%E6%B5%B7+%E5%BB%B6%E5%BA%86%E8%B7%AF&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "badmarket",
+    "query": "Badmarket 上海 长乐路",
+    "results": [],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Badmarket+%E4%B8%8A%E6%B5%B7+%E9%95%BF%E4%B9%90%E8%B7%AF&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "iapm",
+    "query": "环贸 上海",
+    "results": [
+      {
+        "place_id": 225131660,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4761268855,
+        "lat": "31.2179557",
+        "lon": "121.4534735",
+        "category": "shop",
+        "type": "electronics",
+        "place_rank": 30,
+        "importance": 7.91126878766616e-05,
+        "addresstype": "shop",
+        "name": "Apple 上海环贸 iapm",
+        "display_name": "Apple 上海环贸 iapm, 999, 淮海中路, 湖南路街道, 徐汇区, 上海市, 200003, 中国",
+        "boundingbox": [
+          "31.2179057",
+          "31.2180057",
+          "121.4534235",
+          "121.4535235"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E7%8E%AF%E8%B4%B8+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "apoli",
+    "query": "Apoli Ita Bakery 上海",
+    "results": [],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Apoli+Ita+Bakery+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "yongjia",
+    "query": "永嘉路 上海",
+    "results": [
+      {
+        "place_id": 225058104,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1119184639,
+        "lat": "31.2129325",
+        "lon": "121.4591252",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05341244602121001,
+        "addresstype": "road",
+        "name": "永嘉路",
+        "display_name": "永嘉路, 瑞金二路街道, 上海市, 黄浦区, 上海市, 200025, 中国",
+        "boundingbox": [
+          "31.2120504",
+          "31.2136880",
+          "121.4570331",
+          "121.4612668"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E6%B0%B8%E5%98%89%E8%B7%AF+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  },
+  {
+    "id": "xujiahui",
+    "query": "美罗城 上海",
+    "results": [
+      {
+        "place_id": 224902892,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 225521733,
+        "lat": "31.1949173",
+        "lon": "121.4355589",
+        "category": "shop",
+        "type": "mall",
+        "place_rank": 30,
+        "importance": 0.36467385585497514,
+        "addresstype": "shop",
+        "name": "美罗城",
+        "display_name": "美罗城, 肇嘉浜路, 徐家汇, 徐家汇街道, 徐汇区, 上海市, 200030, 中国",
+        "boundingbox": [
+          "31.1942585",
+          "31.1955382",
+          "121.4341736",
+          "121.4362160"
+        ]
+      }
+    ],
+    "source_url": "https://nominatim.openstreetmap.org/search?q=%E7%BE%8E%E7%BD%97%E5%9F%8E+%E4%B8%8A%E6%B5%B7&format=jsonv2&limit=1&countrycodes=cn&viewbox=121.2%2C31.4%2C121.9%2C30.9&bounded=1"
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-15",
+  "scope": "公开网页深核；未使用主代理的内置浏览器",
+  "entries": [
+    {
+      "name": "MOONMOI",
+      "address": "上海市徐汇区安福路（具体门牌仍待核实）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "confidence": "street-only",
+      "operatingStatus": "近期实逛可佐证2026年7月至9月实体店存在；10月15日实时营业及营业时间未核实",
+      "evidence": [
+        {
+          "url": "https://www.sina.cn/news/detail/5327045850563230.html",
+          "date": "2026-08-01",
+          "publisher": "VivienneBWA本人微博经新浪正文呈现",
+          "supports": "原文陈述7月逛实体店，安福路有Moonmoi和24Ans；未给门牌"
+        },
+        {
+          "url": "https://hk.trip.com/moments/detail/shanghai-2-153403972/",
+          "date": "页面动态日期不可靠；页面关联2026-09-25",
+          "publisher": "携程用户实逛",
+          "supports": "武康大楼到安福路沿途提到moonmoi、musinsa；不提供门牌，全天开放是景区不是商店营业状态"
+        },
+        {
+          "url": "https://m.zhipin.com/zhaopin/af51157d391cdcfa1XB83tq-EQ~~/",
+          "publisher": "BOSS直聘聚合职位",
+          "supports": "职位标题Moonmoi导购/上海安福路；不把龙华聚合定位或工商地址当店址"
+        }
+      ],
+      "notes": "精确品牌大小写、空格moon moi、安福路店、地图站点限制搜索均无门牌证据；不落安福路街中心冒充店点。可优先从原视频门头/作者评论和品牌小红书主页补证。"
+    },
+    {
+      "name": "OPEN YY（四行仓库官方快闪）",
+      "address": "上海市静安区四行仓库1楼·百联时尚消费品展厅（光复路21号为同建筑公开门牌，入口和快闪门牌仍需直接交叉核实）",
+      "lat": null,
+      "lon": null,
+      "coordinateSystem": null,
+      "confidence": "venue-confirmed-address-inferred",
+      "operatingStatus": "历史/限时活动；已确认2026-05-18现场活动及9月报道回顾，未取得快闪结束日期或10月15日继续开放的公告",
+      "evidence": [
+        {
+          "url": "https://jingxuan.douyin.com/m/video/7641072778988276992",
+          "date": "2026-05-18",
+          "publisher": "HYPEBEAST",
+          "supports": "官方媒体现场采访品牌两位主理人，确认当时上海Pop-up"
+        },
+        {
+          "url": "https://weibo.com/2/detail/5340942160628562",
+          "publisher": "百联集团官方微博",
+          "supports": "四行仓库一楼百联时尚消费品展厅启幕；需内置浏览器展开原文链接，web正文索引未含门牌"
+        },
+        {
+          "url": "https://www.guandian.cn/article/20260909/599444.html",
+          "date": "2026-09-09",
+          "publisher": "观点网",
+          "supports": "四行仓库一楼完整26春夏及度假线快闪、上海限定T恤；报道发布日期不是开展日期"
+        },
+        {
+          "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20251104/b5b48facbbf244f5842f1b86b4f7899f.html",
+          "date": "2025-11-04",
+          "publisher": "上海国资委",
+          "supports": "同建筑上海证券投教基地门牌光复路21号四行仓库2楼。仅能提供建筑参考，不能直接证明快闪店入口"
+        }
+      ],
+      "notes": "四行仓库有光复路1/21/195等多个库/入口，不能把195号光二仓库当此次四行仓库快闪。2024年HAUS NOWHERE 3F、2025 PUMA淮海852–854号、Tomorrow订货showroom均不能当此次或当前常设店。"
+    },
+    {
+      "name": "OPEN YY（官方在售渠道备选）",
+      "address": "the bálancing：上海市徐汇区漕溪北路8号东方商厦2–4楼；ENG：上海市浦东新区浦东南路899号1楼（官网英文Pudong Road缺South，需独立核实后使用）",
+      "lat": null,
+      "lon": null,
+      "confidence": "official-stockist-listed",
+      "operatingStatus": "品牌官网本次读取仍列为经销商；不代表具体SKU库存及当天营业",
+      "evidence": [
+        {
+          "url": "https://en.open-yy.com/stockist",
+          "publisher": "OPEN YY品牌官网",
+          "supports": "品牌当前stockist名单明确THE BALANCING 2–4th Floor, Orient Shopping Center, No.8 Cao Xi Bei Road, Shanghai；ENG 1F No.899 Pudong Road, Pudong Shanghai"
+        }
+      ],
+      "notes": "可作为购买OPEN YY的明确店址备选；不应替换原视频快闪记录或称为品牌直营店。"
+    }
+  ],
+  "followup": {
+    "checkedAt": "2026-10-15",
+    "moonmoi": {
+      "mapListing": "主代理在内置百度地图读取 moon moi(上海安福路店)，UID 12d666955b6df03db04c49eb",
+      "listedAddress": "上海市徐汇区安福路298号2弄",
+      "listedHours": "10:00–21:30（仅平台登记）",
+      "categoryConflict": "登记类别为美食，无门头照片，和女装品牌身份不一致；当前营业不能由列表直接推断",
+      "crossCheck": "用moonmoi/moon moi与298/安福路298号/298弄2号组合公开搜索，未取得品牌与门牌的独立关联证据。",
+      "addressAmbiguity": "公开历史资料存在安福路298弄2号楼（BANK画廊旧址），与百度字符串298号2弄次序不同，不能擅自纠正门牌。",
+      "addressEvidence": [
+        {
+          "url": "https://www.galleriesnow.net/wp-content/uploads/2020/11/28GalleriesNow_Shanghai.pdf",
+          "publisher": "GalleriesNow 2020秋季上海指南",
+          "supports": "BANK画廊 Building 2, Lane 298 Anfu Lu；仅证明历史建筑地址，不能证明当前MOONMOI店址"
+        },
+        {
+          "url": "https://m.city8.com/sh/shopping/8d9l5p794pscbb87d3_address",
+          "supports": "2023-08-08 BANK画廊徐汇新址，安福路298弄2号楼；非MOONMOI证据"
+        }
+      ],
+      "recommendation": "若采用百度坐标，必须标为同名POI待核参考点并显示类别矛盾；不要标精确核实或正常营业，也不要进入核心线路。"
+    },
+    "openyy": {
+      "hypebeastAddress": "HYPEBEAST 2026-05-18现场采访索引正文没有完整门牌，未新增门牌证据。",
+      "recommendation": "可用光复路21号四行仓库建筑参考点，结合活动确在该建筑1F的报道，明确场馆参考、非已核快闪入口，当前开放待确认。不能用历史报道发布日期推断仍营业。"
+    }
+  }
+}

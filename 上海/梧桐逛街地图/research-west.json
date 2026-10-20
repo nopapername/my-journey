@@ -1,0 +1,278 @@
+[
+  {
+    "name": "ffroom",
+    "address": "上海市巨鹿路（门牌待核实）",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sina.cn/news/detail/5340573619979296.html",
+    "confidence": "unknown",
+    "notes": "已找到巨鹿路开店证据及2026年7月试营业公告，未查到可靠门牌或门店坐标。"
+  },
+  {
+    "name": "22collection / 22 COLLECTION",
+    "address": "上海市建国中路143号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://m.thepaper.cn/newsDetail_forward_33017716",
+    "confidence": "address-only",
+    "notes": "ShanghaiLOOK 2026-04-22刊文列明门牌，未取得地图坐标。",
+    "style": "以韩国品牌为主的服饰集合店"
+  },
+  {
+    "name": "东日是个卷毛 DongRi studio",
+    "address": "上海市南昌路（门牌待核实）",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sohu.com/a/1055270211_121119292",
+    "confidence": "unknown",
+    "notes": "2026-07-27实地行业文章确认7月初上海南昌路首店，店招dongri studio。用户别称冬日；尚无可靠门牌和坐标。"
+  },
+  {
+    "name": "oror by fine",
+    "address": "上海市徐汇区新乐路145号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sophieservesup.com/articles/where-to-eat-the-best-thai-food-in-shanghai/",
+    "confidence": "address-only",
+    "notes": "这是泰式餐厅，不是服饰店。实地餐饮文章明确地址，地图坐标未查得。",
+    "style": "泰式餐厅"
+  },
+  {
+    "name": "CERRIC",
+    "address": "上海市新乐路（慢闪店，门牌待核实）",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sina.cn/news/detail/5328203707057861.html",
+    "confidence": "unknown",
+    "notes": "界面新闻2026-08-04确认新乐路慢闪店；未取得门牌、结束日期或精确坐标。"
+  },
+  {
+    "name": "teenteens",
+    "address": "上海市新乐路（门牌待核实）",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sohu.com/a/1064329847_121119292",
+    "confidence": "unknown",
+    "notes": "2026年8月首店开业，毗邻CERRIC与GOODBAI Minuet；另有行业报道称限时快闪，当前营业仍需核实。"
+  },
+  {
+    "name": "Sinoon / Snoon",
+    "address": "上海市徐汇区东湖路30号FUFU上海园区4幢",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.colliers.com.cn/zh-cn/news/20260626sinoon",
+    "confidence": "address-only",
+    "notes": "选址服务方高力国际确认东湖路30号；上海官方旅游网站进一步明确4幢。中国市场名称已升级为Snoon，坐标未查得。",
+    "style": "自然浪漫、柔雾低饱和色系、蕾丝褶皱与女性时装"
+  },
+  {
+    "name": "Rest & Recreation（东湖路概念店）",
+    "address": "上海市徐汇区东湖路30号FUFU上海",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sohu.com/a/1032092036_121119292",
+    "confidence": "address-only",
+    "notes": "2026-06-04行业实地文章确认园区地址与2026年5月开业；园区内铺位及坐标未查得。"
+  },
+  {
+    "name": "melomela",
+    "address": "上海市徐汇区华亭路4号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://post.m.smzdm.com/zz/p/agomdo57/",
+    "confidence": "address-only",
+    "notes": "此为小红书内容汇编线索；独立文具品牌Nagi实地列表也确认Melomela在华亭路6号102室左邻。门牌4号仍建议地图复核，未取得坐标。"
+  },
+  {
+    "name": "asomesome（长乐路 / garden）",
+    "address": "上海市静安区长乐路816号（高德描述：长乐路与常熟路交叉口西60米）",
+    "lat": 31.216051,
+    "lon": 121.447405,
+    "coordinateSystem": "GCJ02",
+    "evidenceUrl": "https://www.amap.com/place/B0LDKZPXZ0",
+    "confidence": "exact",
+    "notes": "高德POI明示经纬度；2026年PUMA联名发售店列表佐证长乐路816号。"
+  },
+  {
+    "name": "asomesome（安福路线索）",
+    "address": null,
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": null,
+    "confidence": "unknown",
+    "notes": "未查到可核实的安福路独立门店证据，不能把长乐路门店坐标复制到此项。"
+  },
+  {
+    "name": "LOOKNOW PARK（淮海中路店）",
+    "address": "上海市徐汇区淮海中路1008号1-3层",
+    "lat": 31.21637,
+    "lon": 121.457498,
+    "coordinateSystem": "GCJ02",
+    "evidenceUrl": "https://www.amap.com/place/B0JRZ7COPJ",
+    "confidence": "exact",
+    "notes": "高德POI名称为路可闹公园LOOKNOW PARK(淮海中路店)。"
+  },
+  {
+    "name": "LOOKNOW（武康路旗舰店）",
+    "address": "上海市徐汇区武康路286号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.immi-fashion.com/zh/store-location/",
+    "confidence": "address-only",
+    "notes": "合作品牌immi官方门店清单确认门牌；未查得该分店高德坐标，勿误用中山南二路107号的同名POI。"
+  },
+  {
+    "name": "Rockfish Weatherwear（安福路店）",
+    "address": "上海市徐汇区安福路322号2栋105室",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sina.cn/news/detail/5238802178115775.html",
+    "confidence": "address-only",
+    "notes": "合作设计师SusanFangOfficial 2025-11-30联名发售公告列明；未取得坐标。"
+  },
+  {
+    "name": "Rockfish Weatherwear（丰盛里旗舰店）",
+    "address": "上海市静安区茂名北路241号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sina.cn/news/detail/5238802178115775.html",
+    "confidence": "address-only",
+    "notes": "合作设计师SusanFangOfficial列明地址；Brandstar品牌供稿称2025-10-12开业。未取得坐标。"
+  },
+  {
+    "name": "Brandy Melville（安福路店）",
+    "address": "上海市徐汇区安福路308号",
+    "lat": 31.213381,
+    "lon": 121.440665,
+    "coordinateSystem": "GCJ02",
+    "evidenceUrl": "https://www.amap.com/place/B0FFLBNYQD",
+    "confidence": "exact",
+    "notes": "高德POI直接列明门牌和坐标。"
+  },
+  {
+    "name": "Grove / GRVRGROVE（环贸iapm店）",
+    "address": "上海市徐汇区淮海中路999号上海环贸广场LG2层278室",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://grovestore.com/shopinfo/company.html",
+    "confidence": "address-only",
+    "notes": "GROVE品牌官方门店清单确认，未取得坐标。",
+    "style": "以简洁经典的当代休闲重新诠释1960年代复古风格"
+  },
+  {
+    "name": "Grove / GRVRGROVE（安福路旗舰店）",
+    "address": "上海市徐汇区安福路322号3号楼101室",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://grovestore.com/shopinfo/company.html",
+    "confidence": "address-only",
+    "notes": "GROVE品牌官方门店清单确认，未取得坐标；与Rockfish安福路店为不同楼栋铺位。",
+    "style": "以简洁经典的当代休闲重新诠释1960年代复古风格"
+  },
+  {
+    "name": "Subdued（武康路店）",
+    "address": "上海市徐汇区武康路378号",
+    "lat": 31.206345,
+    "lon": 121.439171,
+    "coordinateSystem": "GCJ02",
+    "evidenceUrl": "https://www.amap.com/place/B0K2MDUB57",
+    "confidence": "exact",
+    "notes": "高德门牌378号；百度出现武康路376号武康庭102室描述。坐标以直接同名高德POI为准，门牌存在差异应保留提示。"
+  },
+  {
+    "name": "24ans",
+    "address": "上海苏河湾万象天地（2022年首店线索，具体铺位及现状待确认）",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.chinagrazia.com/article/169486.html",
+    "confidence": "unknown",
+    "notes": "仅找到2022年苏河湾万象天地首店报道，未找到梧桐区街店或最新独立门店证据；不可据此在梧桐区落点。"
+  },
+  {
+    "name": "小玉yuy × Parlid拍立得联名快闪",
+    "address": "上海市徐汇区嘉善路123号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.toutiao.com/w/1877786320671945/",
+    "confidence": "address-only",
+    "notes": "2026-10-01现场帖子给出9月28日–11月15日及门牌；SocialBeta 2026-10-05确认Parlid全球首店落地天平街道兴顺东里并联名小玉。时间以现场公告为准，未取得坐标。"
+  },
+  {
+    "name": "The Edit Room",
+    "address": "上海市徐汇区安福路275弄6号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sina.cn/media/7656866209",
+    "confidence": "address-only",
+    "notes": "参与方润润同学129的2026年7月快闪公告确认安福路275弄6号，携程对应The Edit Room。活动7月15–20日已过，常设门店现状待确认。2025年永康路190号为历史快闪，不能合并。"
+  },
+  {
+    "name": "SHKUCO",
+    "address": "上海市徐汇区（门牌待核实）",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": null,
+    "confidence": "unknown",
+    "notes": "仅发现百度地图搜索索引中的徐汇区购物POI，未取得独立详情、可靠门牌或坐标。"
+  },
+  {
+    "name": "Come Come Bakery（乌鲁木齐中路店）",
+    "address": "上海市徐汇区乌鲁木齐中路300号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://hao.cnyes.com/post/271193",
+    "confidence": "address-only",
+    "notes": "2026年10月美食地图文章列明地址；上海ジャピオン2026-05-29有独立实地报道。未取得坐标。"
+  },
+  {
+    "name": "NNN2097 vintage",
+    "address": "上海市徐汇区新乐路144号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.citynewsservice.cn/articles/shanghaidaily/news/untitled-xm5g6lek",
+    "confidence": "address-only",
+    "notes": "Shanghai Daily/City News Service实地报道明确门牌；未取得坐标。",
+    "style": "美式复古、常春藤学院风，1990年代和2000年代初服饰"
+  },
+  {
+    "name": "Lagoon Store",
+    "address": "上海市黄浦区巨鹿路374弄2号",
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://jp.trip.com/moments/detail/shanghai-2-148344568/",
+    "confidence": "address-only",
+    "notes": "2026-07-17现场帖子列明门牌，售中古器物、贝壳、韩国餐具等；未取得坐标。"
+  },
+  {
+    "name": "pupuhome",
+    "address": null,
+    "lat": null,
+    "lon": null,
+    "coordinateSystem": null,
+    "evidenceUrl": "https://www.sina.cn/news/detail/5205786406159012.html",
+    "confidence": "unknown",
+    "notes": "品牌方BlueMoon研究所确认有线下门店查询小程序与杭州工作室，但未找到可靠上海门店地址。不可把杭州地址当上海店。"
+  }
+]

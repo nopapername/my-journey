@@ -1,0 +1,12 @@
+{"kind":"deck","id":"pr/1dnewd","name":"Deck"}
+{"kind":"layout","id":"ly/mdcjmpov","editable":false,"name":"Master","type":"master"}
+{"kind":"layout","id":"ly/jylwbq5c","editable":false,"name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title"},{"name":"subtitle","type":"subtitle"}]}
+{"kind":"layout","id":"ly/h8rulw3y","editable":false,"name":"Section Header","type":"sectionHeader","placeholders":[{"name":"title","type":"title"}]}
+{"kind":"layout","id":"ly/japgru50","editable":false,"name":"Title and Body","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/at0ny1cj","editable":false,"name":"Title and Two Column","type":"twoColTx","placeholders":[{"name":"title","type":"title"},{"name":"Left column","type":"body"},{"name":"Right column","type":"body"}]}
+{"kind":"layout","id":"ly/wnqhcrad","editable":false,"name":"Title and One Column","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/fuxc7q1k","editable":false,"name":"Blank","type":"blank"}
+{"kind":"slide","id":"sl/weynr0","slideIndex":0,"layout":{"id":"ly/fuxc7q1k","name":"Blank"},"title":"上海十月旅行","textShapes":1,"backgroundColor":"rgba(250,247,239,1)"}
+{"kind":"textbox","id":"sh/pwfmpo7u","slideIndex":0,"position":{"left":60,"top":50,"width":1000,"height":100},"text":"上海十月旅行","geometry":"rect","lineWidth":0,"style":{"fontSize":56,"typeface":"Microsoft YaHei","color":"#183A33","bold":true,"alignment":"left"}}
+{"kind":"table","id":"tb/jepgbu5g","slideIndex":0,"position":{"left":60,"top":250,"width":1000,"height":220},"name":"","rows":3,"cols":2,"preview":"日期 | 目的地"}
+{"kind":"notes","id":"nt/weynr0","slideIndex":0,"text":""}

@@ -1,0 +1,2210 @@
+{
+  "s02": {
+    "query": "上海市南京西路1490号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1490%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区南京西路1490号",
+          "location": {
+            "x": 121.44450075814,
+            "y": 31.226723346537
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市静安区南京西路1490号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.44350075814,
+            "ymin": 31.225723346537,
+            "xmax": 121.44550075814,
+            "ymax": 31.227723346537
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s04": {
+    "query": "上海市陕西北路457号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%99%95%E8%A5%BF%E5%8C%97%E8%B7%AF457%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区陕西北路457号",
+          "location": {
+            "x": 121.449326998086,
+            "y": 31.230694765565
+          },
+          "score": 98.9,
+          "attributes": {
+            "Score": 98.9,
+            "Match_addr": "上海市静安区陕西北路457号",
+            "Addr_type": "StreetAddressExt"
+          },
+          "extent": {
+            "xmin": 121.448326998086,
+            "ymin": 31.229694765565,
+            "xmax": 121.450326998086,
+            "ymax": 31.231694765565
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s06": {
+    "query": "上海市光复路195号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%89%E5%A4%8D%E8%B7%AF195%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区东南门光复路",
+          "location": {
+            "x": 121.466575145072,
+            "y": 31.241925425869
+          },
+          "score": 86,
+          "attributes": {
+            "Score": 86,
+            "Match_addr": "上海市静安区东南门光复路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.465575145072,
+            "ymin": 31.240925425869,
+            "xmax": 121.467575145072,
+            "ymax": 31.242925425869
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s07": {
+    "query": "上海市愚园路1382号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%84%9A%E5%9B%AD%E8%B7%AF1382%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市长宁区江苏路街道愚园路1382号",
+          "location": {
+            "x": 121.420679950898,
+            "y": 31.220832134049
+          },
+          "score": 98.9,
+          "attributes": {
+            "Score": 98.9,
+            "Match_addr": "上海市长宁区江苏路街道愚园路1382号",
+            "Addr_type": "StreetAddressExt"
+          },
+          "extent": {
+            "xmin": 121.419679950898,
+            "ymin": 31.219832134049,
+            "xmax": 121.421679950898,
+            "ymax": 31.221832134049
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s08": {
+    "query": "上海市利西路102号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%88%A9%E8%A5%BF%E8%B7%AF102%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市长宁区江苏路街道利西路102号",
+          "location": {
+            "x": 121.425510636263,
+            "y": 31.21678951253
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市长宁区江苏路街道利西路102号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.424510636263,
+            "ymin": 31.21578951253,
+            "xmax": 121.426510636263,
+            "ymax": 31.21778951253
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s09": {
+    "query": "上海市华山路847号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8D%8E%E5%B1%B1%E8%B7%AF847%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区徐家汇街道华山路847号",
+          "location": {
+            "x": 121.430726325041,
+            "y": 31.203979009664
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区徐家汇街道华山路847号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.429726325041,
+            "ymin": 31.202979009664,
+            "xmax": 121.431726325041,
+            "ymax": 31.204979009664
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s10": {
+    "query": "上海市安福路322号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF322%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道安福路322号",
+          "location": {
+            "x": 121.435713424085,
+            "y": 31.21517679245
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道安福路322号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.434713424085,
+            "ymin": 31.21417679245,
+            "xmax": 121.436713424085,
+            "ymax": 31.21617679245
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s11": {
+    "query": "上海市安福路322号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF322%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道安福路322号",
+          "location": {
+            "x": 121.435713424085,
+            "y": 31.21517679245
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道安福路322号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.434713424085,
+            "ymin": 31.21417679245,
+            "xmax": 121.436713424085,
+            "ymax": 31.21617679245
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s12": {
+    "query": "上海市安福路308号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF308%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道安福路308号",
+          "location": {
+            "x": 121.435971083788,
+            "y": 31.215228592611
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道安福路308号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.434971083788,
+            "ymin": 31.214228592611,
+            "xmax": 121.436971083788,
+            "ymax": 31.216228592611
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s13": {
+    "query": "上海市安福路275弄5号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF275%E5%BC%845%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道安福路275号",
+          "location": {
+            "x": 121.43625168574,
+            "y": 31.215155676953
+          },
+          "score": 97.5,
+          "attributes": {
+            "Score": 97.5,
+            "Match_addr": "上海市徐汇区湖南路街道安福路275号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.43525168574,
+            "ymin": 31.214155676953,
+            "xmax": 121.43725168574,
+            "ymax": 31.216155676953
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s14": {
+    "query": "上海市安福路275弄6号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF275%E5%BC%846%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道安福路275号",
+          "location": {
+            "x": 121.43625168574,
+            "y": 31.215155676953
+          },
+          "score": 97.5,
+          "attributes": {
+            "Score": 97.5,
+            "Match_addr": "上海市徐汇区湖南路街道安福路275号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.43525168574,
+            "ymin": 31.214155676953,
+            "xmax": 121.43725168574,
+            "ymax": 31.216155676953
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s15": {
+    "query": "上海市乌鲁木齐中路196号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E4%B8%AD%E8%B7%AF196%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区天平路街道乌鲁木齐中路196号",
+          "location": {
+            "x": 121.441066189978,
+            "y": 31.215064108446
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区天平路街道乌鲁木齐中路196号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.440066189978,
+            "ymin": 31.214064108446,
+            "xmax": 121.442066189978,
+            "ymax": 31.216064108446
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s17": {
+    "query": "上海市五原路89号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%BA%94%E5%8E%9F%E8%B7%AF89%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道五原路89号",
+          "location": {
+            "x": 121.442249632181,
+            "y": 31.214619982622
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道五原路89号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.441249632181,
+            "ymin": 31.213619982622,
+            "xmax": 121.443249632181,
+            "ymax": 31.215619982622
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s18": {
+    "query": "上海市五原路86号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%BA%94%E5%8E%9F%E8%B7%AF86%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道五原路86号",
+          "location": {
+            "x": 121.443559673479,
+            "y": 31.215271944027
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道五原路86号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.442559673479,
+            "ymin": 31.214271944027,
+            "xmax": 121.444559673479,
+            "ymax": 31.216271944027
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s19": {
+    "query": "上海市五原路210弄1号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%BA%94%E5%8E%9F%E8%B7%AF210%E5%BC%841%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道五原路210号",
+          "location": {
+            "x": 121.441215808243,
+            "y": 31.214481220215
+          },
+          "score": 97.5,
+          "attributes": {
+            "Score": 97.5,
+            "Match_addr": "上海市徐汇区湖南路街道五原路210号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.440215808243,
+            "ymin": 31.213481220215,
+            "xmax": 121.442215808243,
+            "ymax": 31.215481220215
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s20": {
+    "query": "上海市武康路286号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%AD%A6%E5%BA%B7%E8%B7%AF286%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市长宁区江苏路街道武康路286号",
+          "location": {
+            "x": 121.434783355665,
+            "y": 31.20837331777
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市长宁区江苏路街道武康路286号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.433783355665,
+            "ymin": 31.20737331777,
+            "xmax": 121.435783355665,
+            "ymax": 31.20937331777
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s21": {
+    "query": "上海市武康路378号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%AD%A6%E5%BA%B7%E8%B7%AF378%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市长宁区新华路街道武康路378号",
+          "location": {
+            "x": 121.433177479279,
+            "y": 31.206070986207
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市长宁区新华路街道武康路378号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.432177479279,
+            "ymin": 31.205070986207,
+            "xmax": 121.434177479279,
+            "ymax": 31.207070986207
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s22": {
+    "query": "上海市长乐路888号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E4%B9%90%E8%B7%AF888%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道长乐路888号",
+          "location": {
+            "x": 121.444304792044,
+            "y": 31.218239496342
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道长乐路888号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.443304792044,
+            "ymin": 31.217239496342,
+            "xmax": 121.445304792044,
+            "ymax": 31.219239496342
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s23": {
+    "query": "上海市长乐路816号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E4%B9%90%E8%B7%AF816%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区长乐路816号",
+          "location": {
+            "x": 121.442707032637,
+            "y": 31.217926894882
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市静安区长乐路816号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.441707032637,
+            "ymin": 31.216926894882,
+            "xmax": 121.443707032637,
+            "ymax": 31.218926894882
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s24": {
+    "query": "上海市巨鹿路741-4号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B7%A8%E9%B9%BF%E8%B7%AF741-4%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道巨鹿路",
+          "location": {
+            "x": 121.455347504359,
+            "y": 31.224798150975
+          },
+          "score": 84.09,
+          "attributes": {
+            "Score": 84.09,
+            "Match_addr": "上海市黄浦区瑞金二路街道巨鹿路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.454347504359,
+            "ymin": 31.223798150975,
+            "xmax": 121.456347504359,
+            "ymax": 31.225798150975
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s25": {
+    "query": "上海市巨鹿路699-4号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B7%A8%E9%B9%BF%E8%B7%AF699-4%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道巨鹿路",
+          "location": {
+            "x": 121.455347504359,
+            "y": 31.224798150975
+          },
+          "score": 84.09,
+          "attributes": {
+            "Score": 84.09,
+            "Match_addr": "上海市黄浦区瑞金二路街道巨鹿路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.454347504359,
+            "ymin": 31.223798150975,
+            "xmax": 121.456347504359,
+            "ymax": 31.225798150975
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s26": {
+    "query": "上海市富民路184号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AF%8C%E6%B0%91%E8%B7%AF184%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区富民路184号",
+          "location": {
+            "x": 121.447000075805,
+            "y": 31.219988507787
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市静安区富民路184号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.446000075805,
+            "ymin": 31.218988507787,
+            "xmax": 121.448000075805,
+            "ymax": 31.220988507787
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s27": {
+    "query": "上海市富民路182弄13号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AF%8C%E6%B0%91%E8%B7%AF182%E5%BC%8413%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区富民路182号",
+          "location": {
+            "x": 121.446822489244,
+            "y": 31.220589287258
+          },
+          "score": 96.92,
+          "attributes": {
+            "Score": 96.92,
+            "Match_addr": "上海市静安区富民路182号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.445822489244,
+            "ymin": 31.219589287258,
+            "xmax": 121.447822489244,
+            "ymax": 31.221589287258
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s28": {
+    "query": "上海市富民路179号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AF%8C%E6%B0%91%E8%B7%AF179%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区富民路179号",
+          "location": {
+            "x": 121.446803261141,
+            "y": 31.220621071406
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市静安区富民路179号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.445803261141,
+            "ymin": 31.219621071406,
+            "xmax": 121.447803261141,
+            "ymax": 31.221621071406
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s29": {
+    "query": "上海市富民路271号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AF%8C%E6%B0%91%E8%B7%AF271%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区富民路271号",
+          "location": {
+            "x": 121.447474240068,
+            "y": 31.219636886949
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市静安区富民路271号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.446474240068,
+            "ymin": 31.218636886949,
+            "xmax": 121.448474240068,
+            "ymax": 31.220636886949
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s33": {
+    "query": "上海市新乐路145号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%96%B0%E4%B9%90%E8%B7%AF145%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道新乐路",
+          "location": {
+            "x": 121.450946275302,
+            "y": 31.219531524636
+          },
+          "score": 86,
+          "attributes": {
+            "Score": 86,
+            "Match_addr": "上海市黄浦区瑞金二路街道新乐路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.449946275302,
+            "ymin": 31.218531524636,
+            "xmax": 121.451946275302,
+            "ymax": 31.220531524636
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s34": {
+    "query": "上海市新乐路144号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%96%B0%E4%B9%90%E8%B7%AF144%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道新乐路144号",
+          "location": {
+            "x": 121.450922768818,
+            "y": 31.219585178226
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道新乐路144号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.449922768818,
+            "ymin": 31.218585178226,
+            "xmax": 121.451922768818,
+            "ymax": 31.220585178226
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s35": {
+    "query": "上海市华亭路4号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8D%8E%E4%BA%AD%E8%B7%AF4%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道华亭路",
+          "location": {
+            "x": 121.44635299288,
+            "y": 31.215210781067
+          },
+          "score": 91.25,
+          "attributes": {
+            "Score": 91.25,
+            "Match_addr": "上海市徐汇区湖南路街道华亭路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.44535299288,
+            "ymin": 31.214210781067,
+            "xmax": 121.44735299288,
+            "ymax": 31.216210781067
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s36": {
+    "query": "上海市东湖路30号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%B9%96%E8%B7%AF30%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道东湖路30号",
+          "location": {
+            "x": 121.451099697335,
+            "y": 31.217642108113
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道东湖路30号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.450099697335,
+            "ymin": 31.216642108113,
+            "xmax": 121.452099697335,
+            "ymax": 31.218642108113
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s37": {
+    "query": "上海市东湖路30号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%B9%96%E8%B7%AF30%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道东湖路30号",
+          "location": {
+            "x": 121.451099697335,
+            "y": 31.217642108113
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道东湖路30号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.450099697335,
+            "ymin": 31.216642108113,
+            "xmax": 121.452099697335,
+            "ymax": 31.218642108113
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s38": {
+    "query": "上海市东湖路20号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%B9%96%E8%B7%AF20%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道东湖路20号",
+          "location": {
+            "x": 121.450446714391,
+            "y": 31.217941814669
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道东湖路20号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.449446714391,
+            "ymin": 31.216941814669,
+            "xmax": 121.451446714391,
+            "ymax": 31.218941814669
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s39": {
+    "query": "上海市乌鲁木齐中路300号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E4%B8%AD%E8%B7%AF300%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区天平路街道乌鲁木齐中路300号",
+          "location": {
+            "x": 121.441673122547,
+            "y": 31.21360617346
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区天平路街道乌鲁木齐中路300号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.440673122547,
+            "ymin": 31.21260617346,
+            "xmax": 121.442673122547,
+            "ymax": 31.21460617346
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s41": {
+    "query": "上海市巨鹿路374弄2号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%B7%A8%E9%B9%BF%E8%B7%AF374%E5%BC%842%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道巨鹿路374号",
+          "location": {
+            "x": 121.455940784942,
+            "y": 31.224970433033
+          },
+          "score": 97.5,
+          "attributes": {
+            "Score": 97.5,
+            "Match_addr": "上海市黄浦区瑞金二路街道巨鹿路374号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.454940784942,
+            "ymin": 31.223970433033,
+            "xmax": 121.456940784942,
+            "ymax": 31.225970433033
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s45": {
+    "query": "上海市淮海中路1008号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1008%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道淮海中路1008号",
+          "location": {
+            "x": 121.45324727588,
+            "y": 31.218379014739
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道淮海中路1008号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.45224727588,
+            "ymin": 31.217379014739,
+            "xmax": 121.45424727588,
+            "ymax": 31.219379014739
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s46": {
+    "query": "上海市淮海中路999号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF999%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道淮海中路999号",
+          "location": {
+            "x": 121.453784304417,
+            "y": 31.217527790562
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道淮海中路999号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.452784304417,
+            "ymin": 31.216527790562,
+            "xmax": 121.454784304417,
+            "ymax": 31.218527790562
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s47": {
+    "query": "上海市淮海中路999号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF999%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道淮海中路999号",
+          "location": {
+            "x": 121.453784304417,
+            "y": 31.217527790562
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道淮海中路999号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.452784304417,
+            "ymin": 31.216527790562,
+            "xmax": 121.454784304417,
+            "ymax": 31.218527790562
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s48": {
+    "query": "上海市淮海中路911号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF911%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道淮海中路911号",
+          "location": {
+            "x": 121.455728183418,
+            "y": 31.219117703306
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道淮海中路911号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.454728183418,
+            "ymin": 31.218117703306,
+            "xmax": 121.456728183418,
+            "ymax": 31.220117703306
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s49": {
+    "query": "上海市淮海中路798-812号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798-812%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路798号",
+          "location": {
+            "x": 121.458451156968,
+            "y": 31.220401304245
+          },
+          "score": 97.14,
+          "attributes": {
+            "Score": 97.14,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路798号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.457451156968,
+            "ymin": 31.219401304245,
+            "xmax": 121.459451156968,
+            "ymax": 31.221401304245
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s50": {
+    "query": "上海市淮海中路795-2号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF795-2%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路795号",
+          "location": {
+            "x": 121.45861371041,
+            "y": 31.220343353258
+          },
+          "score": 98.33,
+          "attributes": {
+            "Score": 98.33,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路795号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.45761371041,
+            "ymin": 31.219343353258,
+            "xmax": 121.45961371041,
+            "ymax": 31.221343353258
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s51": {
+    "query": "上海市淮海中路775号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF775%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路775号",
+          "location": {
+            "x": 121.459083595061,
+            "y": 31.220296668457
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路775号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.458083595061,
+            "ymin": 31.219296668457,
+            "xmax": 121.460083595061,
+            "ymax": 31.221296668457
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s52": {
+    "query": "上海市淮海中路588号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF588%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路588号",
+          "location": {
+            "x": 121.462006645017,
+            "y": 31.221899552359
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路588号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.461006645017,
+            "ymin": 31.220899552359,
+            "xmax": 121.463006645017,
+            "ymax": 31.222899552359
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s53": {
+    "query": "上海市淮海中路603号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF603%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路603号",
+          "location": {
+            "x": 121.462922720074,
+            "y": 31.222156667999
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路603号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.461922720074,
+            "ymin": 31.221156667999,
+            "xmax": 121.463922720074,
+            "ymax": 31.223156667999
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s54": {
+    "query": "上海市淮海中路523号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF523%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路523号",
+          "location": {
+            "x": 121.464721974245,
+            "y": 31.222906399856
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路523号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.463721974245,
+            "ymin": 31.221906399856,
+            "xmax": 121.465721974245,
+            "ymax": 31.223906399856
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s55": {
+    "query": "上海市淮海中路550号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF550%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路550号",
+          "location": {
+            "x": 121.462650404688,
+            "y": 31.222169953737
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路550号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.461650404688,
+            "ymin": 31.221169953737,
+            "xmax": 121.463650404688,
+            "ymax": 31.223169953737
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s56": {
+    "query": "上海市淮海中路550号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF550%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路550号",
+          "location": {
+            "x": 121.462650404688,
+            "y": 31.222169953737
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路550号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.461650404688,
+            "ymin": 31.221169953737,
+            "xmax": 121.463650404688,
+            "ymax": 31.223169953737
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s58": {
+    "query": "上海市淮海中路523号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF523%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路523号",
+          "location": {
+            "x": 121.464721974245,
+            "y": 31.222906399856
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路523号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.463721974245,
+            "ymin": 31.221906399856,
+            "xmax": 121.465721974245,
+            "ymax": 31.223906399856
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s59": {
+    "query": "上海市淮海中路527号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF527%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路527号",
+          "location": {
+            "x": 121.464388082486,
+            "y": 31.222527511987
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路527号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.463388082486,
+            "ymin": 31.221527511987,
+            "xmax": 121.465388082486,
+            "ymax": 31.223527511987
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s60": {
+    "query": "上海市淮海中路530号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF530%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路530号",
+          "location": {
+            "x": 121.462989225567,
+            "y": 31.222312270252
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路530号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.461989225567,
+            "ymin": 31.221312270252,
+            "xmax": 121.463989225567,
+            "ymax": 31.223312270252
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s62": {
+    "query": "上海市主地址吉安路111号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%BB%E5%9C%B0%E5%9D%80%E5%90%89%E5%AE%89%E8%B7%AF111%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区老西门街道吉安路",
+          "location": {
+            "x": 121.476052036447,
+            "y": 31.221235266375
+          },
+          "score": 81.08,
+          "attributes": {
+            "Score": 81.08,
+            "Match_addr": "上海市黄浦区老西门街道吉安路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.475052036447,
+            "ymin": 31.220235266375,
+            "xmax": 121.477052036447,
+            "ymax": 31.222235266375
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s64": {
+    "query": "上海市淮海中路627号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF627%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道淮海中路627号",
+          "location": {
+            "x": 121.462383715116,
+            "y": 31.221930267231
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道淮海中路627号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.461383715116,
+            "ymin": 31.220930267231,
+            "xmax": 121.463383715116,
+            "ymax": 31.222930267231
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s66": {
+    "query": "上海市乌鲁木齐南路205号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8D%97%E8%B7%AF205%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区天平路街道乌鲁木齐南路205号",
+          "location": {
+            "x": 121.445863071236,
+            "y": 31.201658015103
+          },
+          "score": 98.9,
+          "attributes": {
+            "Score": 98.9,
+            "Match_addr": "上海市徐汇区天平路街道乌鲁木齐南路205号",
+            "Addr_type": "StreetAddressExt"
+          },
+          "extent": {
+            "xmin": 121.444863071236,
+            "ymin": 31.200658015103,
+            "xmax": 121.446863071236,
+            "ymax": 31.202658015103
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s67": {
+    "query": "上海市建国西路436号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BB%BA%E5%9B%BD%E8%A5%BF%E8%B7%AF436%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区打浦桥街道建国西路436号",
+          "location": {
+            "x": 121.450057519046,
+            "y": 31.205936491895
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区打浦桥街道建国西路436号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.449057519046,
+            "ymin": 31.204936491895,
+            "xmax": 121.451057519046,
+            "ymax": 31.206936491895
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s68": {
+    "query": "上海市永嘉路375号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B0%B8%E5%98%89%E8%B7%AF375%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区天平路街道永嘉路375号",
+          "location": {
+            "x": 121.451185482743,
+            "y": 31.20964200245
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区天平路街道永嘉路375号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.450185482743,
+            "ymin": 31.20864200245,
+            "xmax": 121.452185482743,
+            "ymax": 31.21064200245
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s69": {
+    "query": "上海市汾阳路64弄2号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B1%BE%E9%98%B3%E8%B7%AF64%E5%BC%842%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区天平路街道汾阳路64号",
+          "location": {
+            "x": 121.449955698244,
+            "y": 31.213753597845
+          },
+          "score": 97.27,
+          "attributes": {
+            "Score": 97.27,
+            "Match_addr": "上海市徐汇区天平路街道汾阳路64号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.448955698244,
+            "ymin": 31.212753597845,
+            "xmax": 121.450955698244,
+            "ymax": 31.214753597845
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s70": {
+    "query": "上海市永康路190号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B0%B8%E5%BA%B7%E8%B7%AF190%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区天平路街道永康路",
+          "location": {
+            "x": 121.45308801972,
+            "y": 31.212658282003
+          },
+          "score": 86,
+          "attributes": {
+            "Score": 86,
+            "Match_addr": "上海市徐汇区天平路街道永康路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.45208801972,
+            "ymin": 31.211658282003,
+            "xmax": 121.45408801972,
+            "ymax": 31.213658282003
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s71": {
+    "query": "上海市嘉善路123号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%98%89%E5%96%84%E8%B7%AF123%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区天平路街道嘉善路123号",
+          "location": {
+            "x": 121.454843322206,
+            "y": 31.211745069726
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区天平路街道嘉善路123号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.453843322206,
+            "ymin": 31.210745069726,
+            "xmax": 121.455843322206,
+            "ymax": 31.212745069726
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s72": {
+    "query": "上海市建国中路143号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BB%BA%E5%9B%BD%E4%B8%AD%E8%B7%AF143%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区打浦桥街道建国中路",
+          "location": {
+            "x": 121.465409396078,
+            "y": 31.211762286234
+          },
+          "score": 87.27,
+          "attributes": {
+            "Score": 87.27,
+            "Match_addr": "上海市黄浦区打浦桥街道建国中路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.464409396078,
+            "ymin": 31.210762286234,
+            "xmax": 121.466409396078,
+            "ymax": 31.212762286234
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s73": {
+    "query": "上海市复兴西路74号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A4%8D%E5%85%B4%E8%A5%BF%E8%B7%AF74%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市长宁区江苏路街道复兴西路74号",
+          "location": {
+            "x": 121.439353565506,
+            "y": 31.212513122506
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市长宁区江苏路街道复兴西路74号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.438353565506,
+            "ymin": 31.211513122506,
+            "xmax": 121.440353565506,
+            "ymax": 31.213513122506
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s81": {
+    "query": "上海市南昌路205弄2号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8D%97%E6%98%8C%E8%B7%AF205%E5%BC%842%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道南昌路",
+          "location": {
+            "x": 121.452458790248,
+            "y": 31.216061711878
+          },
+          "score": 82.5,
+          "attributes": {
+            "Score": 82.5,
+            "Match_addr": "上海市徐汇区湖南路街道南昌路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.451458790248,
+            "ymin": 31.215061711878,
+            "xmax": 121.453458790249,
+            "ymax": 31.217061711878
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s01": {
+    "query": "上海市南京西路1601号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1601%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区南京西路1601号",
+          "location": {
+            "x": 121.443296867163,
+            "y": 31.224553878989
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市静安区南京西路1601号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.442296867163,
+            "ymin": 31.223553878989,
+            "xmax": 121.444296867164,
+            "ymax": 31.225553878989
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s03": {
+    "query": "上海市愚园路68号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%84%9A%E5%9B%AD%E8%B7%AF68%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区静安寺街道愚园路68号",
+          "location": {
+            "x": 121.441388618571,
+            "y": 31.226640379509
+          },
+          "score": 98.9,
+          "attributes": {
+            "Score": 98.9,
+            "Match_addr": "上海市静安区静安寺街道愚园路68号",
+            "Addr_type": "StreetAddressExt"
+          },
+          "extent": {
+            "xmin": 121.440388618571,
+            "ymin": 31.225640379509,
+            "xmax": 121.442388618571,
+            "ymax": 31.227640379509
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s05": {
+    "query": "上海市石门一路288号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%9F%B3%E9%97%A8%E4%B8%80%E8%B7%AF288%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区石门一路",
+          "location": {
+            "x": 121.457814555291,
+            "y": 31.230378923282
+          },
+          "score": 87.27,
+          "attributes": {
+            "Score": 87.27,
+            "Match_addr": "上海市静安区石门一路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.456814555291,
+            "ymin": 31.229378923282,
+            "xmax": 121.458814555291,
+            "ymax": 31.231378923282
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s82": {
+    "query": "上海市安福路201-1号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF201-1%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道安福路201号",
+          "location": {
+            "x": 121.438842220902,
+            "y": 31.215716000281
+          },
+          "score": 98.18,
+          "attributes": {
+            "Score": 98.18,
+            "Match_addr": "上海市徐汇区湖南路街道安福路201号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.437842220902,
+            "ymin": 31.214716000281,
+            "xmax": 121.439842220902,
+            "ymax": 31.216716000281
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s83": {
+    "query": "上海市茂名南路58号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%8C%82%E5%90%8D%E5%8D%97%E8%B7%AF58%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道茂名南路58号",
+          "location": {
+            "x": 121.455743460734,
+            "y": 31.224401446005
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道茂名南路58号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.454743460734,
+            "ymin": 31.223401446005,
+            "xmax": 121.456743460734,
+            "ymax": 31.225401446005
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s94": {
+    "query": "上海市安福路246号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF246%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道安福路246号",
+          "location": {
+            "x": 121.437852222333,
+            "y": 31.21563853779
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道安福路246号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.436852222333,
+            "ymin": 31.21463853779,
+            "xmax": 121.438852222333,
+            "ymax": 31.21663853779
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s85": {
+    "query": "上海市兴国路380号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%B4%E5%9B%BD%E8%B7%AF380%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市长宁区江苏路街道兴国路",
+          "location": {
+            "x": 121.43221649408,
+            "y": 31.208692300696
+          },
+          "score": 86,
+          "attributes": {
+            "Score": 86,
+            "Match_addr": "上海市长宁区江苏路街道兴国路",
+            "Addr_type": "StreetName"
+          },
+          "extent": {
+            "xmin": 121.43121649408,
+            "ymin": 31.207692300696,
+            "xmax": 121.43321649408,
+            "ymax": 31.209692300696
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s92": {
+    "query": "上海市安福路298号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%AE%89%E7%A6%8F%E8%B7%AF298%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市徐汇区湖南路街道安福路298号",
+          "location": {
+            "x": 121.436459188336,
+            "y": 31.215325882222
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市徐汇区湖南路街道安福路298号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.435459188336,
+            "ymin": 31.214325882222,
+            "xmax": 121.437459188336,
+            "ymax": 31.216325882222
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s93": {
+    "query": "上海市光复路1号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%89%E5%A4%8D%E8%B7%AF1%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市静安区光复路1号",
+          "location": {
+            "x": 121.466579279614,
+            "y": 31.242273641397
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市静安区光复路1号",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": 121.465579279614,
+            "ymin": 31.241273641397,
+            "xmax": 121.467579279614,
+            "ymax": 31.243273641397
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  },
+  "s95": {
+    "query": "上海市新乐路82号",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%96%B0%E4%B9%90%E8%B7%AF82%E5%8F%B7&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1&outSR=4326&countryCode=CHN&searchExtent=121.39%2C31.15%2C121.51%2C31.28&location=121.45%2C31.22",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "上海市黄浦区瑞金二路街道新乐路82号",
+          "location": {
+            "x": 121.45343443393,
+            "y": 31.220382362232
+          },
+          "score": 100,
+          "attributes": {
+            "Score": 100,
+            "Match_addr": "上海市黄浦区瑞金二路街道新乐路82号",
+            "Addr_type": "StreetAddress"
+          },
+          "extent": {
+            "xmin": 121.45243443393,
+            "ymin": 31.219382362232,
+            "xmax": 121.45443443393,
+            "ymax": 31.221382362232
+          }
+        }
+      ]
+    },
+    "checkedAt": "2026-10-15"
+  }
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#203d35">
+  <meta name="description" content="从13篇上海逛街笔记出发，沿5条梧桐街区路线发现设计师、古着与小店。">
+  <title>梧桐逛街地图 · 上海</title>
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="梧桐逛街地图首页"><span class="brand-mark" aria-hidden="true">✳</span>梧桐逛街地图</a>
+    <span class="edition">上海 <span aria-hidden="true">·</span> 13篇笔记</span>
+  </header>
+  <main class="layout">
+    <aside class="sidebar" aria-label="路线和店铺">
+      <section class="controls">
+        <p class="eyebrow">SHANGHAI / A WALK THROUGH SMALL SHOPS</p>
+        <h1>沿着梧桐，<br>逛一下午。</h1>
+        <p class="intro">把散落在笔记里的小店，串成五段好逛的街区。</p>
+        <div class="coverage"><p id="coverage-stats" class="coverage-stats"></p><p id="coverage-note" class="coverage-note"></p></div>
+        <div class="route-heading"><h2>选一条路线</h2><button id="all-routes" class="text-button" type="button">全部路线 ↗</button></div>
+        <nav id="route-tabs" class="route-tabs" aria-label="逛街路线"></nav>
+        <div id="route-summary" class="route-summary"></div>
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜店名、风格或街道" autocomplete="off" aria-label="搜索店名、风格或街道"></label>
+        <div class="filters">
+          <label class="core-filter"><input id="core-only" type="checkbox"><span>只看核心店铺</span></label>
+          <label class="status-filter"><span class="sr-only">收录状态</span><select id="status"><option value="all">全部状态</option><option value="active">正常收录</option><option value="uncertain">待核实</option><option value="expired">过期记录</option></select></label>
+        </div>
+      </section>
+      <section class="shop-section" aria-labelledby="list-heading">
+        <div class="list-heading"><h2 id="list-heading">这一段的小店</h2><span id="result-count" aria-live="polite"></span></div>
+        <p id="result-note" class="result-note"></p>
+        <div id="shop-list" class="shop-list"></div>
+      </section>
+      <section class="source-section">
+        <details id="source-details"><summary>笔记与资料来源 <span id="source-count"></span></summary><div id="source-list"></div></details>
+        <p class="footer-note">虚线为核心步行参考线，基于参考点规划，非现场核验导航。步行估算不含逛店、等候与远端加选。近似点需按门牌核实；未定位条目保留在清单中。正常收录不代表当前营业。</p>
+        <p class="updated" id="updated"></p>
+      </section>
+    </aside>
+    <section class="map-panel" aria-label="上海逛街地图">
+      <div id="map" role="region" aria-label="地图，可使用加减按钮缩放"></div>
+      <div class="map-heading"><span class="map-kicker">梧桐街区散步计划</span><strong id="map-title">上海 · 五条逛街路线</strong></div>
+      <button id="reset-map" class="reset-map" type="button" aria-label="恢复显示所有路线">⌖ <span>恢复全图</span></button>
+      <div id="map-notice" class="map-notice" role="status" hidden></div>
+      <div class="map-legend"><span><i class="legend-exact"></i>同名POI点</span><span><i class="legend-approx"></i>近似参考点</span><span><i class="legend-line"></i>核心步行参考线</span></div>
+      <div class="map-caption">慢慢走，顺路逛。<span>每一站都有来源可循。</span></div>
+    </section>
+  </main>
+  <noscript><p class="noscript">请启用 JavaScript 以查看路线和店铺清单。</p></noscript>
+  <script src="vendor/leaflet.js"></script>
+  <script src="data.js?v=20261015-verified"></script>
+  <script src="map-core.js?v=20261015-verified"></script>
+  <script src="app.js?v=20261015-verified"></script>
+</body>
+</html>
